@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spis_owiec>
+  <pastwisko nazwa ="Radosne Pole" rasa="Dorper" powierzchnia="125.8">
+    <owca>
+        <imie>Wafel</imie>
+        <data_ur>2002-09-24</data_ur>
+        <plec>M</plec>
+        <waga>50.8</waga>
+        <dlugosc_runa>14.5</dlugosc_runa>
+        <opis>
+      Elegancki samiec rasy owiec domowych pochodzących z RPA.
+       </opis>
+        <szybkosc_marszu>10.2</szybkosc_marszu>
+        <szybkosc_zjadania_trawy>0.4</szybkosc_zjadania_trawy>
+    </owca>
+    <owca>
+        <imie>Wafel2</imie>
+        <data_ur>2002-09-24</data_ur>
+        <plec>M</plec>
+        <waga>50.8</waga>
+        <dlugosc_runa>12.3</dlugosc_runa>
+        <opis>
+      Elegancki samiec rasy owiec domowych pochodzących z RPA.
+       </opis>
+        <szybkosc_marszu>15.1</szybkosc_marszu>
+        <szybkosc_zjadania_trawy>0.3</szybkosc_zjadania_trawy>
+    </owca>
+
+  </pastwisko>
+
+  <pastwisko nazwa ="Dzikie Pole" rasa="Merynosy" powierzchnia="125.8">
+    <owca>
+        <imie>Kurczak</imie>
+        <data_ur>2002-09-24</data_ur>
+        <plec>M</plec>
+        <waga>50.8</waga>
+        <dlugosc_runa>40.5</dlugosc_runa>
+        <opis>
+      Elegancki samiec rasy owiec domowych pochodzących z RPA.
+       </opis>
+        <szybkosc_marszu>8.6</szybkosc_marszu>
+        <szybkosc_zjadania_trawy>0.6</szybkosc_zjadania_trawy>
+        <nogi></nogi>
+    </owca>
+
+  </pastwisko>
+</spis_owiec>
