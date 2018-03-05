@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT spis_owiec (nagłówek, lista_ras, pastwisko*)>
+<!ELEMENT nagłówek (data_modyfikacji, autorzy)>
+<!ELEMENT data EMPTY>
+<!ELEMENT autorzy (autor+)>
+<!ELEMENT autor (imię, nazwisko, album)>
+<!ELEMENT imię (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT lista_ras (definicja_rasy+)>
+<!ELEMENT definicja_rasy EMPTY>
+<!ATTLIST definicja_rasy
+		nazwa NMTOKEN #REQUIRED
+		identyfikator ID #REQUIRED>
+<!ELEMENT pastwisko (nazwa,rasa,powierzchnia,stado)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT rasa(nazwa)>
+<!ELEMENT powierzchnia (#PCDATA)>
+<!ELEMENT stado (owca)>
+<!ELEMENT owca (imie, data_ur,plec,id, waga, dlugosc_runa, opis, szybkosc_marszu, szybkosc_zjadania_trawy)>
+<!ATTLIST owca imie %data_ur; #REQUIRED>
+<!ELEMENT zajęcia (przedmiot, czas, miejsce, prowadzący+)>
+<!ATTLIST zajęcia
+		blok (1|2|3|4|5|6) #REQUIRED
+		rodzaj %rodzaj_zajęć; #REQUIRED>
+<!ELEMENT czas (start, przerwa*, koniec)>
+<!ELEMENT przedmiot (#PCDATA)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT przerwa (start, koniec)>
+<!ELEMENT koniec (#PCDATA)>
+<!ELEMENT miejsce (sala?, budynek)>
+<!ELEMENT sala (#PCDATA)>
+<!ELEMENT budynek (#PCDATA)>
+<!ELEMENT prowadzący (stopień?, imię, nazwisko)>
+<!ATTLIST prowadzący kto IDREF #REQUIRED>
+<!ELEMENT stopień (#PCDATA)>

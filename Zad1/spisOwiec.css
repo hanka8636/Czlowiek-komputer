@@ -1,0 +1,72 @@
+
+spis_owiec {
+	margin: 0px;
+	padding: 4ex 3em 4ex 3em;
+	background-color: #fff;
+	color: #000;
+	font-size: 10pt;
+	font-family: "DejaVu Sans", sans-serif;
+}
+
+nagłówek {
+	display: block;
+	font-size: 150%;
+	font-family: "DejaVu Sans", sans-serif;
+}
+nagłówek > * {
+	display: block;
+}
+
+nagłówek > data_modyfikacji:before {
+	content: "Data modyfikacji: ";
+}
+
+
+nagłówek > autorzy:before {
+	content: "Autorzy pracy: ";
+	display: block;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+}
+nagłówek > autorzy {
+	margin-left: 1em;
+}
+nagłówek autor {
+	display: list-item;
+	list-style-position: inside;
+	margin-bottom: 1ex;
+}
+nagłówek autor > nazwisko:after {
+	content: ", ";
+	font-size: 80%;
+}
+nagłówek autor > album:before {
+	content: "nr albumu: ";
+}
+nagłówek autor > album {
+	font-size: 80%;
+}
+
+pastwisko:before {
+  content: "Pastwisko: ";
+    display: block;
+  padding: 2ex 1em 1ex 1em;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+stado:before {
+  content: "Stado: ";
+    display: block;
+    color: #ff0000;
+    padding: 1ex 3em 0ex 2em;
+    font-size: 20pt;0
+}
+
+owca:before {
+  content: "Owca: ";
+    display: block;
+    padding: 1ex 3em 1ex 3em;
+    color: #0000ff;
+    font-size: 20pt;
+}
