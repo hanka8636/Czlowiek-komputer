@@ -728,4 +728,308 @@
       </owca>
     </stado>
   </pastwisko>
+
+  <pastwisko>
+    <nazwa>Twoja kraina</nazwa>
+    <rasa identyfikator="24" />
+    <powierzchnia jednostka="ha">545.5</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Właściciel</imie>
+        <data_ur>1998-12-08</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">55.5</waga>
+        <dlugosc_runa jednostka="mm">252.5</dlugosc_runa>
+        <opis>
+          To on tu rządzi.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">52.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Sprzątacz</imie>
+        <data_ur>2003-11-30</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">36.8</waga>
+        <dlugosc_runa jednostka="mm">14.8</dlugosc_runa>
+        <opis>
+          On tu tylko sprząta.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">56.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.7</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Testujemy na ludziach</nazwa>
+    <rasa identyfikator="25" />
+    <powierzchnia jednostka="ha">452.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Testerka</imie>
+        <data_ur>2001-02-25</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">54.7</waga>
+        <dlugosc_runa jednostka="mm">87.5</dlugosc_runa>
+        <opis>
+          Jest bardzo delikatna.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">21.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.2</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Owocki</nazwa>
+    <rasa identyfikator="26" />
+    <powierzchnia jednostka="ha">12.7</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Kiwi</imie>
+        <data_ur>2015-07-15</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">65.8</waga>
+        <dlugosc_runa jednostka="mm">54.9</dlugosc_runa>
+        <opis>
+          To owca, na bank.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">32.7</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Morela</imie>
+        <data_ur>2015-07-15</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">26.8</waga>
+        <dlugosc_runa jednostka="mm">61.5</dlugosc_runa>
+        <opis>
+          Mirabelka.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">21.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Czysto tu</nazwa>
+    <rasa identyfikator="27" />
+    <powierzchnia jednostka="ha">32.5</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Pedant</imie>
+        <data_ur>2003-04-30</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">15.5</waga>
+        <dlugosc_runa jednostka="mm">215.</dlugosc_runa>
+        <opis>
+          Uwialbia sprzątać.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">613.4</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Nizina</nazwa>
+    <rasa identyfikator="28" />
+    <powierzchnia jednostka="ha">36.7</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Depresja</imie>
+        <data_ur>2001-06-20</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">15.8</waga>
+        <dlugosc_runa jednostka="mm">16.8</dlugosc_runa>
+        <opis>
+          Tak niska, że aż samotna.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">62.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Wolność i niezależność</nazwa>
+    <rasa identyfikator="29" />
+    <powierzchnia jednostka="ha">61.5</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Wolność</imie>
+        <data_ur>2014-02-03</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">32.4</waga>
+        <dlugosc_runa jednostka="mm">32.7</dlugosc_runa>
+        <opis>
+          Robtajta co chceta.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">25.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Niezależność</imie>
+        <data_ur>2015-06-23</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">35.8</waga>
+        <dlugosc_runa jednostka="mm">14.8</dlugosc_runa>
+        <opis>
+          Problemy z asertywnością.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">30.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Nowy świat</nazwa>
+    <rasa identyfikator="30" />
+    <powierzchnia jednostka="ha">12.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Arka</imie>
+        <data_ur>2012-08-30</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">153.8</waga>
+        <dlugosc_runa jednostka="mm">51.5</dlugosc_runa>
+        <opis>
+          Noego.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">31.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.8</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Mamy telewizję</nazwa>
+    <rasa identyfikator="31" />
+    <powierzchnia jednostka="ha">21.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Fan</imie>
+        <data_ur>2001-12-03</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">16.8</waga>
+        <dlugosc_runa jednostka="mm">5.8</dlugosc_runa>
+        <opis>
+          Uwielbia &apos;Modę na skuces&apos;.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">32.9</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Gamerzy</nazwa>
+    <rasa identyfikator="32" />
+    <powierzchnia jednostka="ha">3135.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Gracz1</imie>
+        <data_ur>2015-12-03</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">45.8</waga>
+        <dlugosc_runa jednostka="mm">32.4</dlugosc_runa>
+        <opis>
+          Zawsze ma pada 1.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">31.4</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.8</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Gracz2</imie>
+        <data_ur>2015-12-03</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">32.8</waga>
+        <dlugosc_runa jednostka="mm">15.4</dlugosc_runa>
+        <opis>
+          Zawsze ma pada 2.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">32.4</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.8</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Programiści</nazwa>
+    <rasa identyfikator="33" />
+    <powierzchnia jednostka="ha">36.7</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Koder</imie>
+        <data_ur>2009-09-19</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">36.8</waga>
+        <dlugosc_runa jednostka="mm">32.7</dlugosc_runa>
+        <opis>
+          Ten to koduje.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">2.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Nowe pole</nazwa>
+    <rasa identyfikator="34" />
+    <powierzchnia jednostka="ha">325.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Tadzio</imie>
+        <data_ur>2003-06-24</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">64.7</waga>
+        <dlugosc_runa jednostka="mm">25.7</dlugosc_runa>
+        <opis>
+          Zwykła owca.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">25.7</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.9</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Ostatnia szansa</nazwa>
+    <rasa identyfikator="35" />
+    <powierzchnia jednostka="ha">155.8</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Miodzio</imie>
+        <data_ur>2009-03-14</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">16.8</waga>
+        <dlugosc_runa jednostka="mm">36.4</dlugosc_runa>
+        <opis>
+          Ma znajomości z pszczołami.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">25.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
 </spis_owiec>
