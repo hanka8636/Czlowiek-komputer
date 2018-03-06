@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lista>
+<obiekt id="E1" nazwa="pierwszy">
+<opis>To jest obiekt pierwszy</opis>
+</obiekt>
+<obiekt id="E2" nazwa="drugi" parzysty="tak">
+<opis>To jest obiekt drugi</opis>
+<cośinnego>To nie jest opis ani dodatek</cośinnego>
+<dodatek>Poza opisem ma jeszcze <wyr>dodatek</wyr>.</dodatek>
+</obiekt>
+<obiekt id="E3" nazwa="trzeci">
+<opis>To jest obiekt trzeci</opis>
+<opis>Ma dwa opisy</opis>
+</obiekt>
+<obiekt id="E4" parzysty="tak">
+</obiekt>
+<obiekt id="E5">
+<opis>To jest obiekt <wyr>piąty</wyr></opis>
+</obiekt>
+<obiekt id="E6" nazwa="szósty" parzysty="tak">
+<dodatek>Obiekt <wyr>szósty</wyr> nie ma opisu, tylko <wyr>dodatek</wyr>.</dodatek>
+</obiekt>
+<obiekt id="E7" nazwa="siódmy">
+<opis>To jest obiekt siódmy</opis>
+<opis>Ten ma dwa <wyr>opisy</wyr></opis>
+<dodatek>I jeszcze <wyr>dodatek</wyr>!</dodatek>
+<dodatek>A ten <wyr>dla utrudnienia</wyr></dodatek>
+</obiekt>
+<obiekt id="E8" parzysty="tak">
+<opis>To jest obiekt ósmy, <opis>on ma opis <wyr>zagnieżdżony</wyr></opis></opis>
+</obiekt>
+<obiekt id="E9" nazwa="dziewiąty">
+<opis>9 i 10 mają ten sam tekst</opis>
+</obiekt>
+<obiekt nazwa="dziesiąty" parzysty="tak">
+<opis>9 i 10 mają ten sam tekst</opis>
+</obiekt>
+</lista>

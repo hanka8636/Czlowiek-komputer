@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+    	<title>CSS</title>
+</head>
+<body text="#000000" vlink="#000080" link="#0000FF" alink="#FF00FF" background="../back.jpg">
+
+<table width="100%" border="0" cellspacing="10" cellpadding="0" align="CENTER">
+   <tr> 
+        <td align="CENTER" valign="TOP">
+
+			<table width="100%" border="1" cellspacing="0" cellpadding="4">
+			<tr>
+				
+				<td>
+                
+                 
+<p class="ROZDZIAL"><b><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="3">Selektory.</font></b></p>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">1.
+Grupowanie.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Jeżeli
+kilka selektorów posiada te same deklaracje, to można je zgrupowanać w jedną
+deklarację, a poszczególne elementy będą oddzielić przecinkami. Na przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1
+        { font-family: sans-serif }<br>
+        H2 { font-family: sans-serif }<br>
+        H3 { font-family: sans-serif }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">można
+zapisać również jako:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1,
+        H2, H3 { font-family: sans-serif }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">2.
+Selektory potomne.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Czasami
+autorzy chcą wyróżnić elementy, które zawierają się wewnątrz innych
+elementów w dokumencie (np. element EM, który znajduje się w elemencie H1).
+Następujące deklaracje:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1
+        { color: red }<br>
+        EM { color: red }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">mimo, że
+ich celem jest zmiana koloru tekstu, który znajduje się wewnątrz tych elementów
+(H1, EM), to nie będzie widać żadnego efektu w przypadku:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;H1&gt;This
+        headline is &lt;EM&gt;very&lt;/EM&gt; important&lt;/H1&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Można to
+zmienić poprzez zmianę koloru na niebieski (<span>blue</span>), kiedy znacznik
+<span>EM</span> znajdzie się wewnątrz znacznika <span>H1</span>, co pokazuje
+poniższy przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1
+        { color: red }<br>
+        EM { color: red }<br>
+        H1 EM { color: blue }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Inny
+przypadek to:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;H1&gt;This
+        &lt;SPAN class=&quot;myclass&quot;&gt;headline<br>
+        is &lt;EM&gt;very&lt;/EM&gt; important&lt;/SPAN&gt;&lt;/H1&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">I tutaj
+powinien znaleźć się selektor:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1
+        * EM</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">gdyż
+selektor w postaci <span>H1 EM</span> nie da żadnego rezultatu, ponieważ
+element <span>EM</span> znajduje się wewnątrz jeszcze innego elementu jakim
+jest znacznik <span>SPAN</span>.</font></p>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">3.
+Selektory 'dzieci'</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Selektor
+'dziecko' występuje wtedy, gdy znacznik 'dziecko' znajduje się wewnątz innego
+znacznika. Selektor 'dziecko' składa się z dwóch lub więcej selektorów
+oddzielonych znakiem <span>&quot;&gt;&quot;</span>.<br>
+Poniższa instrukcja ustawia wygląd wszystkich znaczników <span>P</span>, które
+są 'dziećmi' w stosunku do znacznika <span>BODY</span>:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">BODY
+        &gt; P { line-height: 1.3 }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład przedstawia kombinację selektorów potomnych i selektorów 'dzieci':</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">DIV
+        OL&gt;LI P</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><span>Opis:</span>
+w tym przypoadku znacznik <span>P</span> jest elementem potomnym w stosunku do <span>LI</span>;
+znacznik <span>LI</span> musi być 'dzieckiem' znacznika <span>OL</span>;
+znacznik <span>OL</span> musi być elementem potomnym w stosunku do <span>DIV</span>.</font></p>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">4.
+Atrybuty selektorów.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">CSS2
+pozwala autorom zawężać opisy wyglądu poszczególnych elementów. Na przykład
+można opisać wygląd elementów o konkretnych atrybutach zdefiniowanych w
+dokumencie.<br>
+Atrybuty selektorów mogą wyglądać następująco:</font></p>
+<table border="0" cellSpacing="5">
+  <tbody>
+    <tr>
+      <td class="MALA" vAlign="top"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">[att]</font></td>
+      <td class="CIENKA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">kiedy
+        element ma atrybut 'att' i jakąkolwiek jego wartość.</font></td>
+    </tr>
+    <tr>
+      <td class="MALA" vAlign="top"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">[att=val]</font></td>
+      <td class="CIENKA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">kiedy
+        wartość atrybutu 'att' jest równa 'val'.</font></td>
+    </tr>
+    <tr>
+      <td class="MALA" vAlign="top"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">[att~=val]</font></td>
+      <td class="CIENKA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">kiedy
+        wartość atrybutu 'att' jest słowem lub zbiorem słów oddzielonych
+        'spacją', a jedno z tych słów jest równe wartości 'val'. Wartość
+        'val' nie może zawierać 'spacji'.</font></td>
+    </tr>
+    <tr>
+      <td class="MALA" vAlign="top"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">[att|=val]</font></td>
+      <td class="CIENKA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">kiedy
+        wartość atrybutu 'att' rozpoczyna się wyrazem określonym przez wartość
+        'val'.</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Dla przykładu,
+poniższa instrukcja dotyczy wszystkich znaczników <span>H1</span>, które mają
+określony atrybut <span>title</span>:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1[title]
+        { color: blue; }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład dotyczy przypadku, kiedy znacznik <span>SPAN</span> musi posiadać
+wartość <span>example</span> atrybutu <span>class</span>:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">SPAN[class=example]
+        { color: blue; }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Inny
+przykład pokazuje występowanie dwóch atrybutów w znaczniku <span>SPAN</span>:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">SPAN[hello=&quot;Cleveland&quot;][goodbye=&quot;Columbus&quot;]
+        { color: blue; }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład pokazuje jak ukryć wszystkie elementy, których wartość atrybutu <span>LANG</span>
+jest równa <span>'fr'</span> (tzn. kiedy język jest francuski):</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">*[LANG=fr]
+        { display : none }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład pokazuje wykorzystanie <span>&quot;|=&quot;</span> i dotyczy znaczników,
+których wartość atrybutu <span>LANG</span> rozpoczynają się od <span>'en'</span>
+(np.: 'en', 'en-US', 'en-cockney'):</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">*[LANG|=&quot;en&quot;]
+        { color : red }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">5.
+Inne</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">W opisie
+wyglądu użytym w HTML autorzy mogą używać kropki (<span>.</span>) jako
+alternatywnego rozwiązania w stosunku do <span>&quot;~=&quot;</span> w
+przypadku atrybutu o nazwie <span>class</span>. Czyli, <span>DIV.wartosc</span>
+jest równoważny zapisowi <span>DIV[class~=wartosc]</span>. Na przykład, można
+przypisać informację o wyglądzie do wszystkich elementów, których atrybut <span>class~=&quot;wartosc&quot;</span>:</font></p>
+<table border="0" cellSpacing="5">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">*.wartosc
+        { color: green }</font></td>
+    </tr>
+    <tr>
+      <td class="CIENKA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">lub
+        inaczej:</font></td>
+    </tr>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">.wartosc
+        { color: green }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład dotyczy tylko znacznika H1, którego atrybut <span>class~=&quot;wartosc&quot;</span>:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">H1.wartosc
+        { color: green }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Wykonanie
+tej instrukcji w pierwszej linii poniższego dokumentu HTML nie spowoduje
+ustawienia koloru tekstu na zielony, zaś w drugiej linii tak. Spójrz:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;H1&gt;Ten
+        tekst nie jest w kolorze zielonym.&lt;/H1&gt;<br>
+        &lt;H1 class=&quot;wartosc&quot;&gt;Ten tekst jest w kolorze
+        zielonym.&lt;/H1&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">W
+przypadku większej ilości wartości atrybutu <span>class</span>, każda wartość
+musi być oddzielona kropką &quot;<span>.</span>&quot;.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Poniższy
+przykład pokazuje instrukcję, w której znacznik <span>P</span> powinien mieć
+za wartości atrybutu <span>class</span> wyrazy: <span>wart1</span> i <span>wart2</span>
+oddzielone klawiszem spacji:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">P.wart1.wart2
+        { color: green}</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Instrukcja
+ta zadziała w przypadku, gdy <span>class=&quot;wart1 jest jakas tam i wart2
+tez&quot;</span>, ale nie zadziała jeżeli <span>class=&quot;wart1 jest jakas
+tam&quot;</span>.</font></p>
+<p class="PODROZDZIAL"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">6.
+Pseudoklasy</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:first-child</span></u>
+- występuje wtedy, gdy znacznik jest pierwszym 'dzieckiem' innego znacznika. Na
+przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">DIV
+        &gt; P:first-child { text-indent: 0 }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Powyższym
+przypadek dotyczy sytuacji gdy znacznik <span>P</span> będzie pierwszym
+'dzieckiem' znacznika <span>DIV</span>. Poniższy przykład HTML obrazuje to
+chyba najlepiej:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;P&gt;
+        Ostatni element P przed 'opis'.<br>
+        &lt;DIV class=&quot;opis&quot;&gt;<br>
+        &lt;P&gt; Pierwszy element P wewnątrz 'opis'.<br>
+        &lt;/DIV&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Zaś
+przypadku poniższego ona nie dotyczy:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;P&gt;
+        Ostatni element P przed 'opis'.<br>
+        &lt;DIV class=&quot;opis&quot;&gt;<br>
+        &lt;H2&gt;Note&lt;/H2&gt;<br>
+        &lt;P&gt; Pierwszy element P wewnątrz 'opis'.<br>
+        &lt;/DIV&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:link</span></u>
+- dotyczy odsyłaczy, które nie zostały jak do tej pory wybrane (odwiedzone)</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:link
+        { color: green }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">jest równoważny</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">:link
+        { color: green}</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Istnieje
+możliwość zmiany wyglądu wybranych odsyłaczy, np.:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A.inny:link
+        { color: red }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">oraz w
+dokumencie HTML:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">&lt;A
+        href=&quot;http://www.domena.com/&quot; class=&quot;inny&quot;&gt;Odsyłacz
+        do innej strony&lt;/A&gt;</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:visited</span></u>
+- dotyczy odsyłaczy, które zostały już wcześniej wybrane (odwiedzone)</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:visited
+        { color: yellow }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:hover</span></u>
+- dotyczy odsyłaczy, nad którymi znajduje się kursor (wskaźnik myszy)</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:hover
+        { color: blue }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:active</span></u>
+- dotyczy odsyłacza, który został wybrany przez użytkownika; jest to okres
+czasu od momentu wybrania odsyłacza (najechania wskaźnikiem myszy nad odsyłacz
+i kliknięcie lewym przyciskiem myszy) do momentu przejścia do określonej
+przez odsyłacz strony</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:active
+        { color: purple }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:focus</span></u>
+- dotyczy odsyłacza, który jest teraz podświetlony (aktywny); dotyczy
+klawiatury</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:focus
+        { color: white }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Istnieje
+możliwość łączenia selektorów dotyczących odsyłaczy, np.:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">A:focus:hover
+        { color: lime }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Powyższy
+zapis określa kolor czcionki odsyłacza w przypadku podświetlenia odsyłacza
+przy użyciu klawiatury lub poprzez umieszczenie wskaźnika myszy nad odsyłaczem.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:first-line</span></u>
+- określa styl pierwszej sformatowanej linii danego bloku</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">P:first-line
+        { font-weight: bold }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Powyższy
+zapis oznacza, że należy zmienić grubość czcionki w przypadku każdej
+pierwszej linii paragrafu.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Należy
+pamiętać, że pseudoelement :first-line odnosi się tylko do elementów
+blokowych i może on posiadać właściwości odnoszące się do czcionki,
+koloru i tła, a także właściwości: 'word-spacing', 'letter-spacing', 'text-decoration',
+'vertical-align', 'text-transform', 'line-height', 'text-shadow', 'clear'.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:first-letter</span></u>
+- określa styl pierwszej litery (znaku) w bloku, elemencie</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">P:first-letter
+        { font-size: 4em; text-transform: uppercase }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:before</span></u>
+- określa zawartość umieszczoną przed danym blokiem lub elementem</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">P:before
+        { content: counter(numer, upper-roman) &quot;. &quot; }</font></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Powyższy
+przykład numeruje kolejne paragrafy wstawiając przed zawartością każdego z
+nich wartość w postaci kolejnej liczby rzymskiej oraz łańcucha <span>&quot;.
+&quot;</span>.</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2"><u><span>:after</span></u>
+- określa zawartość umieszczoną po danym bloku lub elemencie</font></p>
+<p><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">Przykład:</font></p>
+<table border="0">
+  <tbody>
+    <tr>
+      <td class="MALA"><font face="Verdana, Tahoma, Arial, Helvetica, sans-serif" size="2">P:after
+        { content: &quot;.&quot; }</font></td>
+    </tr>
+  </tbody>
+</table>
+
+                
+                 
+</table></table></body>

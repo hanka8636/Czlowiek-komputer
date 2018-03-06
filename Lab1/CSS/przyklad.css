@@ -1,0 +1,10 @@
+/* styl domyślny */
+obiekt {
+  display: block;
+  background-color: red;
+}
+
+/* styl dla wyróżnionych elementów */
+wyr {
+  background-color: red;
+}

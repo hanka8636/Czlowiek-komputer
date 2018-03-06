@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dokument>
+	<coś>
+			<inne></inne>
+	</coś>
+	<atrybuty a1="tekst1" a2="teskt2" a3="tekst3 &quot;abc&quot;"
+		  a4="tekst4 &apos;abc&apos;" a5="3 &lt; 4" />
+	<test>x &lt; 6 &amp; x &gt; 0</test>
+	<stadt>M&amp;252nchen</stadt>
+	<b>Ala ma <i>kota</i></b>
+</dokument>

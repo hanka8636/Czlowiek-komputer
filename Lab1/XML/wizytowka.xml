@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<zadanie>
+<wizytowka>
+  <imie></imie>
+  <nazwisko></nazwisko>
+  <adres></adres>
+  <tel></tel>
+</wizytowka>
+<zapis_znakow1>]]&gt;.</zapis_znakow1>
+<zapis_znakow2 a="]]&gt;."/>
+<wyrazenie atrybut="&quot;x &gt; -5&quot; &apos;x &lt; 5 &apos;" />
+</zadanie>
