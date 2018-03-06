@@ -326,7 +326,7 @@
   <pastwisko>
     <nazwa>Teletubisie</nazwa>
     <rasa identyfikator="09" />
-    <powierzchnia jednostka="ha"></powierzchnia>
+    <powierzchnia jednostka="ha">355.5</powierzchnia>
     <stado>
       <owca>
         <id>1</id>
@@ -381,7 +381,7 @@
   <pastwisko>
     <nazwa>Cela 11</nazwa>
     <rasa identyfikator="11" />
-    <powierzchnia jednostka="ha"></powierzchnia>
+    <powierzchnia jednostka="ha">145.7</powierzchnia>
     <stado>
       <owca>
         <id>1</id>

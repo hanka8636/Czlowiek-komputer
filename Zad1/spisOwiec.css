@@ -36,23 +36,38 @@ nagłówek autor {
 	list-style-position: inside;
 	margin-bottom: 1ex;
 }
-nagłówek autor > nazwisko:after {
-	content: ", ";
-	font-size: 80%;
-}
 nagłówek autor > album:before {
 	content: "nr albumu: ";
 }
-nagłówek autor > album {
+
+nagłówek autor > mail:before {
+	content: "mail: ";
+}
+nagłówek autor > mail, nagłówek autor > album {
 	font-size: 80%;
+	display: list-item;;
+	list-style: none;
+	margin-left: 50px;
 }
 
 pastwisko:before {
   content: "Pastwisko: ";
-    display: block;
+		display: inline-block;
   padding: 2ex 1em 1ex 1em;
-    color: #ff0000;
-    font-size: 20pt;
+    color: white;
+    font-size: 20px;
+}
+
+pastwisko {
+			background-color: #a2d680;
+			display: block;
+			margin: 10px 10px 10px 10px
+}
+
+pastwisko > nazwa {
+	display: inline-block;
+		color: black;
+		font-size: 40px;
 }
 
 stado:before {
