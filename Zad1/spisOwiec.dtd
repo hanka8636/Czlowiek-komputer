@@ -1,36 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!ELEMENT spis_owiec (nagłówek, lista_ras, pastwisko*)>
-<!ELEMENT nagłówek (data_modyfikacji, autorzy)>
-<!ELEMENT data EMPTY>
-<!ELEMENT autorzy (autor+)>
-<!ELEMENT autor (imię, nazwisko, album)>
-<!ELEMENT imię (#PCDATA)>
-<!ELEMENT nazwisko (#PCDATA)>
-<!ELEMENT album (#PCDATA)>
-<!ELEMENT lista_ras (definicja_rasy+)>
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT spis_owiec (nagłówek,lista_ras,pastwisko+)>
+<!ATTLIST spis_owiec
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nagłówek (data_modyfikacji,autorzy)>
+<!ATTLIST nagłówek
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lista_ras (definicja_rasy)+>
+<!ATTLIST lista_ras
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pastwisko (nazwa,rasa,powierzchnia,stado)>
+<!ATTLIST pastwisko
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT data_modyfikacji (#PCDATA)>
+<!ATTLIST data_modyfikacji
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT autorzy (autor)+>
+<!ATTLIST autorzy
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT definicja_rasy EMPTY>
 <!ATTLIST definicja_rasy
-		nazwa NMTOKEN #REQUIRED
-		identyfikator ID #REQUIRED>
-<!ELEMENT pastwisko (nazwa,rasa,powierzchnia,stado)>
+  xmlns CDATA #FIXED ''
+  identyfikator NMTOKEN #REQUIRED
+  nazwa CDATA #REQUIRED>
+
 <!ELEMENT nazwa (#PCDATA)>
-<!ELEMENT rasa(nazwa)>
+<!ATTLIST nazwa
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rasa EMPTY>
+<!ATTLIST rasa
+  xmlns CDATA #FIXED ''
+  identyfikator NMTOKEN #REQUIRED>
+
 <!ELEMENT powierzchnia (#PCDATA)>
-<!ELEMENT stado (owca)>
-<!ELEMENT owca (imie, data_ur,plec,id, waga, dlugosc_runa, opis, szybkosc_marszu, szybkosc_zjadania_trawy)>
-<!ATTLIST owca imie %data_ur; #REQUIRED>
-<!ELEMENT zajęcia (przedmiot, czas, miejsce, prowadzący+)>
-<!ATTLIST zajęcia
-		blok (1|2|3|4|5|6) #REQUIRED
-		rodzaj %rodzaj_zajęć; #REQUIRED>
-<!ELEMENT czas (start, przerwa*, koniec)>
-<!ELEMENT przedmiot (#PCDATA)>
-<!ELEMENT start (#PCDATA)>
-<!ELEMENT przerwa (start, koniec)>
-<!ELEMENT koniec (#PCDATA)>
-<!ELEMENT miejsce (sala?, budynek)>
-<!ELEMENT sala (#PCDATA)>
-<!ELEMENT budynek (#PCDATA)>
-<!ELEMENT prowadzący (stopień?, imię, nazwisko)>
-<!ATTLIST prowadzący kto IDREF #REQUIRED>
-<!ELEMENT stopień (#PCDATA)>
+<!ATTLIST powierzchnia
+  xmlns CDATA #FIXED ''
+  jednostka NMTOKEN #REQUIRED>
+
+<!ELEMENT stado (owca)+>
+<!ATTLIST stado
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (imię,nazwisko,album,mail)>
+<!ATTLIST autor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT owca (id,imie,data_ur,plec,waga,dlugosc_runa,opis,
+                szybkosc_marszu,szybkosc_zjadania_trawy)>
+<!ATTLIST owca
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT imię (#PCDATA)>
+<!ATTLIST imię
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nazwisko (#PCDATA)>
+<!ATTLIST nazwisko
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT album (#PCDATA)>
+<!ATTLIST album
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mail (#PCDATA)>
+<!ATTLIST mail
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT imie (#PCDATA)>
+<!ATTLIST imie
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT data_ur (#PCDATA)>
+<!ATTLIST data_ur
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT plec (#PCDATA)>
+<!ATTLIST plec
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT waga (#PCDATA)>
+<!ATTLIST waga
+  xmlns CDATA #FIXED ''
+  jednostka NMTOKEN #REQUIRED>
+
+<!ELEMENT dlugosc_runa (#PCDATA)>
+<!ATTLIST dlugosc_runa
+  xmlns CDATA #FIXED ''
+  jednostka NMTOKEN #REQUIRED>
+
+<!ELEMENT opis (#PCDATA)>
+<!ATTLIST opis
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT szybkosc_marszu (#PCDATA)>
+<!ATTLIST szybkosc_marszu
+  xmlns CDATA #FIXED ''
+  jednostka CDATA #REQUIRED>
+
+<!ELEMENT szybkosc_zjadania_trawy (#PCDATA)>
+<!ATTLIST szybkosc_zjadania_trawy
+  xmlns CDATA #FIXED ''
+  jednostka CDATA #REQUIRED>
