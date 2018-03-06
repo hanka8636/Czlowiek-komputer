@@ -72,7 +72,7 @@
         <waga jednostka="kg">50.8</waga>
         <dlugosc_runa jednostka="mm">14.5</dlugosc_runa>
         <opis>
-          Elegancki samiec rasy owiec domowych pochodzących z RPA.
+          Elegancki samiec rasy owiec domowych.
         </opis>
         <szybkosc_marszu jednostka="m/s">10.2</szybkosc_marszu>
         <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
@@ -80,9 +80,9 @@
       <owca>
         <id>2</id>
         <imie>Masnfred</imie>
-        <data_ur>2002-09-24</data_ur>
+        <data_ur>2012-09-22</data_ur>
         <plec>M</plec>
-        <waga jednostka="kg">50.8</waga>
+        <waga jednostka="kg">50.1</waga>
         <dlugosc_runa jednostka="mm">12.3</dlugosc_runa>
         <opis>
           Samiec rasy owiec domowych pochodzących z RPA.
@@ -100,26 +100,26 @@
     <stado>
       <owca>
         <id>1</id>
-        <imie>Wafel</imie>
+        <imie>Zosia</imie>
         <data_ur>2002-09-24</data_ur>
-        <plec>M</plec>
-        <waga jednostka="kg">50.8</waga>
-        <dlugosc_runa jednostka="mm">14.5</dlugosc_runa>
+        <plec>K</plec>
+        <waga jednostka="kg">29.8</waga>
+        <dlugosc_runa jednostka="mm">38.5</dlugosc_runa>
         <opis>
-          Elegancki samiec rasy owiec domowych pochodzących z RPA.
+          Elegancki i wyrafinowana owca.
         </opis>
         <szybkosc_marszu jednostka="m/s">10.2</szybkosc_marszu>
         <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
       </owca>
       <owca>
         <id>2</id>
-        <imie>Masnfred</imie>
+        <imie>Pizza</imie>
         <data_ur>2002-09-24</data_ur>
         <plec>M</plec>
-        <waga jednostka="kg">50.8</waga>
+        <waga jednostka="kg">60.8</waga>
         <dlugosc_runa jednostka="mm">12.3</dlugosc_runa>
         <opis>
-          Samiec rasy owiec domowych pochodzących z RPA.
+          Owca, która lubi placi.
         </opis>
         <szybkosc_marszu jednostka="m/s">15.1</szybkosc_marszu>
         <szybkosc_zjadania_trawy jednostka="talerz/min">0.3</szybkosc_zjadania_trawy>
@@ -129,86 +129,82 @@
 
   <pastwisko>
     <nazwa>Pole Huncwotów</nazwa>
-    <rasa kto="O3" />
-    <powierzchnia>125.8</powierzchnia>
+    <rasa identyfikator="O3" />
+    <powierzchnia jednostka="ha">100.8</powierzchnia>
     <stado>
       <owca>
         <id>1</id>
-        <imie>Wafel</imie>
-        <data_ur>2002-09-24</data_ur>
+        <imie>Rosół</imie>
+        <data_ur>2012-07-10</data_ur>
         <plec>M</plec>
-        <waga jednostka="kg">50.8</waga>
-        <dlugosc_runa jednostka="mm">14.5</dlugosc_runa>
+        <waga jednostka="kg">47.8</waga>
+        <dlugosc_runa jednostka="mm">2.5</dlugosc_runa>
         <opis>
-          Elegancki samiec rasy owiec domowych pochodzących z RPA.
+          Owca, która panicznie boi się niedziel.
         </opis>
-        <szybkosc_marszu jednostka="m/s">10.2</szybkosc_marszu>
-        <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
-      </owca>
-      <owca>
-        <imie>Masnfred</imie>
-        <data_ur>2002-09-24</data_ur>
-        <plec>M</plec>
-        <id>2</id>
-        <waga jednostka="kg">50.8</waga>
-        <dlugosc_runa jednostka="mm">12.3</dlugosc_runa>
-        <opis>
-          samiec rasy owiec domowych pochodzących z RPA.
-        </opis>
-        <szybkosc_marszu jednostka="m/s">15.1</szybkosc_marszu>
-        <szybkosc_zjadania_trawy jednostka="talerz/min">0.3</szybkosc_zjadania_trawy>
+        <szybkosc_marszu jednostka="m/s">30.2</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.9</szybkosc_zjadania_trawy>
       </owca>
     </stado>
   </pastwisko>
 
   <pastwisko>
     <nazwa>Alejka róż</nazwa>
-    <rasa kto="O4">
-      <nazwa>Owca Fryzyjska</nazwa>
-    </rasa>
-    <powierzchnia>125.8</powierzchnia>
+    <rasa identyfikator="O4" />
+    <powierzchnia jednostka="ha">400.8</powierzchnia>
     <stado>
       <owca>
-        <imie>Wafel</imie>
-        <data_ur>2002-09-24</data_ur>
-        <plec>M</plec>
         <id>1</id>
-        <waga jednostka="kg">50.8</waga>
-        <dlugosc_runa jednostka="mm">14.5</dlugosc_runa>
+        <imie>Tropi</imie>
+        <data_ur>2003-11-13</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">28.8</waga>
+        <dlugosc_runa jednostka="mm">11.5</dlugosc_runa>
         <opis>
-          Elegancki samiec rasy owiec domowych pochodzących z RPA.
+          Elegancki tropiciel.
         </opis>
-        <szybkosc_marszu jednostka="m/s">10.2</szybkosc_marszu>
-        <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
+        <szybkosc_marszu jednostka="m/s">5.2</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">1.0</szybkosc_zjadania_trawy>
       </owca>
       <owca>
-        <imie>Masnfred</imie>
-        <data_ur>2002-09-24</data_ur>
-        <plec>M</plec>
         <id>2</id>
-        <waga jednostka="kg">50.8</waga>
-        <dlugosc_runa jednostka="mm">12.3</dlugosc_runa>
+        <imie>Tupi</imie>
+        <data_ur>2007-02-01</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">52.8</waga>
+        <dlugosc_runa jednostka="mm">18.3</dlugosc_runa>
         <opis>
-          samiec rasy owiec domowych pochodzących z RPA.
+          Strasznie głośno chodzi.
         </opis>
-        <szybkosc_marszu jednostka="m/s">15.1</szybkosc_marszu>
-        <szybkosc_zjadania_trawy jednostka="talerz/min">0.3</szybkosc_zjadania_trawy>
+        <szybkosc_marszu jednostka="m/s">28.1</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>3</id>
+        <imie>Tuli</imie>
+        <data_ur>2010-01-15</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">15.8</waga>
+        <dlugosc_runa jednostka="mm">10.5</dlugosc_runa>
+        <opis>
+          Uwielbia się przytulać.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">15.4</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.8</szybkosc_zjadania_trawy>
       </owca>
     </stado>
   </pastwisko>
 
   <pastwisko>
     <nazwa>Zielone oastwiska</nazwa>
-    <rasa kto="O5">
-      <nazwa>Ile de france</nazwa>
-    </rasa>
-    <powierzchnia>65.8</powierzchnia>
+    <rasa identyfikator="O5" />
+    <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>
       <owca>
+        <id>1</id>
         <imie>Ludmiła</imie>
         <data_ur>2012-09-04</data_ur>
         <plec>K</plec>
-        <id>1</id>
         <waga jednostka="kg">100.8</waga>
         <dlugosc_runa jednostka="mm">14.5</dlugosc_runa>
         <opis>
@@ -218,17 +214,132 @@
         <szybkosc_zjadania_trawy jednostka="talerz/min">0.4</szybkosc_zjadania_trawy>
       </owca>
       <owca>
+        <id>2</id>
         <imie>Bernard</imie>
         <data_ur>2008-12-24</data_ur>
         <plec>M</plec>
-        <id>2</id>
-        <waga jednostka="kg">50.8</waga>
+        <waga jednostka="kg">27.8</waga>
         <dlugosc_runa jednostka="mm">12.3</dlugosc_runa>
         <opis>
-          samiec rasy owiec domowych pochodzących z RPA.
+          Wcale nie pies.
         </opis>
-        <szybkosc_marszu jednostka="m/s">15.1</szybkosc_marszu>
+        <szybkosc_marszu jednostka="m/s">25.1</szybkosc_marszu>
         <szybkosc_zjadania_trawy jednostka="talerz/min">0.3</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Radosna kraina</nazwa>
+    <rasa identyfikator="O6" />
+    <powierzchnia jednostka="ha">158.5</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Truskawa</imie>
+        <data_ur>2010-09-10</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">47.2</waga>
+        <dlugosc_runa jednostka="mm">18.6</dlugosc_runa>
+        <opis>
+          Jakby mogła się przefarbować, to na czerwono.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">15.2</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Pomarańczka</imie>
+        <data_ur>2013-12-31</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">16.9</waga>
+        <dlugosc_runa jednostka="mm">15.8</dlugosc_runa>
+        <opis>
+          Lubi kwaśne.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">7.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.2</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>3</id>
+        <imie>Kwas</imie>
+        <data_ur>2001-12-10</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">16.5</waga>
+        <dlugosc_runa jednostka="mm">25.5</dlugosc_runa>
+        <opis>
+          Wcale nie lubi kwaśnego.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">32.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.8</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>4</id>
+        <imie>Mucha</imie>
+        <data_ur>1996-11-10</data_ur>
+        <plec>K</plec>
+        <waga jednostka="kg">3.5</waga>
+        <dlugosc_runa jednostka="mm">30.5</dlugosc_runa>
+        <opis>
+          Anorektyczka.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">15.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.5</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Tęczynki</nazwa>
+    <rasa identyfikator="07" />
+    <powierzchnia jednostka="ha">425.0</powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Czerwonek</imie>
+        <data_ur>1999-04-02</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">15.7</waga>
+        <dlugosc_runa jednostka="mm">32.6</dlugosc_runa>
+        <opis>
+          Jest super szybki.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">100.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
+      </owca>
+      <owca>
+        <id>2</id>
+        <imie>Zielonek</imie>
+        <data_ur>1999-02-10</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg">52.7</waga>
+        <dlugosc_runa jednostka="mm">65.6</dlugosc_runa>
+        <opis>
+          Peace &amp; love.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">25.8</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.9</szybkosc_zjadania_trawy>
+      </owca>
+    </stado>
+  </pastwisko>
+
+  <pastwisko>
+    <nazwa>Teletubisie</nazwa>
+    <rasa identyfikator="09" />
+    <powierzchnia jednostka="ha"></powierzchnia>
+    <stado>
+      <owca>
+        <id>1</id>
+        <imie>Dipsy</imie>
+        <data_ur>1980-05-25</data_ur>
+        <plec>M</plec>
+        <waga jednostka="kg"></waga>
+        <dlugosc_runa jednostka="mm"></dlugosc_runa>
+        <opis>
+          Reszta moich przyjaciół nie żyje.
+        </opis>
+        <szybkosc_marszu jednostka="m/s">65.5</szybkosc_marszu>
+        <szybkosc_zjadania_trawy jednostka="talerz/min">0.1</szybkosc_zjadania_trawy>
       </owca>
     </stado>
   </pastwisko>
