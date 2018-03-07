@@ -68,6 +68,7 @@ pastwisko > nazwa {
 	display: inline-block;
 		color: black;
 		font-size: 40px;
+		color: white;
 }
 
 stado:before {
@@ -84,4 +85,10 @@ owca:before {
     padding: 1ex 3em 1ex 3em;
     color: #0000ff;
     font-size: 20pt;
+}
+
+owca {
+	display: block;
+	background-color: white;
+	margin: 5px 5px 5px 5px;
 }
