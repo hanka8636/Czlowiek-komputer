@@ -1,94 +1,119 @@
-
 spis_owiec {
-	margin: 0px;
-	padding: 4ex 3em 4ex 3em;
-	background-color: #fff;
-	color: #000;
-	font-size: 10pt;
-	font-family: "DejaVu Sans", sans-serif;
+  margin: 0px;
+  padding: 4ex 3em 4ex 3em;
+  background-color: #fff;
+  color: #000;
+  font-size: 10pt;
+  font-family: "DejaVu Sans", sans-serif;
 }
 
 nagłówek {
-	display: block;
-	font-size: 150%;
-	font-family: "DejaVu Sans", sans-serif;
-}
-nagłówek > * {
-	display: block;
+  display: block;
+  font-size: 150%;
+  font-family: "DejaVu Sans", sans-serif;
 }
 
-nagłówek > data_modyfikacji:before {
-	content: "Data modyfikacji: ";
+nagłówek>* {
+  display: block;
 }
 
+nagłówek>data_modyfikacji:before {
+  content: "Data modyfikacji: ";
+}
 
-nagłówek > autorzy:before {
-	content: "Autorzy pracy: ";
-	display: block;
-	margin-top: 1ex;
-	margin-bottom: 1ex;
+nagłówek>autorzy:before {
+  content: "Autorzy pracy: ";
+  display: block;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
 }
-nagłówek > autorzy {
-	margin-left: 1em;
+
+nagłówek>autorzy {
+  margin-left: 1em;
 }
+
 nagłówek autor {
-	display: list-item;
-	list-style-position: inside;
-	margin-bottom: 1ex;
-}
-nagłówek autor > album:before {
-	content: "nr albumu: ";
+  display: list-item;
+  list-style-position: inside;
+  margin-bottom: 1ex;
 }
 
-nagłówek autor > mail:before {
-	content: "mail: ";
+nagłówek autor>album:before {
+  content: "nr albumu: ";
 }
-nagłówek autor > mail, nagłówek autor > album {
-	font-size: 80%;
-	display: list-item;;
-	list-style: none;
-	margin-left: 50px;
+
+nagłówek autor>mail:before {
+  content: "mail: ";
+}
+
+nagłówek autor>mail, nagłówek autor>album {
+  font-size: 80%;
+  display: list-item;
+  ;
+  list-style: none;
+  margin-left: 50px;
 }
 
 pastwisko:before {
   content: "Pastwisko: ";
-		display: inline-block;
+  display: inline-block;
   padding: 2ex 1em 1ex 1em;
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 pastwisko {
-			background-color: #a2d680;
-			display: block;
-			margin: 10px 10px 10px 10px
+  background-color: #a2d680;
+  display: block;
+  margin: 10px 10px 10px 10px
 }
 
-pastwisko > nazwa {
+powierzchnia::before {
+  content: "Powierzchnia: ";
+  display: inline-block;
+  padding: 2ex 1em 1ex 1em;
+  color: white;
+  font-size: 15px;
+}
+
+pastwisko>nazwa {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+}
+
+powierzchnia {
 	display: inline-block;
-		color: black;
-		font-size: 40px;
-		color: white;
+	font-size: 30px;
+	color: white;
+}
+
+powierzchnia[jednostka="ha"]::after {
+	content: " ha";
+	display: inline-block;
+	color: white;
+	font-size: 30px;
 }
 
 stado:before {
   content: "Stado: ";
-    display: block;
-    color: #ff0000;
-    padding: 1ex 3em 0ex 2em;
-    font-size: 20pt;0
+  display: block;
+  color: #ff0000;
+  padding: 1ex 3em 0ex 2em;
+  font-size: 20pt;
+  0
 }
 
 owca:before {
   content: "Owca: ";
-    display: block;
-    padding: 1ex 3em 1ex 3em;
-    color: #0000ff;
-    font-size: 20pt;
+  display: block;
+  padding: 1ex 3em 1ex 3em;
+  color: #0000ff;
+  font-size: 20pt;
 }
 
 owca {
-	display: block;
-	background-color: white;
-	margin: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: white;
+  margin: 5px 5px 5px 5px;
 }
