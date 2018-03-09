@@ -83,16 +83,16 @@ pastwisko>nazwa {
 }
 
 powierzchnia {
-	display: inline-block;
-	font-size: 30px;
-	color: white;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
 }
 
 powierzchnia[jednostka="ha"]::after {
-	content: " ha";
-	display: inline-block;
-	color: white;
-	font-size: 30px;
+  content: " ha";
+  display: inline-block;
+  color: white;
+  font-size: 30px;
 }
 
 stado:before {
@@ -115,5 +115,49 @@ owca:before {
 owca {
   display: inline-block;
   background-color: white;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+	border: 2px solid #009933;
+	padding: 5px 5px 5px 5px;
 }
+
+owca id {
+	display: none;
+}
+
+owca imię::before {
+	content: "Imię: "
+}
+
+owca imię {
+	display: block;
+}
+
+owca data_urodzenia::before {
+	content: "Data urodzenia: "
+}
+
+owca data_urodzenia {
+	display: block;
+}
+
+owca płeć::before {
+	content: "Płeć: "
+}
+
+owca płeć {
+	display: block;
+}
+
+owca waga::before {
+	content: "Waga: "
+}
+
+owca waga {
+	display: block;
+}
+
+owca waga[jednostka="kg"]::after {
+	content: "kg";
+}
+
+owca długość_runa
