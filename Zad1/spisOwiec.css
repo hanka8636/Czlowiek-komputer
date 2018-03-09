@@ -65,7 +65,9 @@ pastwisko:before {
 pastwisko {
   background-color: #a2d680;
   display: block;
-  margin: 10px 10px 10px 10px
+  margin: 10px 10px 10px 10px;
+	border-radius: 25px;
+	padding: 15px;
 }
 
 powierzchnia::before {
@@ -96,17 +98,25 @@ powierzchnia[jednostka]::after {
 }
 
 stado:before {
-  content: "Stado: ";
+  content: "Stado";
   display: block;
-  color: #ff0000;
-  padding: 1ex 3em 0ex 2em;
+	text-align: center;
+  color: #ffffff;
   font-size: 20pt;
-  0
+}
+
+stado {
+	display: block;
+	border-radius: 10px;
+	background-color: #af3d3d;
 }
 
 owca:before {
   content: "Owca: ";
   display: block;
+	margin: -6px -6px 0 -6px;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #338c3e;
   padding: 1ex 3em 1ex 3em;
   color: #0000ff;
   font-size: 20pt;
@@ -116,7 +126,10 @@ owca {
   display: inline-block;
   background-color: white;
   margin: 10px 10px 10px 10px;
-	border: 2px solid #009933;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #009933;
 	padding: 5px 5px 5px 5px;
 }
 
@@ -125,11 +138,18 @@ owca id {
 }
 
 owca imię::before {
-	content: "Imię: "
+	content: "Imię: ";
+	font-weight: bold;
 }
 
 owca imię {
 	display: block;
+	background-color: #ffffff;
+	transition: background-color 1s;
+}
+
+owca imię:hover {
+	background-color: #a8a8a8;
 }
 
 owca data_urodzenia::before {
