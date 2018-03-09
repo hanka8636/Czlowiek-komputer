@@ -160,4 +160,46 @@ owca waga[jednostka="kg"]::after {
 	content: "kg";
 }
 
-owca długość_runa
+owca długość_runa::before {
+	content: "Długość runa: "
+}
+
+owca długość_runa {
+	display: block;
+}
+
+owca długość_runa[jednostka="mm"]::after {
+	content: "mm";
+}
+
+owca opis::before {
+	content: "Opis:"
+}
+
+owca opis {
+	display: block;
+}
+
+owca szybkość_marszu::before {
+	content: "Szybkość marszu: "
+}
+
+owca szybkość_marszu {
+	display: block;
+}
+
+owca szybkość_marszu[jednostka="m/s"]::after {
+	content: "m/s";
+}
+
+owca szybkość_zjadania_trawy::before {
+	content: "Szybkość zjadania trawy: "
+}
+
+owca szybkość_zjadania_trawy {
+	display: block;
+}
+
+owca szybkość_zjadania_trawy[jednostka="talerz/min"]::after {
+	content: "talerz/min";
+}
