@@ -88,8 +88,8 @@ powierzchnia {
   color: white;
 }
 
-powierzchnia[jednostka="ha"]::after {
-  content: " ha";
+powierzchnia[jednostka]::after {
+  content: attr(jednostka);
   display: inline-block;
   color: white;
   font-size: 30px;
@@ -156,8 +156,8 @@ owca waga {
 	display: block;
 }
 
-owca waga[jednostka="kg"]::after {
-	content: "kg";
+owca waga[jednostka]::after {
+	content: attr(jednostka);
 }
 
 owca długość_runa::before {
@@ -168,8 +168,8 @@ owca długość_runa {
 	display: block;
 }
 
-owca długość_runa[jednostka="mm"]::after {
-	content: "mm";
+owca długość_runa[jednostka]::after {
+	content: attr(jednostka);
 }
 
 owca opis::before {
@@ -188,8 +188,8 @@ owca szybkość_marszu {
 	display: block;
 }
 
-owca szybkość_marszu[jednostka="m/s"]::after {
-	content: "m/s";
+owca szybkość_marszu[jednostka]::after {
+	content: attr(jednostka);
 }
 
 owca szybkość_zjadania_trawy::before {
@@ -200,6 +200,6 @@ owca szybkość_zjadania_trawy {
 	display: block;
 }
 
-owca szybkość_zjadania_trawy[jednostka="talerz/min"]::after {
-	content: "talerz/min";
+owca szybkość_zjadania_trawy[jednostka]::after {
+	content: attr(jednostka);
 }
