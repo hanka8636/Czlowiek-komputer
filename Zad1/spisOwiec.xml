@@ -119,7 +119,7 @@
         <waga jednostka="kg">60.8</waga>
         <długość_runa jednostka="mm">12.3</długość_runa>
         <opis>
-          Owca, która lubi placi.
+          Owca, która lubi placki.
         </opis>
         <szybkość_marszu jednostka="m/s">15.1</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerz/min">0.3</szybkość_zjadania_trawy>
@@ -196,7 +196,7 @@
   </pastwisko>
 
   <pastwisko>
-    <nazwa>Zielone oastwiska</nazwa>
+    <nazwa>Zielone pastwiska</nazwa>
     <rasa identyfikator="O5" />
     <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>

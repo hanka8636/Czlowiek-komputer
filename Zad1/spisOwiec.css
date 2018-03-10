@@ -108,7 +108,7 @@ stado:before {
 stado {
 	display: block;
 	border-radius: 10px;
-	background-color: #af3d3d;
+	background-color: #689b50;
 }
 
 owca:before {
@@ -116,7 +116,7 @@ owca:before {
   display: block;
 	margin: -6px -6px 0 -6px;
 	border-radius: 10px 10px 0px 0px;
-	background-color: #338c3e;
+	background-color: #203019;
   padding: 1ex 3em 1ex 3em;
   color: #0000ff;
   font-size: 20pt;
