@@ -4,19 +4,27 @@
 <spis_owiec>
 
   <nagłówek>
-    <data_modyfikacji>2018-03-05</data_modyfikacji>
+    <data_modyfikacji>2018-03-10</data_modyfikacji>
     <autorzy>
       <autor>
         <imię>Hanna</imię>
         <nazwisko>Paluszkiewicz</nazwisko>
         <album>203962</album>
-        <mail>203962@edu.p.lodz.pl</mail>
+        <mail>
+          <alias album="203962"/>
+          <znak>@</znak>
+          <domena>edu.p.lodz.pl</domena>
+          </mail>
       </autor>
       <autor>
         <imię>Aneta</imię>
         <nazwisko>Wiśniewska</nazwisko>
-        <album>204029</album>
-        <mail>204029@edu.p.lodz.pl</mail>
+        <album> 204029</album>
+        <mail>
+          <alias album="204029"/>
+          <znak>@</znak>
+          <domena>edu.p.lodz.pl</domena>
+          </mail>
       </autor>
     </autorzy>
   </nagłówek>

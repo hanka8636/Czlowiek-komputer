@@ -45,6 +45,9 @@ nagłówek autor>album:before {
 nagłówek autor>mail:before {
   content: "mail: ";
 }
+nagłówek autor>mail>alias[album]::after {
+  content: attr(album);
+}
 
 nagłówek autor>mail, nagłówek autor>album {
   font-size: 80%;
