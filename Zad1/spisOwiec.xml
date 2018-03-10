@@ -11,7 +11,7 @@
         <nazwisko>Paluszkiewicz</nazwisko>
         <album>203962</album>
         <mail>
-          <alias>203962</alias>
+          <alias album="203962"/>
           <znak>@</znak>
           <domena>edu.p.lodz.pl</domena>
           </mail>
@@ -19,9 +19,9 @@
       <autor>
         <imię>Aneta</imię>
         <nazwisko>Wiśniewska</nazwisko>
-        <album>204029</album>
+        <album> 204029</album>
         <mail>
-          <alias>204029</alias>
+          <alias album="204029"/>
           <znak>@</znak>
           <domena>edu.p.lodz.pl</domena>
           </mail>

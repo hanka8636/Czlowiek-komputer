@@ -9,10 +9,10 @@
 <!ELEMENT autor (imię,nazwisko,album,mail)>
 <!ELEMENT imię (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)>
-<!ELEMENT album (#PCDATA)>
+<!ELEMENT album (#ID)>
+<!ATTLIST album(203962|204029) #REQUIRED>
 <!ELEMENT mail (alias,znak,domena)>
-<!ELEMENT alias (#PCDATA)>
-<!ATTLIST alias(203962|204029) #REQUIRED>
+<!ELEMENT alias (#IDREF)>
 <!ELEMENT znak (#CDATA)>
 <!ATTLIST znak(@) #REQUIRED>
 <!ELEMENT domena (#PCDATA)>
@@ -34,7 +34,7 @@
 <!ELEMENT owca (id,imie,data_ur,plec,waga,dlugosc_runa,opis,
                 szybkosc_marszu,szybkosc_zjadania_trawy)>
 
-<!ELEMENT id (#ID)>
+<!ELEMENT id (#PCDATA)>
 <!ELEMENT imie (#PCDATA)>
 <!ELEMENT data_ur (#PCDATA)>
 <!ELEMENT plec (#PCDATA)>
