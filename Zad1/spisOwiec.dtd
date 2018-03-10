@@ -10,7 +10,13 @@
 <!ELEMENT imię (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)>
 <!ELEMENT album (#PCDATA)>
-<!ELEMENT mail (#PCDATA)>
+<!ELEMENT mail (alias,znak,domena)>
+<!ELEMENT alias (#PCDATA)>
+<!ATTLIST alias(203962|204029) #REQUIRED>
+<!ELEMENT znak (#CDATA)>
+<!ATTLIST znak(@) #REQUIRED>
+<!ELEMENT domena (#PCDATA)>
+<!ATTLIST domena(edu.p.lodz.pl|p.lodz.pl|info.p.lodz.pl) #REQUIRED>
 
 <!ELEMENT lista_ras (definicja_rasy)+>
   <!ELEMENT definicja_rasy EMPTY>
@@ -22,14 +28,13 @@
 <!ELEMENT nazwa (#PCDATA)>
 <!ELEMENT rasa EMPTY>
 <!ATTLIST rasa kto IDREF #REQUIRED>
-
 <!ELEMENT powierzchnia (jednostka)>
 
 <!ELEMENT stado (owca)+>
 <!ELEMENT owca (id,imie,data_ur,plec,waga,dlugosc_runa,opis,
                 szybkosc_marszu,szybkosc_zjadania_trawy)>
 
-<!ELEMENT id (#PCDATA)>
+<!ELEMENT id (#ID)>
 <!ELEMENT imie (#PCDATA)>
 <!ELEMENT data_ur (#PCDATA)>
 <!ELEMENT plec (#PCDATA)>

@@ -10,13 +10,21 @@
         <imię>Hanna</imię>
         <nazwisko>Paluszkiewicz</nazwisko>
         <album>203962</album>
-        <mail>203962@edu.p.lodz.pl</mail>
+        <mail>
+          <alias>203962</alias>
+          <znak>@</znak>
+          <domena>edu.p.lodz.pl</domena>
+          </mail>
       </autor>
       <autor>
         <imię>Aneta</imię>
         <nazwisko>Wiśniewska</nazwisko>
         <album>204029</album>
-        <mail>204029@edu.p.lodz.pl</mail>
+        <mail>
+          <alias>204029</alias>
+          <znak>@</znak>
+          <domena>edu.p.lodz.pl</domena>
+          </mail>
       </autor>
     </autorzy>
   </nagłówek>
