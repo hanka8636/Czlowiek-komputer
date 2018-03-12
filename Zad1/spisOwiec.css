@@ -27,13 +27,14 @@ nagłówek>data_modyfikacji:before {
 
 nagłówek>autorzy:before {
   content: "Autorzy pracy: ";
-  display: block;
+  display: inline-block;
   margin-top: 1ex;
   margin-bottom: 1ex;
 }
 
 nagłówek>autorzy {
   margin-left: 1em;
+    display: inline-block;
 }
 
 nagłówek autor {
@@ -57,7 +58,7 @@ nagłówek autor>mail, nagłówek autor>album {
   font-size: 80%;
   display: list-item;
   ;
-  list-style: none;
+  list-style: square;
   margin-left: 50px;
 }
 
@@ -124,6 +125,7 @@ powierzchnia[jednostka]::after {
 stado {
 	display: block;
 	border-radius: 10px;
+  padding: 6px 5px 5px 5px;
 	background-color: #689b50;
 }
 rasa[identyfikator=o01]:before {
@@ -374,11 +376,20 @@ owca:before {
 	margin: -6px -6px 0 -6px;
 	border-radius: 10px 10px 0px 0px;
 	background-color: #203019;
-  padding: 1ex 3em 1ex 3em;
-  color: #0000ff;
+  padding: 1ex 2em 1ex 1em;
+  color: #A2D680;
+  font-size: 15pt;
+
+}
+owca imię {
+	display: block;
+  margin: -6px -6px 0 -6px;
+	border-radius: 2px 2px 0px 0px;
+	background-color: #203019;
+  padding: 0ex 2em 1ex 6em;
+  color: #ffffff;
   font-size: 20pt;
 }
-
 
 owca {
   display: inline-block;
@@ -395,7 +406,7 @@ owca id {
 	display: none;
 }
 
-owca imię::before {
+/*owca imię::before {
 	content: "Imię: ";
 	font-weight: bold;
 }
@@ -409,17 +420,20 @@ owca imię {
 owca imię:hover {
 	background-color: #a8a8a8;
 }
-
+*/
 owca data_urodzenia::before {
-	content: "Data urodzenia: "
+	content: "Data urodzenia: ";
+  font-weight: bold;
 }
 
 owca data_urodzenia {
 	display: block;
+
 }
 
 owca płeć::before {
-	content: "Płeć: "
+	content: "Płeć: ";
+  font-weight: bold;
 }
 
 owca płeć {
@@ -431,7 +445,8 @@ owca płeć[p]::after {
 }
 
 owca waga::before {
-	content: "Waga: "
+	content: "Waga: ";
+  font-weight: bold;
 }
 
 owca waga {
