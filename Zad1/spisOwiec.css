@@ -458,7 +458,8 @@ owca waga[jednostka]::after {
 }
 
 owca długość_runa::before {
-	content: "Długość runa: "
+	content: "Długość runa: ";
+  font-weight: bold;
 }
 
 owca długość_runa {
@@ -470,7 +471,8 @@ owca długość_runa[jednostka]::after {
 }
 
 owca opis::before {
-	content: "Opis:"
+	content: "Opis:";
+  font-weight: bold;
 }
 
 owca opis {
@@ -478,7 +480,8 @@ owca opis {
 }
 
 owca szybkość_marszu::before {
-	content: "Szybkość marszu: "
+	content: "Szybkość marszu: ";
+  font-weight: bold;
 }
 
 owca szybkość_marszu {
@@ -490,7 +493,8 @@ owca szybkość_marszu[jednostka=ms]::after {
 }
 
 owca szybkość_zjadania_trawy::before {
-	content: "Szybkość zjadania trawy: "
+	content: "Szybkość zjadania trawy: ";
+  font-weight: bold;
 }
 
 owca szybkość_zjadania_trawy {
