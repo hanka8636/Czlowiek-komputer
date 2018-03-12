@@ -7,6 +7,10 @@ spis_owiec {
   font-family: "DejaVu Sans", sans-serif;
 }
 
+maile {
+  display: none;
+}
+
 nagłówek {
   display: block;
   font-size: 150%;
@@ -45,8 +49,8 @@ nagłówek autor>album:before {
 nagłówek autor>mail:before {
   content: "mail: ";
 }
-nagłówek autor>mail>alias[album]::after {
-  content: attr(album);
+nagłówek autor>mail>domena[definicja_domeny]::after {
+  content: attr(definicja_domeny);
 }
 
 nagłówek autor>mail, nagłówek autor>album {
@@ -55,6 +59,15 @@ nagłówek autor>mail, nagłówek autor>album {
   ;
   list-style: none;
   margin-left: 50px;
+}
+
+definicja_płci {
+  display: none;
+}
+
+definicja_jednostek {
+  display: none;
+
 }
 
 pastwisko:before {
@@ -125,6 +138,7 @@ owca:before {
   font-size: 20pt;
 }
 
+
 owca {
   display: inline-block;
   background-color: white;
@@ -168,7 +182,11 @@ owca płeć::before {
 }
 
 owca płeć {
-	display: block;
+  	display: block;
+}
+
+owca płeć[p]::after {
+  content: attr(p);
 }
 
 owca waga::before {

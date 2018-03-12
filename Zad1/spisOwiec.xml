@@ -12,7 +12,7 @@
   </maile>
 
   <nagłówek>
-    <data_modyfikacji>2018-03-10</data_modyfikacji>
+    <data_modyfikacji>2018-03-12</data_modyfikacji>
     <autorzy>
       <autor album="203962">
         <imię_autora>Hanna</imię_autora>
@@ -79,7 +79,7 @@
 
 <definicja_jednostek>
 	<jednostka_szybkości>m/s</jednostka_szybkości>
-	<jednostki_wagowe kg="kg" dkg="dkg" funt="funt"/>
+	<jednostki_wagowe kg="kilo" dkg="dkg" funt="funt"/>
 	<jednostki_długości mm="mm" cm="cm" cal="cal"/>
 	<jednostki_posiłkowe talerzmin="talerz/min" miskamin="miska/min" wiadroh="wiadro/h"	/>
 	<jednostki_powierzchniowe ha="ha" ar="ar" m2="m2"	/>
@@ -312,6 +312,58 @@
         <szybkość_marszu jednostka="ms">15.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
+<owca>
+      <id>5</id>
+      <imię>Truskawa</imię>
+      <data_urodzenia>2010-09-10</data_urodzenia>
+      <płeć p="k"/>
+      <waga jednostka="kg">47.2</waga>
+      <długość_runa jednostka="mm">18.6</długość_runa>
+      <opis>
+        Jakby mogła się przefarbować, to na czerwono.
+      </opis>
+      <szybkość_marszu jednostka="ms">15.2</szybkość_marszu>
+      <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+    </owca>
+    <owca>
+      <id>6</id>
+      <imię>Pomarańczka</imię>
+      <data_urodzenia>2013-12-31</data_urodzenia>
+      <płeć p="k"/>
+      <waga jednostka="kg">16.9</waga>
+      <długość_runa jednostka="mm">15.8</długość_runa>
+      <opis>
+        Lubi kwaśne.
+      </opis>
+      <szybkość_marszu jednostka="ms">7.5</szybkość_marszu>
+      <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+    </owca>
+    <owca>
+      <id>7</id>
+      <imię>Kwas</imię>
+      <data_urodzenia>2001-12-10</data_urodzenia>
+      <płeć p="m"/>
+      <waga jednostka="kg">16.5</waga>
+      <długość_runa jednostka="mm">25.5</długość_runa>
+      <opis>
+        Wcale nie lubi kwaśnego.
+      </opis>
+      <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
+      <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+    </owca>
+    <owca>
+      <id>8</id>
+      <imię>Mucha</imię>
+      <data_urodzenia>1996-11-10</data_urodzenia>
+      <płeć p="k"/>
+      <waga jednostka="kg">3.5</waga>
+      <długość_runa jednostka="mm">30.5</długość_runa>
+      <opis>
+        Anorektyczka.
+      </opis>
+      <szybkość_marszu jednostka="ms">15.5</szybkość_marszu>
+      <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+    </owca>
     </stado>
   </pastwisko>
 
