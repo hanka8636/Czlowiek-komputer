@@ -72,42 +72,36 @@
     <definicja_rasy nazwa="Merynos polski w starym typie" identyfikator="o34"/>
     <definicja_rasy nazwa="Czarnogłówka" identyfikator="o35"/>
   </lista_ras>
-
-  <k>K</k>
-  <m>M</m>
+ <definicja_płci>
+    <k>K</k>
+    <m>M</m>
+  </definicja_płci>
+  
 <definicja_jednostek>
-  <kg>kg</kg>
-  <dkg>dkg</dkg>
-  <funt>funt</funt>
-
-  <mm>mm</mm>
-  <cm>cm</cm>
-  <cal>cal</cal>
-
-  <ms>m/s</ms>
-  <talerzmin>talerz/min</talerzmin>
-  <miskamin>miska/min</miskamin>
-  <wiadroh>wiadro/h</wiadroh>
-
+	<jednostka_szybkości>m/s</jednostka_szybkości>
+	<jednostki_wagowe kg="kg" dkg="dkg" funt="funt"/>
+	<jednostki_długości mm="mm" cm="cm" cal="cal"/>
+	<jednostki_posiłkowe talerzmin="talerz/min" miskamin="miska/min" wiadroh="wiadro/h"	/>
+	<jednostki_powierzchniowe ha="ha" ar="ar" m2="m2"	/>
 </definicja_jednostek>
 
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
-    <rasa identyfikator="O1"/>
-    <powierzchnia jednostka="ha">125.8</powierzchnia>
+    <rasa identyfikator="o01"/>
+    <powierzchnia jednostki_powierzchniowe="ha">125.8</powierzchnia>
     <stado>
       <owca>
         <id>1</id>
         <imię>Wafel</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
-        <płeć p="M"/>
+        <płeć p="m"/>
         <waga jednostka="kg">50.8</waga>
         <długość_runa jednostka="mm">14.5</długość_runa>
         <opis>
           Elegancki samiec rasy owiec domowych.
         </opis>
-        <szybkość_marszu jednostka="m/s">10.2</szybkość_marszu>
-        <szybkość_zjadania_trawy jednostka="talerz/min">0.4</szybkość_zjadania_trawy>
+        <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
+        <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
       </owca>
       <owca>
         <id>2</id>
@@ -127,7 +121,7 @@
 
   <pastwisko>
     <nazwa>Dzikie Pole</nazwa>
-    <rasa identyfikator="O2" />
+    <rasa identyfikator="o02" />
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
       <owca>
@@ -161,8 +155,8 @@
 
   <pastwisko>
     <nazwa>Pole Huncwotów</nazwa>
-    <rasa identyfikator="O3" />
-    <powierzchnia jednostka="ha">100.8</powierzchnia>
+    <rasa identyfikator="o03" />
+    <po0wierzchnia jednostka="ha">100.8</powierzchnia>
     <stado>
       <owca>
         <id>1</id>
@@ -182,7 +176,7 @@
 
   <pastwisko>
     <nazwa>Alejka róż</nazwa>
-    <rasa identyfikator="O4" />
+    <rasa identyfikator="o04" />
     <powierzchnia jednostka="ha">400.8</powierzchnia>
     <stado>
       <owca>
@@ -229,7 +223,7 @@
 
   <pastwisko>
     <nazwa>Zielone pastwiska</nazwa>
-    <rasa identyfikator="O5" />
+    <rasa identyfikator="o05" />
     <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>
       <owca>
@@ -263,7 +257,7 @@
 
   <pastwisko>
     <nazwa>Radosna kraina</nazwa>
-    <rasa identyfikator="O6" />
+    <rasa identyfikator="o06" />
     <powierzchnia jednostka="ha">158.5</powierzchnia>
     <stado>
       <owca>
@@ -323,7 +317,7 @@
 
   <pastwisko>
     <nazwa>Tęczynki</nazwa>
-    <rasa identyfikator="07" />
+    <rasa identyfikator="o07" />
     <powierzchnia jednostka="ha">425.0</powierzchnia>
     <stado>
       <owca>
@@ -357,7 +351,7 @@
 
   <pastwisko>
     <nazwa>Teletubisie</nazwa>
-    <rasa identyfikator="09" />
+    <rasa identyfikator="o09" />
     <powierzchnia jednostka="ha">355.5</powierzchnia>
     <stado>
       <owca>
@@ -378,7 +372,7 @@
 
   <pastwisko>
     <nazwa>Florki nowe</nazwa>
-    <rasa identyfikator="10" />
+    <rasa identyfikator="o10" />
     <powierzchnia jednostka="ha">15.8</powierzchnia>
     <stado>
       <owca>
@@ -412,7 +406,7 @@
 
   <pastwisko>
     <nazwa>Cela 11</nazwa>
-    <rasa identyfikator="11" />
+    <rasa identyfikator="o11" />
     <powierzchnia jednostka="ha">145.7</powierzchnia>
     <stado>
       <owca>
@@ -433,7 +427,7 @@
 
   <pastwisko>
     <nazwa>Wolny kraj</nazwa>
-    <rasa identyfikator="12" />
+    <rasa identyfikator="o12" />
     <powierzchnia jednostka="ha">51.5</powierzchnia>
     <stado>
       <owca>
@@ -454,7 +448,7 @@
 
   <pastwisko>
     <nazwa>Przeludnienie</nazwa>
-    <rasa identyfikator="13" />
+    <rasa identyfikator="o13" />
     <powierzchnia jednostka="ha">100.2</powierzchnia>
     <stado>
       <owca>
@@ -501,7 +495,7 @@
 
   <pastwisko>
     <nazwa>Podwojona cena utrzymania</nazwa>
-    <rasa identyfikator="14" />
+    <rasa identyfikator="o14" />
     <powierzchnia jednostka="ha">1000.0</powierzchnia>
     <stado>
       <owca>
@@ -522,7 +516,7 @@
 
   <pastwisko>
     <nazwa>Kreatywność to podstawa</nazwa>
-    <rasa identyfikator="15" />
+    <rasa identyfikator="o15" />
     <powierzchnia jednostka="ha">515.5</powierzchnia>
     <stado>
       <owca>
@@ -556,7 +550,7 @@
 
   <pastwisko>
     <nazwa>Połowa</nazwa>
-    <rasa identyfikator="16" />
+    <rasa identyfikator="o16" />
     <powierzchnia jednostka="ha">16.8</powierzchnia>
     <stado>
       <owca>
@@ -577,7 +571,7 @@
 
   <pastwisko>
     <nazwa>Dolina zagłady</nazwa>
-    <rasa identyfikator="17" />
+    <rasa identyfikator="o17" />
     <powierzchnia jednostka="ha">666.6</powierzchnia>
     <stado>
       <owca>
@@ -598,7 +592,7 @@
 
   <pastwisko>
     <nazwa>Dorosłość</nazwa>
-    <rasa identyfikator="18" />
+    <rasa identyfikator="o18" />
     <powierzchnia jednostka="ha">301.5</powierzchnia>
     <stado>
       <owca>
@@ -645,7 +639,7 @@
 
   <pastwisko>
     <nazwa>Słodka kraina</nazwa>
-    <rasa identyfikator="19" />
+    <rasa identyfikator="o19" />
     <powierzchnia jednostka="ha">68.5</powierzchnia>
     <stado>
       <owca>

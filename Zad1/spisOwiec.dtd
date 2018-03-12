@@ -1,4 +1,4 @@
-<!ELEMENT spis_owiec (maile,nagłówek,lista_ras,pastwisko+)>
+<!ELEMENT spis_owiec (maile,nagłówek,lista_ras,definicja_płci,definicja_jednostek,pastwisko+)>
 <!ELEMENT maile (at,lista_domen)>
 <!ELEMENT at (#PCDATA)>
 <!ELEMENT lista_domen (definicja_domeny+)>
@@ -28,50 +28,65 @@
   		nazwa NMTOKENS #IMPLIED
   		identyfikator ID #REQUIRED>
 
-<!ELEMENT definicja_plci (k,m)>
-        <!ATTLIST definicja_plci
-			k NMTOKENS #IMPLIED
-			m NMTOKENS #IMPLIED>
+<!ELEMENT definicja_płci (k,m)>
+        <!ELEMENT k  (#PCDATA)>
+		<!ELEMENT m (#PCDATA)>
 
 
-<!ELEMENT definicja_jednostek (kg,dkg,funt,mm,cm,cal)>
-        <!ATTLIST definicja_jednostek
-        		kg NMTOKENS #IMPLIED
-            dkg NMTOKENS #IMPLIED
-            funt NMTOKENS #IMPLIED
-            mm NMTOKENS #IMPLIED
-            cm NMTOKENS #IMPLIED
-            cal NMTOKENS #IMPLIED
-            ms  NMTOKENS #IMPLIED
-            talerzmin NMTOKENS #IMPLIED
-            miskamin NMTOKENS #IMPLIED
-            wiadroh NMTOKENS #IMPLIED>
+<!ELEMENT definicja_jednostek (jednostka_szybkości, jednostki_wagowe, jednostki_długości, jednostki_posiłkowe, jednostki_powierzchniowe)>
+<!ELEMENT jednostka_szybkości (#PCDATA)>
+<!ELEMENT jednostki_wagowe EMPTY>
+<!ATTLIST jednostki_wagowe
+  		kg NMTOKENS #IMPLIED
+  		dkg NMTOKENS #IMPLIED
+  		funt NMTOKENS #IMPLIED>
+
+<!ELEMENT jednostki_długości EMPTY>
+<!ATTLIST jednostki_długości
+  		mm NMTOKENS #IMPLIED
+  		cm NMTOKENS #IMPLIED
+  		cal NMTOKENS #IMPLIED>
+  		
+<!ELEMENT jednostki_posiłkowe EMPTY>
+<!ATTLIST jednostki_posiłkowe
+  		talerzmin CDATA #IMPLIED
+  		miskamin CDATA #IMPLIED
+  		wiadroh CDATA #IMPLIED>
+
+<!ELEMENT jednostki_powierzchniowe EMPTY>
+<!ATTLIST jednostki_powierzchniowe
+  		ha NMTOKENS #IMPLIED
+  		ar NMTOKENS #IMPLIED
+  		m2 CDATA #IMPLIED>
+
+
 
 <!ELEMENT pastwisko (nazwa,rasa,powierzchnia,stado)>
 <!ELEMENT nazwa (#PCDATA)>
 <!ELEMENT rasa EMPTY>
-<!ATTLIST rasa kto IDREF #REQUIRED>
-<!ELEMENT powierzchnia (jednostka)>
+<!ATTLIST rasa identyfikator IDREF #REQUIRED>
+<!ELEMENT powierzchnia (#PCDATA)>
+<!ATTLIST powierzchnia jednostki_powierzchniowe (ha|ar|m2) #REQUIRED>
 
 <!ELEMENT stado (owca)+>
-<!ELEMENT owca (id,imię,data_ur,plec,waga,długość_runa,opis,
-                długość_runa,szybkość_zjadania_trawy)>
+<!ELEMENT owca (id,imię,data_urodzenia,płeć,waga,długość_runa,opis,
+                szybkość_marszu,szybkość_zjadania_trawy)>
 
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT imię (#PCDATA)>
-<!ELEMENT data_ur (#PCDATA)>
-<!ELEMENT płeć (p)>
+<!ELEMENT data_urodzenia (#PCDATA)>
+<!ELEMENT płeć EMPTY>
 <!ATTLIST płeć p (k|m) #REQUIRED>
 
-<!ELEMENT waga (jednostka)>
+<!ELEMENT waga (#PCDATA)>
 <!ATTLIST waga jednostka (kg|dkg|funt) #REQUIRED>
 
-<!ELEMENT długość_runa (jednostka)>
+<!ELEMENT długość_runa (#PCDATA)>
 <!ATTLIST długość_runa jednostka (mm|cm|cal) #REQUIRED>
 
 <!ELEMENT opis (#PCDATA)>
 
-<!ELEMENT szybkość_marszu (jednostka)>
+<!ELEMENT szybkość_marszu (#PCDATA)>
 <!ATTLIST szybkość_marszu jednostka (ms|kms|kmh) #REQUIRED>
 
 <!ELEMENT szybkość_zjadania_trawy (#PCDATA)>
