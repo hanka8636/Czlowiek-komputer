@@ -46,7 +46,7 @@
   		mm NMTOKENS #IMPLIED
   		cm NMTOKENS #IMPLIED
   		cal NMTOKENS #IMPLIED>
-  		
+
 <!ELEMENT jednostki_posiłkowe EMPTY>
 <!ATTLIST jednostki_posiłkowe
   		talerzmin CDATA #IMPLIED
@@ -61,14 +61,14 @@
 
 
 
-<!ELEMENT pastwisko (nazwa,rasa,powierzchnia,stado)>
+<!ELEMENT pastwisko (nazwa,powierzchnia,stado)>
 <!ELEMENT nazwa (#PCDATA)>
-<!ELEMENT rasa EMPTY>
-<!ATTLIST rasa identyfikator IDREF #REQUIRED>
 <!ELEMENT powierzchnia (#PCDATA)>
 <!ATTLIST powierzchnia jednostka (ha|ar|m2) #REQUIRED>
 
-<!ELEMENT stado (owca)+>
+<!ELEMENT stado (rasa,owca+)>
+<!ELEMENT rasa EMPTY>
+<!ATTLIST rasa identyfikator IDREF #REQUIRED>
 <!ELEMENT owca (id,imię,data_urodzenia,płeć,waga,długość_runa,opis,
                 szybkość_marszu,szybkość_zjadania_trawy)>
 

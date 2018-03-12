@@ -87,9 +87,9 @@
 
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
-    <rasa identyfikator="o01"/>
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o01"/>
       <owca>
         <id>1</id>
         <imię>Wafel</imię>
@@ -121,9 +121,9 @@
 
   <pastwisko>
     <nazwa>Dzikie Pole</nazwa>
-    <rasa identyfikator="o02" />
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o02" />
       <owca>
         <id>1</id>
         <imię>Zosia</imię>
@@ -155,9 +155,9 @@
 
   <pastwisko>
     <nazwa>Pole Huncwotów</nazwa>
-    <rasa identyfikator="o03" />
     <powierzchnia jednostka="ha">100.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o03" />
       <owca>
         <id>1</id>
         <imię>Rosół</imię>
@@ -176,9 +176,9 @@
 
   <pastwisko>
     <nazwa>Alejka róż</nazwa>
-    <rasa identyfikator="o04" />
     <powierzchnia jednostka="ha">400.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o04" />
       <owca>
         <id>1</id>
         <imię>Tropi</imię>
@@ -223,9 +223,9 @@
 
   <pastwisko>
     <nazwa>Zielone pastwiska</nazwa>
-    <rasa identyfikator="o05" />
     <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o05" />
       <owca>
         <id>1</id>
         <imię>Ludmiła</imię>
@@ -257,9 +257,9 @@
 
   <pastwisko>
     <nazwa>Radosna kraina</nazwa>
-    <rasa identyfikator="o06" />
     <powierzchnia jednostka="ha">158.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o06" />
       <owca>
         <id>1</id>
         <imię>Truskawa</imię>
@@ -369,9 +369,9 @@
 
   <pastwisko>
     <nazwa>Tęczynki</nazwa>
-    <rasa identyfikator="o07" />
     <powierzchnia jednostka="ha">425.0</powierzchnia>
     <stado>
+      <rasa identyfikator="o07" />
       <owca>
         <id>1</id>
         <imię>Czerwonek</imię>
@@ -403,9 +403,9 @@
 
   <pastwisko>
     <nazwa>Teletubisie</nazwa>
-    <rasa identyfikator="o09" />
     <powierzchnia jednostka="ha">355.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o09" />
       <owca>
         <id>1</id>
         <imię>Dipsy</imię>
@@ -424,9 +424,9 @@
 
   <pastwisko>
     <nazwa>Florki nowe</nazwa>
-    <rasa identyfikator="o10" />
     <powierzchnia jednostka="ha">15.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o10" />
       <owca>
         <id>1</id>
         <imię>Florek</imię>
@@ -458,9 +458,9 @@
 
   <pastwisko>
     <nazwa>Cela 11</nazwa>
-    <rasa identyfikator="o11" />
     <powierzchnia jednostka="ha">145.7</powierzchnia>
     <stado>
+      <rasa identyfikator="o11" />
       <owca>
         <id>1</id>
         <imię>Więzień</imię>
@@ -479,9 +479,9 @@
 
   <pastwisko>
     <nazwa>Wolny kraj</nazwa>
-    <rasa identyfikator="o12" />
     <powierzchnia jednostka="ha">51.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o12" />
       <owca>
         <id>1</id>
         <imię>Prezydent</imię>
@@ -500,9 +500,9 @@
 
   <pastwisko>
     <nazwa>Przeludnienie</nazwa>
-    <rasa identyfikator="o13" />
     <powierzchnia jednostka="ha">100.2</powierzchnia>
     <stado>
+      <rasa identyfikator="o13" />
       <owca>
         <id>1</id>
         <imię>Owca1</imię>
@@ -547,9 +547,9 @@
 
   <pastwisko>
     <nazwa>Podwojona cena utrzymania</nazwa>
-    <rasa identyfikator="o14" />
     <powierzchnia jednostka="ha">1000.0</powierzchnia>
     <stado>
+      <rasa identyfikator="o14" />
       <owca>
         <id>1</id>
         <imię>Bogaczka</imię>
@@ -568,9 +568,9 @@
 
   <pastwisko>
     <nazwa>Kreatywność to podstawa</nazwa>
-    <rasa identyfikator="o15" />
     <powierzchnia jednostka="ha">515.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o15" />
       <owca>
         <id>1</id>
         <imię>Mozart</imię>
@@ -602,9 +602,9 @@
 
   <pastwisko>
     <nazwa>Połowa</nazwa>
-    <rasa identyfikator="o16" />
     <powierzchnia jednostka="ha">16.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o16" />
       <owca>
         <id>1</id>
         <imię>Rodzynek</imię>
@@ -623,9 +623,9 @@
 
   <pastwisko>
     <nazwa>Dolina zagłady</nazwa>
-    <rasa identyfikator="o17" />
     <powierzchnia jednostka="ha">666.6</powierzchnia>
     <stado>
+      <rasa identyfikator="o17" />
       <owca>
         <id>1</id>
         <imię>Śmierć</imię>
@@ -644,9 +644,9 @@
 
   <pastwisko>
     <nazwa>Dorosłość</nazwa>
-    <rasa identyfikator="o18" />
     <powierzchnia jednostka="ha">301.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o18" />
       <owca>
         <id>1</id>
         <imię>Powaga</imię>
@@ -691,9 +691,9 @@
 
   <pastwisko>
     <nazwa>Słodka kraina</nazwa>
-    <rasa identyfikator="o19" />
     <powierzchnia jednostka="ha">68.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o19" />
       <owca>
         <id>1</id>
         <imię>Gorycz</imię>
@@ -712,9 +712,9 @@
 
   <pastwisko>
     <nazwa>Kraina raków</nazwa>
-    <rasa identyfikator="o20" />
     <powierzchnia jednostka="ha">322.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o20" />
       <owca>
         <id>1</id>
         <imię>Rak</imię>
@@ -733,9 +733,9 @@
 
   <pastwisko>
     <nazwa>Rodzinna atmosfera</nazwa>
-    <rasa identyfikator="o21" />
     <powierzchnia jednostka="ha">321.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o21" />
       <owca>
         <id>1</id>
         <imię>Samotnik</imię>
@@ -754,9 +754,9 @@
 
   <pastwisko>
     <nazwa>Słodka parka</nazwa>
-    <rasa identyfikator="o22" />
     <powierzchnia jednostka="ha">35.7</powierzchnia>
     <stado>
+      <rasa identyfikator="o22" />
       <owca>
         <id>1</id>
         <imię>Jacek</imię>
@@ -788,9 +788,9 @@
 
   <pastwisko>
     <nazwa>Miasto owiec</nazwa>
-    <rasa identyfikator="o23" />
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o23" />
       <owca>
         <id>1</id>
         <imię>Bob</imię>
@@ -809,9 +809,9 @@
 
   <pastwisko>
     <nazwa>Twoja kraina</nazwa>
-    <rasa identyfikator="o24" />
     <powierzchnia jednostka="ha">545.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o24" />
       <owca>
         <id>1</id>
         <imię>Właściciel</imię>
@@ -843,9 +843,9 @@
 
   <pastwisko>
     <nazwa>Testujemy na ludziach</nazwa>
-    <rasa identyfikator="o25" />
     <powierzchnia jednostka="ha">452.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o25" />
       <owca>
         <id>1</id>
         <imię>Testerka</imię>
@@ -864,9 +864,9 @@
 
   <pastwisko>
     <nazwa>Owocki</nazwa>
-    <rasa identyfikator="o26" />
     <powierzchnia jednostka="ha">12.7</powierzchnia>
     <stado>
+      <rasa identyfikator="o26" />
       <owca>
         <id>1</id>
         <imię>Kiwi</imię>
@@ -898,9 +898,9 @@
 
   <pastwisko>
     <nazwa>Czysto tu</nazwa>
-    <rasa identyfikator="o27" />
     <powierzchnia jednostka="ha">32.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o27" />
       <owca>
         <id>1</id>
         <imię>Pedant</imię>
@@ -919,9 +919,9 @@
 
   <pastwisko>
     <nazwa>Nizina</nazwa>
-    <rasa identyfikator="o28" />
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
+      <rasa identyfikator="o28" />
       <owca>
         <id>1</id>
         <imię>Depresja</imię>
@@ -940,9 +940,9 @@
 
   <pastwisko>
     <nazwa>Wolność i niezależność</nazwa>
-    <rasa identyfikator="o29" />
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
+      <rasa identyfikator="o29" />
       <owca>
         <id>1</id>
         <imię>Wolność</imię>
@@ -974,9 +974,9 @@
 
   <pastwisko>
     <nazwa>Nowy świat</nazwa>
-    <rasa identyfikator="o30" />
     <powierzchnia jednostka="ha">12.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o30" />
       <owca>
         <id>1</id>
         <imię>Arka</imię>
@@ -995,9 +995,9 @@
 
   <pastwisko>
     <nazwa>Mamy telewizję</nazwa>
-    <rasa identyfikator="o31" />
     <powierzchnia jednostka="ha">21.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o31" />
       <owca>
         <id>1</id>
         <imię>Fan</imię>
@@ -1016,9 +1016,9 @@
 
   <pastwisko>
     <nazwa>Gamerzy</nazwa>
-    <rasa identyfikator="o32" />
     <powierzchnia jednostka="ha">3135.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o32" />
       <owca>
         <id>1</id>
         <imię>Gracz1</imię>
@@ -1050,9 +1050,9 @@
 
   <pastwisko>
     <nazwa>Programiści</nazwa>
-    <rasa identyfikator="o33" />
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
+      <rasa identyfikator="o33" />
       <owca>
         <id>1</id>
         <imię>Koder</imię>
@@ -1071,9 +1071,9 @@
 
   <pastwisko>
     <nazwa>Nowe pole</nazwa>
-    <rasa identyfikator="o34" />
     <powierzchnia jednostka="ha">325.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o34" />
       <owca>
         <id>1</id>
         <imię>Tadzio</imię>
@@ -1092,9 +1092,9 @@
 
   <pastwisko>
     <nazwa>Ostatnia szansa</nazwa>
-    <rasa identyfikator="o35" />
     <powierzchnia jednostka="ha">155.8</powierzchnia>
     <stado>
+      <rasa identyfikator="o35" />
       <owca>
         <id>1</id>
         <imię>Miodzio</imię>

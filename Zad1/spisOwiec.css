@@ -113,18 +113,259 @@ powierzchnia[jednostka]::after {
   font-size: 30px;
 }
 
-stado:before {
+/* stado:before {
   content: "Stado";
   display: block;
 	text-align: center;
   color: #ffffff;
   font-size: 20pt;
 }
-
+*/
 stado {
 	display: block;
 	border-radius: 10px;
 	background-color: #689b50;
+}
+rasa[identyfikator=o01]:before {
+  content: "Stado rasy Białogłowa Owca Mięsna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+
+rasa[identyfikator=o02]:before {
+  content: "Stado rasy Corriedale";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o03]:before {
+  content: "Stado rasy Dorset Horn";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o04]:before {
+  content: "Stado rasy Owca Fryzyjska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o05]:before {
+  content: "Stado rasy Ile de france";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o06]:before {
+  content: "Stado rasy Kamieniecka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o07]:before {
+  content: "Stado rasy Leine";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o08]:before {
+  content: "Stado rasy Merynos Polski";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o09]:before {
+  content: "Stado rasy Polski odmiana barwna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o10]:before {
+  content: "Stado rasy Mouton charollaise";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o11]:before {
+  content: "Stado rasy Odmiana barwna polskiej owcy górskiej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o12]:before {
+  content: "Stado rasy Odmiana owcy Dorset";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o13]:before {
+  content: "Stado rasy Olkuska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o14]:before {
+  content: "Stado rasy Owca plenna 09";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o15]:before {
+  content: "Stado rasy Owca plenno-mięsna 08";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o16]:before {
+  content: "Stado rasy Polska owca górska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o17]:before {
+  content: "Stado rasy Polska owca nizinna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o18]:before {
+  content: "Stado rasy Polska owca pogórza";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o19]:before {
+  content: "Stado rasy Pomorska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o20]:before {
+  content: "Stado rasy Romanowska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o21]:before {
+  content: "Stado rasy Suffolk";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o22]:before {
+  content: "Stado rasy Świniarka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o23]:before {
+  content: "Stado rasy Texel";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o24]:before {
+  content: "Stado rasy Odmiana Uhruska polskiej owcy nizinnej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o25]:before {
+  content: "Stado rasy Wielkopolska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o26]:before {
+  content: "Stado rasy Wrzosówka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o27]:before {
+  content: "Stado rasy Odmiana żelaźnieńska polskiej owcy nizinnej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o28]:before {
+  content: "Stado rasy Owca kołudzka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o29]:before {
+  content: "Stado rasy Owca SCP";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o30]:before {
+  content: "Stado rasy Owca BCP";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o31]:before {
+  content: "Stado rasy Berrichon du cher";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o32]:before {
+  content: "Stado rasy Biała masywu centralnego";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o33]:before {
+  content: "Stado rasy Cakiel podhalański";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o34]:before {
+  content: "Stado rasy Merynos polski w starym typie";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o35]:before {
+  content: "Stado rasy Czarnogłówka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
 }
 
 owca:before {
@@ -229,8 +470,8 @@ owca szybkość_marszu {
 	display: block;
 }
 
-owca szybkość_marszu[jednostka]::after {
-	content: attr(jednostka);
+owca szybkość_marszu[jednostka=ms]::after {
+	content: "m/s";
 }
 
 owca szybkość_zjadania_trawy::before {
@@ -241,6 +482,13 @@ owca szybkość_zjadania_trawy {
 	display: block;
 }
 
-owca szybkość_zjadania_trawy[jednostka]::after {
-	content: attr(jednostka);
+owca szybkość_zjadania_trawy[jednostka=talerzmin]::after {
+	content: "talerz/min";
+}
+owca szybkość_zjadania_trawy[jednostka=miskamin]::after {
+	content: "miska/min";
+}
+owca szybkość_zjadania_trawy[jednostka=wiadroh]::after {
+  margin-left:
+  content: "wiadro/h";
 }
