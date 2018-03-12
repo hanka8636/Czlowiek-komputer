@@ -1,71 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="spisOwiec.css"?>
-<!DOCTYPE plany SYSTEM "spisOwiec.dtd" [] >
+<!DOCTYPE spis_owiec SYSTEM "spisOwiec.dtd" [] >
 <spis_owiec>
+  <maile>
+      <at>@</at>
+      <lista_domen>
+          <definicja_domeny>edu.p.lodz.pl</definicja_domeny>
+          <definicja_domeny>p.lodz.pl</definicja_domeny>
+          <definicja_domeny>info.p.lodz.pl</definicja_domeny>
+      </lista_domen>
+  </maile>
 
   <nagłówek>
     <data_modyfikacji>2018-03-10</data_modyfikacji>
     <autorzy>
-      <autor>
-        <imię>Hanna</imię>
+      <autor album="203962">
+        <imię_autora>Hanna</imię_autora>
         <nazwisko>Paluszkiewicz</nazwisko>
-        <album>203962</album>
         <mail>
-          <alias album="203962"/>
+          <alias>203962</alias>
           <znak>@</znak>
-          <domena>edu.p.lodz.pl</domena>
+          <domena definicja_domeny="edu.p.lodz.pl"/>
           </mail>
       </autor>
-      <autor>
-        <imię>Aneta</imię>
+      <autor album="204029">
+        <imię_autora>Aneta</imię_autora>
         <nazwisko>Wiśniewska</nazwisko>
-        <album> 204029</album>
         <mail>
-          <alias album="204029"/>
+          <alias>204029</alias>
           <znak>@</znak>
-          <domena>edu.p.lodz.pl</domena>
+          <domena definicja_domeny="edu.p.lodz.pl"/>
           </mail>
       </autor>
     </autorzy>
   </nagłówek>
 
   <lista_ras>
-    <definicja_rasy nazwa="Białogłowa Owca Mięsna" identyfikator="O1"/>
-    <definicja_rasy nazwa="Corriedale" identyfikator="O2"/>
-    <definicja_rasy nazwa="Dorset Horn" identyfikator="O3"/>
-    <definicja_rasy nazwa="Owca Fryzyjska" identyfikator="O4"/>
-    <definicja_rasy nazwa="Ile de france" identyfikator="O5"/>
-    <definicja_rasy nazwa="Kamieniecka" identyfikator="O6"/>
-    <definicja_rasy nazwa="Leine" identyfikator="O7"/>
-    <definicja_rasy nazwa="Merynos Polski" identyfikator="O8"/>
-    <definicja_rasy nazwa="Merynos Polski odmiana barwna" identyfikator="O9"/>
-    <definicja_rasy nazwa="Mouton charollaise" identyfikator="10"/>
-    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" identyfikator="11"/>
-    <definicja_rasy nazwa="Odmiana owcy Dorset" identyfikator="12"/>
-    <definicja_rasy nazwa="Olkuska" identyfikator="13"/>
-    <definicja_rasy nazwa="Owca plenna 09" identyfikator="14"/>
-    <definicja_rasy nazwa="Owca plenno-mięsna 08" identyfikator="15"/>
-    <definicja_rasy nazwa="Polska owca górska" identyfikator="16"/>
-    <definicja_rasy nazwa="Polska owca nizinna" identyfikator="17"/>
-    <definicja_rasy nazwa="Polska owca pogórza" identyfikator="18"/>
-    <definicja_rasy nazwa="Pomorska" identyfikator="19"/>
-    <definicja_rasy nazwa="Romanowska" identyfikator="20"/>
-    <definicja_rasy nazwa="Suffolk" identyfikator="21"/>
-    <definicja_rasy nazwa="Świniarka" identyfikator="22"/>
-    <definicja_rasy nazwa="Texel" identyfikator="23"/>
-    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" identyfikator="24"/>
-    <definicja_rasy nazwa="Wielkopolska" identyfikator="25"/>
-    <definicja_rasy nazwa="Wrzosówka" identyfikator="26"/>
-    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" identyfikator="27"/>
-    <definicja_rasy nazwa="Owca kołudzka" identyfikator="28"/>
-    <definicja_rasy nazwa="Owca SCP" identyfikator="29"/>
-    <definicja_rasy nazwa="Owca BCP" identyfikator="30"/>
-    <definicja_rasy nazwa="Berrichon du cher" identyfikator="31"/>
-    <definicja_rasy nazwa="Biała masywu centralnego" identyfikator="32"/>
-    <definicja_rasy nazwa="Cakiel podhalański" identyfikator="33"/>
-    <definicja_rasy nazwa="Merynos polski w starym typie" identyfikator="34"/>
-    <definicja_rasy nazwa="Czarnogłówka" identyfikator="35"/>
+    <definicja_rasy nazwa="Białogłowa Owca Mięsna" identyfikator="o01"/>
+    <definicja_rasy nazwa="Corriedale" identyfikator="o02"/>
+    <definicja_rasy nazwa="Dorset Horn" identyfikator="o03"/>
+    <definicja_rasy nazwa="Owca Fryzyjska" identyfikator="o04"/>
+    <definicja_rasy nazwa="Ile de france" identyfikator="o05"/>
+    <definicja_rasy nazwa="Kamieniecka" identyfikator="o06"/>
+    <definicja_rasy nazwa="Leine" identyfikator="o07"/>
+    <definicja_rasy nazwa="Merynos Polski" identyfikator="o08"/>
+    <definicja_rasy nazwa="Merynos Polski odmiana barwna" identyfikator="o09"/>
+    <definicja_rasy nazwa="Mouton charollaise" identyfikator="o10"/>
+    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" identyfikator="o11"/>
+    <definicja_rasy nazwa="Odmiana owcy Dorset" identyfikator="o12"/>
+    <definicja_rasy nazwa="Olkuska" identyfikator="o13"/>
+    <definicja_rasy nazwa="Owca plenna 09" identyfikator="o14"/>
+    <definicja_rasy nazwa="Owca plenno-mięsna 08" identyfikator="o15"/>
+    <definicja_rasy nazwa="Polska owca górska" identyfikator="o16"/>
+    <definicja_rasy nazwa="Polska owca nizinna" identyfikator="o17"/>
+    <definicja_rasy nazwa="Polska owca pogórza" identyfikator="o18"/>
+    <definicja_rasy nazwa="Pomorska" identyfikator="o19"/>
+    <definicja_rasy nazwa="Romanowska" identyfikator="o20"/>
+    <definicja_rasy nazwa="Suffolk" identyfikator="o21"/>
+    <definicja_rasy nazwa="Świniarka" identyfikator="o22"/>
+    <definicja_rasy nazwa="Texel" identyfikator="o23"/>
+    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" identyfikator="o24"/>
+    <definicja_rasy nazwa="Wielkopolska" identyfikator="o25"/>
+    <definicja_rasy nazwa="Wrzosówka" identyfikator="o26"/>
+    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" identyfikator="o27"/>
+    <definicja_rasy nazwa="Owca kołudzka" identyfikator="o28"/>
+    <definicja_rasy nazwa="Owca SCP" identyfikator="o29"/>
+    <definicja_rasy nazwa="Owca BCP" identyfikator="o30"/>
+    <definicja_rasy nazwa="Berrichon du cher" identyfikator="o31"/>
+    <definicja_rasy nazwa="Biała masywu centralnego" identyfikator="o32"/>
+    <definicja_rasy nazwa="Cakiel podhalański" identyfikator="o33"/>
+    <definicja_rasy nazwa="Merynos polski w starym typie" identyfikator="o34"/>
+    <definicja_rasy nazwa="Czarnogłówka" identyfikator="o35"/>
   </lista_ras>
+
+  <k>K</k>
+  <m>M</m>
+<definicja_jednostek>
+  <kg>kg</kg>
+  <dkg>dkg</dkg>
+  <funt>funt</funt>
+
+  <mm>mm</mm>
+  <cm>cm</cm>
+  <cal>cal</cal>
+
+  <ms>m/s</ms>
+  <talerzmin>talerz/min</talerzmin>
+  <miskamin>miska/min</miskamin>
+  <wiadroh>wiadro/h</wiadroh>
+
+</definicja_jednostek>
 
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
@@ -76,7 +100,7 @@
         <id>1</id>
         <imię>Wafel</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">50.8</waga>
         <długość_runa jednostka="mm">14.5</długość_runa>
         <opis>
@@ -89,7 +113,7 @@
         <id>2</id>
         <imię>Masnfred</imię>
         <data_urodzenia>2012-09-22</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">50.1</waga>
         <długość_runa jednostka="mm">12.3</długość_runa>
         <opis>
@@ -110,7 +134,7 @@
         <id>1</id>
         <imię>Zosia</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">29.8</waga>
         <długość_runa jednostka="mm">38.5</długość_runa>
         <opis>
@@ -123,7 +147,7 @@
         <id>2</id>
         <imię>Pizza</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">60.8</waga>
         <długość_runa jednostka="mm">12.3</długość_runa>
         <opis>
@@ -144,7 +168,7 @@
         <id>1</id>
         <imię>Rosół</imię>
         <data_urodzenia>2012-07-10</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">47.8</waga>
         <długość_runa jednostka="mm">2.5</długość_runa>
         <opis>
@@ -165,7 +189,7 @@
         <id>1</id>
         <imię>Tropi</imię>
         <data_urodzenia>2003-11-13</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">28.8</waga>
         <długość_runa jednostka="mm">11.5</długość_runa>
         <opis>
@@ -178,7 +202,7 @@
         <id>2</id>
         <imię>Tupi</imię>
         <data_urodzenia>2007-02-01</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">52.8</waga>
         <długość_runa jednostka="mm">18.3</długość_runa>
         <opis>
@@ -191,7 +215,7 @@
         <id>3</id>
         <imię>Tuli</imię>
         <data_urodzenia>2010-01-15</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">15.8</waga>
         <długość_runa jednostka="mm">10.5</długość_runa>
         <opis>
@@ -212,7 +236,7 @@
         <id>1</id>
         <imię>Ludmiła</imię>
         <data_urodzenia>2012-09-04</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">100.8</waga>
         <długość_runa jednostka="mm">14.5</długość_runa>
         <opis>
@@ -225,7 +249,7 @@
         <id>2</id>
         <imię>Bernard</imię>
         <data_urodzenia>2008-12-24</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">27.8</waga>
         <długość_runa jednostka="mm">12.3</długość_runa>
         <opis>
@@ -246,7 +270,7 @@
         <id>1</id>
         <imię>Truskawa</imię>
         <data_urodzenia>2010-09-10</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">47.2</waga>
         <długość_runa jednostka="mm">18.6</długość_runa>
         <opis>
@@ -259,7 +283,7 @@
         <id>2</id>
         <imię>Pomarańczka</imię>
         <data_urodzenia>2013-12-31</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">16.9</waga>
         <długość_runa jednostka="mm">15.8</długość_runa>
         <opis>
@@ -272,7 +296,7 @@
         <id>3</id>
         <imię>Kwas</imię>
         <data_urodzenia>2001-12-10</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">16.5</waga>
         <długość_runa jednostka="mm">25.5</długość_runa>
         <opis>
@@ -285,7 +309,7 @@
         <id>4</id>
         <imię>Mucha</imię>
         <data_urodzenia>1996-11-10</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">3.5</waga>
         <długość_runa jednostka="mm">30.5</długość_runa>
         <opis>
@@ -306,7 +330,7 @@
         <id>1</id>
         <imię>Czerwonek</imię>
         <data_urodzenia>1999-04-02</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">15.7</waga>
         <długość_runa jednostka="mm">32.6</długość_runa>
         <opis>
@@ -319,7 +343,7 @@
         <id>2</id>
         <imię>Zielonek</imię>
         <data_urodzenia>1999-02-10</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">52.7</waga>
         <długość_runa jednostka="mm">65.6</długość_runa>
         <opis>
@@ -340,7 +364,7 @@
         <id>1</id>
         <imię>Dipsy</imię>
         <data_urodzenia>1980-05-25</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg"></waga>
         <długość_runa jednostka="mm"></długość_runa>
         <opis>
@@ -361,7 +385,7 @@
         <id>1</id>
         <imię>Florek</imię>
         <data_urodzenia>1998-06-14</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">54.5</waga>
         <długość_runa jednostka="mm">15.5</długość_runa>
         <opis>
@@ -374,7 +398,7 @@
         <id>2</id>
         <imię>Florka</imię>
         <data_urodzenia>1998-06-14</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">25.5</waga>
         <długość_runa jednostka="mm">4.5</długość_runa>
         <opis>
@@ -395,7 +419,7 @@
         <id>1</id>
         <imię>Więzień</imię>
         <data_urodzenia>2001-12-25</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">100.5</waga>
         <długość_runa jednostka="mm">100.5</długość_runa>
         <opis>
@@ -416,7 +440,7 @@
         <id>1</id>
         <imię>Prezydent</imię>
         <data_urodzenia>2005-03-02</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">13.5</waga>
         <długość_runa jednostka="mm">5.5</długość_runa>
         <opis>
@@ -437,7 +461,7 @@
         <id>1</id>
         <imię>Owca1</imię>
         <data_urodzenia>2003-05-13</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">61.5</waga>
         <długość_runa jednostka="mm">31.5</długość_runa>
         <opis>
@@ -450,7 +474,7 @@
         <id>2</id>
         <imię>Owca2</imię>
         <data_urodzenia>2003-05-15</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">65.5</waga>
         <długość_runa jednostka="mm">15.5</długość_runa>
         <opis>
@@ -463,7 +487,7 @@
         <id>3</id>
         <imię>Tadek</imię>
         <data_urodzenia>2003-03-03</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">64.5</waga>
         <długość_runa jednostka="mm">31.7</długość_runa>
         <opis>
@@ -484,7 +508,7 @@
         <id>1</id>
         <imię>Bogaczka</imię>
         <data_urodzenia>2000-06-10</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">44.6</waga>
         <długość_runa jednostka="mm">54512.5</długość_runa>
         <opis>
@@ -505,7 +529,7 @@
         <id>1</id>
         <imię>Mozart</imię>
         <data_urodzenia>1980-03-04</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">62.5</waga>
         <długość_runa jednostka="mm">51.5</długość_runa>
         <opis>
@@ -518,7 +542,7 @@
         <id>2</id>
         <imię>Van Goh</imię>
         <data_urodzenia>1995-09-25</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">15.5</waga>
         <długość_runa jednostka="mm">65.5</długość_runa>
         <opis>
@@ -539,7 +563,7 @@
         <id>1</id>
         <imię>Rodzynek</imię>
         <data_urodzenia>2001-08-03</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">16.2</waga>
         <długość_runa jednostka="mm">23.3</długość_runa>
         <opis>
@@ -560,7 +584,7 @@
         <id>1</id>
         <imię>Śmierć</imię>
         <data_urodzenia>1999-06-19</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">16.2</waga>
         <długość_runa jednostka="mm">25.5</długość_runa>
         <opis>
@@ -581,7 +605,7 @@
         <id>1</id>
         <imię>Powaga</imię>
         <data_urodzenia>2006-03-28</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">30.2</waga>
         <długość_runa jednostka="mm">10.5</długość_runa>
         <opis>
@@ -594,7 +618,7 @@
         <id>2</id>
         <imię>Nadzieja</imię>
         <data_urodzenia>2011-06-10</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">32.2</waga>
         <długość_runa jednostka="mm">12.8</długość_runa>
         <opis>
@@ -607,7 +631,7 @@
         <id>3</id>
         <imię>Miłość</imię>
         <data_urodzenia>2003-02-14</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">23.2</waga>
         <długość_runa jednostka="mm">16.5</długość_runa>
         <opis>
@@ -628,7 +652,7 @@
         <id>1</id>
         <imię>Gorycz</imię>
         <data_urodzenia>2016-12-9</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">64.5</waga>
         <długość_runa jednostka="mm">31.5</długość_runa>
         <opis>
@@ -649,7 +673,7 @@
         <id>1</id>
         <imię>Rak</imię>
         <data_urodzenia>2001-05-16</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">35.2</waga>
         <długość_runa jednostka="mm">35.5</długość_runa>
         <opis>
@@ -670,7 +694,7 @@
         <id>1</id>
         <imię>Samotnik</imię>
         <data_urodzenia>2003-05-10</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">6.2</waga>
         <długość_runa jednostka="mm">32.5</długość_runa>
         <opis>
@@ -691,7 +715,7 @@
         <id>1</id>
         <imię>Jacek</imię>
         <data_urodzenia>2001-03-08</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">354.4</waga>
         <długość_runa jednostka="mm">53.5</długość_runa>
         <opis>
@@ -725,7 +749,7 @@
         <id>1</id>
         <imię>Bob</imię>
         <data_urodzenia>2005-08-06</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">46.6</waga>
         <długość_runa jednostka="mm">654.7</długość_runa>
         <opis>
@@ -746,7 +770,7 @@
         <id>1</id>
         <imię>Właściciel</imię>
         <data_urodzenia>1998-12-08</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">55.5</waga>
         <długość_runa jednostka="mm">252.5</długość_runa>
         <opis>
@@ -759,7 +783,7 @@
         <id>2</id>
         <imię>Sprzątacz</imię>
         <data_urodzenia>2003-11-30</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">36.8</waga>
         <długość_runa jednostka="mm">14.8</długość_runa>
         <opis>
@@ -780,7 +804,7 @@
         <id>1</id>
         <imię>Testerka</imię>
         <data_urodzenia>2001-02-25</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">54.7</waga>
         <długość_runa jednostka="mm">87.5</długość_runa>
         <opis>
@@ -801,7 +825,7 @@
         <id>1</id>
         <imię>Kiwi</imię>
         <data_urodzenia>2015-07-15</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">65.8</waga>
         <długość_runa jednostka="mm">54.9</długość_runa>
         <opis>
@@ -814,7 +838,7 @@
         <id>2</id>
         <imię>Morela</imię>
         <data_urodzenia>2015-07-15</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">26.8</waga>
         <długość_runa jednostka="mm">61.5</długość_runa>
         <opis>
@@ -835,7 +859,7 @@
         <id>1</id>
         <imię>Pedant</imię>
         <data_urodzenia>2003-04-30</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">15.5</waga>
         <długość_runa jednostka="mm">215.</długość_runa>
         <opis>
@@ -856,7 +880,7 @@
         <id>1</id>
         <imię>Depresja</imię>
         <data_urodzenia>2001-06-20</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">15.8</waga>
         <długość_runa jednostka="mm">16.8</długość_runa>
         <opis>
@@ -877,7 +901,7 @@
         <id>1</id>
         <imię>Wolność</imię>
         <data_urodzenia>2014-02-03</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">32.4</waga>
         <długość_runa jednostka="mm">32.7</długość_runa>
         <opis>
@@ -890,7 +914,7 @@
         <id>2</id>
         <imię>Niezależność</imię>
         <data_urodzenia>2015-06-23</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">35.8</waga>
         <długość_runa jednostka="mm">14.8</długość_runa>
         <opis>
@@ -911,7 +935,7 @@
         <id>1</id>
         <imię>Arka</imię>
         <data_urodzenia>2012-08-30</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">153.8</waga>
         <długość_runa jednostka="mm">51.5</długość_runa>
         <opis>
@@ -932,7 +956,7 @@
         <id>1</id>
         <imię>Fan</imię>
         <data_urodzenia>2001-12-03</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">16.8</waga>
         <długość_runa jednostka="mm">5.8</długość_runa>
         <opis>
@@ -953,7 +977,7 @@
         <id>1</id>
         <imię>Gracz1</imię>
         <data_urodzenia>2015-12-03</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">45.8</waga>
         <długość_runa jednostka="mm">32.4</długość_runa>
         <opis>
@@ -966,7 +990,7 @@
         <id>2</id>
         <imię>Gracz2</imię>
         <data_urodzenia>2015-12-03</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">32.8</waga>
         <długość_runa jednostka="mm">15.4</długość_runa>
         <opis>
@@ -987,7 +1011,7 @@
         <id>1</id>
         <imię>Koder</imię>
         <data_urodzenia>2009-09-19</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">36.8</waga>
         <długość_runa jednostka="mm">32.7</długość_runa>
         <opis>
@@ -1008,7 +1032,7 @@
         <id>1</id>
         <imię>Tadzio</imię>
         <data_urodzenia>2003-06-24</data_urodzenia>
-        <płeć>M</płeć>
+        <płeć p="M"/>
         <waga jednostka="kg">64.7</waga>
         <długość_runa jednostka="mm">25.7</długość_runa>
         <opis>
@@ -1029,7 +1053,7 @@
         <id>1</id>
         <imię>Miodzio</imię>
         <data_urodzenia>2009-03-14</data_urodzenia>
-        <płeć>K</płeć>
+        <płeć p="K"/>
         <waga jednostka="kg">16.8</waga>
         <długość_runa jednostka="mm">36.4</długość_runa>
         <opis>
