@@ -381,6 +381,13 @@ owca {
 	padding: 5px 5px 5px 5px;
 }
 
+owca * {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
 owca id {
 	display: none;
 }
