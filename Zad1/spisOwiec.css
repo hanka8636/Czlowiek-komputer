@@ -426,7 +426,7 @@ owca waga {
 
 owca waga[jednostka]::after {
 	content: attr(jednostka);
-  padding-left: 2px;
+  padding-left: 4px;
 }
 
 owca długość_runa::before {
@@ -440,7 +440,7 @@ owca długość_runa {
 
 owca długość_runa[jednostka]::after {
 	content: attr(jednostka);
-  padding-left: 2px;
+  padding-left: 4px;
 }
 
 owca opis::before {
@@ -462,15 +462,18 @@ owca szybkość_marszu {
 }
 
 owca szybkość_marszu[jednostka=kms]::after {
-	content: " km/s";
+	content: "km/s";
+    padding-left: 4px;
 }
 
 owca szybkość_marszu[jednostka=ms]::after {
-	content: " m/s";
+	content: "m/s";
+    padding-left: 4px;
 }
 
 owca szybkość_marszu[jednostka=kmh]::after {
-	content: " km/s";
+	content: "km/s";
+    padding-left: 4px;
 }
 
 owca szybkość_zjadania_trawy::before {
@@ -483,13 +486,16 @@ owca szybkość_zjadania_trawy {
 }
 
 owca szybkość_zjadania_trawy[jednostka=talerzmin]::after {
-	content: " talerz/min";
+	content: "talerz/min";
+    padding-left: 4px;
 }
 
 owca szybkość_zjadania_trawy[jednostka=miskamin]::after {
-	content: " miska/min";
+	content: "miska/min";
+    padding-left: 4px;
 }
 
 owca szybkość_zjadania_trawy[jednostka=wiadroh]::after {
-	content: " wiadro/h";
+	content: "wiadro/h";
+    padding-left: 4px;
 }
