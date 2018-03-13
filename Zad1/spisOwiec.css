@@ -7,10 +7,6 @@ spis_owiec {
   font-family: "DejaVu Sans", sans-serif;
 }
 
-maile {
-  display: none;
-}
-
 nagłówek {
   display: block;
   font-size: 150%;
@@ -57,18 +53,8 @@ nagłówek autor>mail>domena[definicja_domeny]::after {
 nagłówek autor>mail, nagłówek autor>album {
   font-size: 80%;
   display: list-item;
-  ;
   list-style: square;
   margin-left: 50px;
-}
-
-definicja_płci {
-  display: none;
-}
-
-definicja_jednostek {
-  display: none;
-
 }
 
 pastwisko:before {
@@ -114,20 +100,13 @@ powierzchnia[jednostka]::after {
   font-size: 30px;
 }
 
-/* stado:before {
-  content: "Stado";
-  display: block;
-	text-align: center;
-  color: #ffffff;
-  font-size: 20pt;
-}
-*/
 stado {
 	display: block;
 	border-radius: 10px;
   padding: 6px 5px 5px 5px;
 	background-color: #689b50;
 }
+
 rasa[identyfikator=o01]:before {
   content: "Stado rasy Białogłowa Owca Mięsna";
   display: block;
@@ -135,7 +114,6 @@ rasa[identyfikator=o01]:before {
   color: #ffffff;
   font-size: 20pt;
 }
-
 rasa[identyfikator=o02]:before {
   content: "Stado rasy Corriedale";
   display: block;
@@ -381,6 +359,7 @@ owca:before {
   font-size: 15pt;
 
 }
+
 owca imię {
 	display: block;
   margin: -6px -6px 0 -6px;
@@ -398,7 +377,7 @@ owca {
 	border-radius: 10px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #009933;
+	border-color: #203019;
 	padding: 5px 5px 5px 5px;
 }
 
@@ -406,21 +385,6 @@ owca id {
 	display: none;
 }
 
-/*owca imię::before {
-	content: "Imię: ";
-	font-weight: bold;
-}
-
-owca imię {
-	display: block;
-	background-color: #ffffff;
-	transition: background-color 1s;
-}
-
-owca imię:hover {
-	background-color: #a8a8a8;
-}
-*/
 owca data_urodzenia::before {
 	content: "Data urodzenia: ";
   font-weight: bold;
@@ -428,7 +392,6 @@ owca data_urodzenia::before {
 
 owca data_urodzenia {
 	display: block;
-
 }
 
 owca płeć::before {
