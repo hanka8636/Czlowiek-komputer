@@ -6,7 +6,7 @@
 <!ELEMENT autorzy (autor)+>
 <!ELEMENT autor (imię_autora,nazwisko,mail)>
 <!ATTLIST autor
-  		album NMTOKEN #IMPLIED>
+  		album CDATA #IMPLIED>
 <!ELEMENT imię_autora (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)>
 
@@ -19,7 +19,7 @@
 <!ELEMENT lista_ras (definicja_rasy)+>
   <!ELEMENT definicja_rasy EMPTY>
   <!ATTLIST definicja_rasy
-  		nazwa NMTOKENS #IMPLIED
+  		nazwa CDATA #IMPLIED
   		identyfikator ID #REQUIRED>
 
 
