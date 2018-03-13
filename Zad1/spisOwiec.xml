@@ -70,8 +70,8 @@
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
       <rasa identyfikator="o01"/>
-      <owca>
-        <id>1</id>
+      <owca id="ow1">
+
         <imię>Wafel</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
         <płeć p="m"/>
@@ -83,8 +83,8 @@
         <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow2">
+
         <imię>Masnfred</imię>
         <data_urodzenia>2012-09-22</data_urodzenia>
         <płeć p="m"/>
@@ -104,8 +104,8 @@
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
       <rasa identyfikator="o02" />
-      <owca>
-        <id>1</id>
+      <owca id="ow3">
+
         <imię>Zosia</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
         <płeć p="k"/>
@@ -117,8 +117,8 @@
         <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow4">
+
         <imię>Pizza</imię>
         <data_urodzenia>2002-09-24</data_urodzenia>
         <płeć p="m"/>
@@ -138,8 +138,8 @@
     <powierzchnia jednostka="ha">100.8</powierzchnia>
     <stado>
       <rasa identyfikator="o03" />
-      <owca>
-        <id>1</id>
+      <owca id="ow5">
+
         <imię>Rosół</imię>
         <data_urodzenia>2012-07-10</data_urodzenia>
         <płeć p="m"/>
@@ -159,8 +159,8 @@
     <powierzchnia jednostka="ha">400.8</powierzchnia>
     <stado>
       <rasa identyfikator="o04" />
-      <owca>
-        <id>1</id>
+      <owca id="ow6">
+
         <imię>Tropi</imię>
         <data_urodzenia>2003-11-13</data_urodzenia>
         <płeć p="m"/>
@@ -172,8 +172,8 @@
         <szybkość_marszu jednostka="ms">5.2</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">1.0</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow7">
+
         <imię>Tupi</imię>
         <data_urodzenia>2007-02-01</data_urodzenia>
         <płeć p="m"/>
@@ -185,8 +185,8 @@
         <szybkość_marszu jednostka="ms">28.1</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>3</id>
+      <owca id="ow8">
+
         <imię>Tuli</imię>
         <data_urodzenia>2010-01-15</data_urodzenia>
         <płeć p="m"/>
@@ -206,8 +206,8 @@
     <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>
       <rasa identyfikator="o05" />
-      <owca>
-        <id>1</id>
+      <owca id="ow9">
+
         <imię>Ludmiła</imię>
         <data_urodzenia>2012-09-04</data_urodzenia>
         <płeć p="k"/>
@@ -219,8 +219,8 @@
         <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow10">
+
         <imię>Bernard</imię>
         <data_urodzenia>2008-12-24</data_urodzenia>
         <płeć p="m"/>
@@ -240,8 +240,8 @@
     <powierzchnia jednostka="ha">158.5</powierzchnia>
     <stado>
       <rasa identyfikator="o06" />
-      <owca>
-        <id>1</id>
+      <owca id="ow11">
+
         <imię>Truskawa</imię>
         <data_urodzenia>2010-09-10</data_urodzenia>
         <płeć p="k"/>
@@ -253,8 +253,8 @@
         <szybkość_marszu jednostka="ms">15.2</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow12">
+
         <imię>Pomarańczka</imię>
         <data_urodzenia>2013-12-31</data_urodzenia>
         <płeć p="k"/>
@@ -266,8 +266,8 @@
         <szybkość_marszu jednostka="ms">7.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>3</id>
+      <owca id="ow13">
+
         <imię>Kwas</imię>
         <data_urodzenia>2001-12-10</data_urodzenia>
         <płeć p="m"/>
@@ -279,8 +279,8 @@
         <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>4</id>
+      <owca id="ow14">
+
         <imię>Mucha</imię>
         <data_urodzenia>1996-11-10</data_urodzenia>
         <płeć p="k"/>
@@ -292,8 +292,8 @@
         <szybkość_marszu jednostka="ms">15.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
-<owca>
-      <id>5</id>
+      <owca id="ow15">
+
       <imię>Skakanka</imię>
       <data_urodzenia>2013-09-10</data_urodzenia>
       <płeć p="k"/>
@@ -305,8 +305,8 @@
       <szybkość_marszu jednostka="ms">15.2</szybkość_marszu>
       <szybkość_zjadania_trawy jednostka="wiadroh">0.1</szybkość_zjadania_trawy>
     </owca>
-    <owca>
-      <id>6</id>
+    <owca id="ow16">
+
       <imię>Guma</imię>
       <data_urodzenia>2013-12-31</data_urodzenia>
       <płeć p="k"/>
@@ -318,8 +318,8 @@
       <szybkość_marszu jednostka="ms">7.5</szybkość_marszu>
       <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
     </owca>
-    <owca>
-      <id>7</id>
+    <owca id="ow17">
+
       <imię>Shock</imię>
       <data_urodzenia>2001-12-10</data_urodzenia>
       <płeć p="m"/>
@@ -331,8 +331,8 @@
       <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
       <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
     </owca>
-    <owca>
-      <id>8</id>
+    <owca id="ow18">
+
       <imię>Motylek</imię>
       <data_urodzenia>1999-11-10</data_urodzenia>
       <płeć p="k"/>
@@ -352,8 +352,8 @@
     <powierzchnia jednostka="ha">425.0</powierzchnia>
     <stado>
       <rasa identyfikator="o07" />
-      <owca>
-        <id>1</id>
+      <owca id="ow19">
+
         <imię>Czerwonek</imię>
         <data_urodzenia>1999-04-02</data_urodzenia>
         <płeć p="m"/>
@@ -365,8 +365,8 @@
         <szybkość_marszu jednostka="ms">100.8</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow20">
+
         <imię>Zielonek</imię>
         <data_urodzenia>1999-02-10</data_urodzenia>
         <płeć p="m"/>
@@ -386,8 +386,8 @@
     <powierzchnia jednostka="ha">355.5</powierzchnia>
     <stado>
       <rasa identyfikator="o09" />
-      <owca>
-        <id>1</id>
+      <owca id="ow21">
+
         <imię>Dipsy</imię>
         <data_urodzenia>1980-05-25</data_urodzenia>
         <płeć p="m"/>
@@ -407,8 +407,8 @@
     <powierzchnia jednostka="ha">15.8</powierzchnia>
     <stado>
       <rasa identyfikator="o10" />
-      <owca>
-        <id>1</id>
+      <owca id="ow22">
+
         <imię>Florek</imię>
         <data_urodzenia>1998-06-14</data_urodzenia>
         <płeć p="m"/>
@@ -420,8 +420,8 @@
         <szybkość_marszu jednostka="ms">12.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow23">
+
         <imię>Florka</imię>
         <data_urodzenia>1998-06-14</data_urodzenia>
         <płeć p="k"/>
@@ -441,8 +441,8 @@
     <powierzchnia jednostka="ha">145.7</powierzchnia>
     <stado>
       <rasa identyfikator="o11" />
-      <owca>
-        <id>1</id>
+      <owca id="ow24">
+
         <imię>Więzień</imię>
         <data_urodzenia>2001-12-25</data_urodzenia>
         <płeć p="m"/>
@@ -462,8 +462,8 @@
     <powierzchnia jednostka="ha">51.5</powierzchnia>
     <stado>
       <rasa identyfikator="o12" />
-      <owca>
-        <id>1</id>
+      <owca id="ow25">
+
         <imię>Prezydent</imię>
         <data_urodzenia>2005-03-02</data_urodzenia>
         <płeć p="m"/>
@@ -483,8 +483,8 @@
     <powierzchnia jednostka="ha">100.2</powierzchnia>
     <stado>
       <rasa identyfikator="o13" />
-      <owca>
-        <id>1</id>
+      <owca id="ow26">
+
         <imię>Owca1</imię>
         <data_urodzenia>2003-05-13</data_urodzenia>
         <płeć p="m"/>
@@ -496,8 +496,8 @@
         <szybkość_marszu jednostka="ms">54.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow27">
+
         <imię>Owca2</imię>
         <data_urodzenia>2003-05-15</data_urodzenia>
         <płeć p="m"/>
@@ -509,8 +509,8 @@
         <szybkość_marszu jednostka="ms">31.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.7</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>3</id>
+      <owca id="ow28">
+
         <imię>Tadek</imię>
         <data_urodzenia>2003-03-03</data_urodzenia>
         <płeć p="m"/>
@@ -530,8 +530,8 @@
     <powierzchnia jednostka="ha">1000.0</powierzchnia>
     <stado>
       <rasa identyfikator="o14" />
-      <owca>
-        <id>1</id>
+      <owca id="ow29">
+
         <imię>Bogaczka</imię>
         <data_urodzenia>2000-06-10</data_urodzenia>
         <płeć p="k"/>
@@ -551,8 +551,8 @@
     <powierzchnia jednostka="ha">515.5</powierzchnia>
     <stado>
       <rasa identyfikator="o15" />
-      <owca>
-        <id>1</id>
+      <owca id="ow30">
+
         <imię>Mozart</imię>
         <data_urodzenia>1980-03-04</data_urodzenia>
         <płeć p="m"/>
@@ -564,8 +564,8 @@
         <szybkość_marszu jednostka="ms">6.7</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow31">
+
         <imię>Van Goh</imię>
         <data_urodzenia>1995-09-25</data_urodzenia>
         <płeć p="m"/>
@@ -585,8 +585,8 @@
     <powierzchnia jednostka="ha">16.8</powierzchnia>
     <stado>
       <rasa identyfikator="o16" />
-      <owca>
-        <id>1</id>
+      <owca id="ow32">
+
         <imię>Rodzynek</imię>
         <data_urodzenia>2001-08-03</data_urodzenia>
         <płeć p="m"/>
@@ -606,8 +606,8 @@
     <powierzchnia jednostka="ha">666.6</powierzchnia>
     <stado>
       <rasa identyfikator="o17" />
-      <owca>
-        <id>1</id>
+      <owca id="ow33">
+
         <imię>Śmierć</imię>
         <data_urodzenia>1999-06-19</data_urodzenia>
         <płeć p="k"/>
@@ -627,8 +627,8 @@
     <powierzchnia jednostka="ha">301.5</powierzchnia>
     <stado>
       <rasa identyfikator="o18" />
-      <owca>
-        <id>1</id>
+      <owca id="ow34">
+
         <imię>Powaga</imię>
         <data_urodzenia>2006-03-28</data_urodzenia>
         <płeć p="k"/>
@@ -640,8 +640,8 @@
         <szybkość_marszu jednostka="ms">32.8</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow35">
+
         <imię>Nadzieja</imię>
         <data_urodzenia>2011-06-10</data_urodzenia>
         <płeć p="k"/>
@@ -653,8 +653,8 @@
         <szybkość_marszu jednostka="ms">64.8</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>3</id>
+      <owca id="ow36">
+
         <imię>Miłość</imię>
         <data_urodzenia>2003-02-14</data_urodzenia>
         <płeć p="k"/>
@@ -674,8 +674,8 @@
     <powierzchnia jednostka="ha">68.5</powierzchnia>
     <stado>
       <rasa identyfikator="o19" />
-      <owca>
-        <id>1</id>
+      <owca id="ow37">
+
         <imię>Gorycz</imię>
         <data_urodzenia>2016-12-9</data_urodzenia>
         <płeć p="m"/>
@@ -695,8 +695,8 @@
     <powierzchnia jednostka="ha">322.5</powierzchnia>
     <stado>
       <rasa identyfikator="o20" />
-      <owca>
-        <id>1</id>
+      <owca id="ow38">
+
         <imię>Rak</imię>
         <data_urodzenia>2001-05-16</data_urodzenia>
         <płeć p="m"/>
@@ -716,8 +716,8 @@
     <powierzchnia jednostka="ha">321.5</powierzchnia>
     <stado>
       <rasa identyfikator="o21" />
-      <owca>
-        <id>1</id>
+      <owca id="ow39">
+
         <imię>Samotnik</imię>
         <data_urodzenia>2003-05-10</data_urodzenia>
         <płeć p="m"/>
@@ -737,8 +737,8 @@
     <powierzchnia jednostka="ha">35.7</powierzchnia>
     <stado>
       <rasa identyfikator="o22" />
-      <owca>
-        <id>1</id>
+      <owca id="ow40">
+
         <imię>Jacek</imię>
         <data_urodzenia>2001-03-08</data_urodzenia>
         <płeć p="m"/>
@@ -750,8 +750,8 @@
         <szybkość_marszu jednostka="ms">52.8</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.6</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow41">
+
         <imię>Barbara</imię>
         <data_urodzenia>2002-10-30</data_urodzenia>
         <płeć p="k"/>
@@ -771,8 +771,8 @@
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
       <rasa identyfikator="o23" />
-      <owca>
-        <id>1</id>
+      <owca id="ow42">
+
         <imię>Bob</imię>
         <data_urodzenia>2005-08-06</data_urodzenia>
         <płeć p="m"/>
@@ -792,8 +792,8 @@
     <powierzchnia jednostka="ha">545.5</powierzchnia>
     <stado>
       <rasa identyfikator="o24" />
-      <owca>
-        <id>1</id>
+      <owca id="ow43">
+
         <imię>Właściciel</imię>
         <data_urodzenia>1998-12-08</data_urodzenia>
         <płeć p="m"/>
@@ -805,8 +805,8 @@
         <szybkość_marszu jednostka="ms">52.5</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow44">
+
         <imię>Sprzątacz</imię>
         <data_urodzenia>2003-11-30</data_urodzenia>
         <płeć p="m"/>
@@ -826,8 +826,8 @@
     <powierzchnia jednostka="ha">452.8</powierzchnia>
     <stado>
       <rasa identyfikator="o25" />
-      <owca>
-        <id>1</id>
+      <owca id="ow45">
+
         <imię>Testerka</imię>
         <data_urodzenia>2001-02-25</data_urodzenia>
         <płeć p="k"/>
@@ -847,8 +847,8 @@
     <powierzchnia jednostka="ha">12.7</powierzchnia>
     <stado>
       <rasa identyfikator="o26" />
-      <owca>
-        <id>1</id>
+      <owca id="ow46">
+
         <imię>Kiwi</imię>
         <data_urodzenia>2015-07-15</data_urodzenia>
         <płeć p="m"/>
@@ -860,8 +860,8 @@
         <szybkość_marszu jednostka="ms">32.7</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow47">
+
         <imię>Morela</imię>
         <data_urodzenia>2015-07-15</data_urodzenia>
         <płeć p="k"/>
@@ -881,8 +881,8 @@
     <powierzchnia jednostka="ha">32.5</powierzchnia>
     <stado>
       <rasa identyfikator="o27" />
-      <owca>
-        <id>1</id>
+      <owca id="ow48">
+
         <imię>Pedant</imię>
         <data_urodzenia>2003-04-30</data_urodzenia>
         <płeć p="m"/>
@@ -902,8 +902,8 @@
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
       <rasa identyfikator="o28" />
-      <owca>
-        <id>1</id>
+      <owca id="ow49">
+
         <imię>Depresja</imię>
         <data_urodzenia>2001-06-20</data_urodzenia>
         <płeć p="m"/>
@@ -923,8 +923,8 @@
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
       <rasa identyfikator="o29" />
-      <owca>
-        <id>1</id>
+      <owca id="ow50">
+
         <imię>Wolność</imię>
         <data_urodzenia>2014-02-03</data_urodzenia>
         <płeć p="k"/>
@@ -936,8 +936,8 @@
         <szybkość_marszu jednostka="ms">25.8</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow51">
+
         <imię>Niezależność</imię>
         <data_urodzenia>2015-06-23</data_urodzenia>
         <płeć p="k"/>
@@ -957,8 +957,8 @@
     <powierzchnia jednostka="ha">12.8</powierzchnia>
     <stado>
       <rasa identyfikator="o30" />
-      <owca>
-        <id>1</id>
+      <owca id="ow52">
+
         <imię>Arka</imię>
         <data_urodzenia>2012-08-30</data_urodzenia>
         <płeć p="k"/>
@@ -978,8 +978,8 @@
     <powierzchnia jednostka="ha">21.8</powierzchnia>
     <stado>
       <rasa identyfikator="o31" />
-      <owca>
-        <id>1</id>
+      <owca id="ow53">
+
         <imię>Fan</imię>
         <data_urodzenia>2001-12-03</data_urodzenia>
         <płeć p="m"/>
@@ -999,8 +999,8 @@
     <powierzchnia jednostka="ha">3135.8</powierzchnia>
     <stado>
       <rasa identyfikator="o32" />
-      <owca>
-        <id>1</id>
+      <owca id="ow54">
+
         <imię>Gracz1</imię>
         <data_urodzenia>2015-12-03</data_urodzenia>
         <płeć p="m"/>
@@ -1012,8 +1012,8 @@
         <szybkość_marszu jednostka="ms">31.4</szybkość_marszu>
         <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
       </owca>
-      <owca>
-        <id>2</id>
+      <owca id="ow55">
+
         <imię>Gracz2</imię>
         <data_urodzenia>2015-12-03</data_urodzenia>
         <płeć p="m"/>
@@ -1033,8 +1033,8 @@
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
       <rasa identyfikator="o33" />
-      <owca>
-        <id>1</id>
+      <owca id="ow56">
+
         <imię>Koder</imię>
         <data_urodzenia>2009-09-19</data_urodzenia>
         <płeć p="m"/>
@@ -1054,8 +1054,8 @@
     <powierzchnia jednostka="ha">325.8</powierzchnia>
     <stado>
       <rasa identyfikator="o34" />
-      <owca>
-        <id>1</id>
+      <owca id="ow57">
+
         <imię>Tadzio</imię>
         <data_urodzenia>2003-06-24</data_urodzenia>
         <płeć p="m"/>
@@ -1075,8 +1075,8 @@
     <powierzchnia jednostka="ha">155.8</powierzchnia>
     <stado>
       <rasa identyfikator="o35" />
-      <owca>
-        <id>1</id>
+      <owca id="ow58">
+
         <imię>Miodzio</imię>
         <data_urodzenia>2009-03-14</data_urodzenia>
         <płeć p="k"/>

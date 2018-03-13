@@ -32,10 +32,10 @@
 <!ELEMENT stado (rasa,owca+)>
 <!ELEMENT rasa EMPTY>
 <!ATTLIST rasa identyfikator IDREF #REQUIRED>
-<!ELEMENT owca (id,imię,data_urodzenia,płeć,waga,długość_runa,opis,
+<!ELEMENT owca (imię,data_urodzenia,płeć,waga,długość_runa,opis,
                 szybkość_marszu,szybkość_zjadania_trawy)>
+<!ATTLIST owca id ID #REQUIRED>
 
-<!ELEMENT id (#PCDATA)>
 <!ELEMENT imię (#PCDATA)>
 <!ELEMENT data_urodzenia (#PCDATA)>
 <!ELEMENT płeć EMPTY>
