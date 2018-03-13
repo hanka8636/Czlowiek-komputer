@@ -1,8 +1,4 @@
-<!ELEMENT spis_owiec (maile,nagłówek,lista_ras,definicja_płci,definicja_jednostek,pastwisko+)>
-<!ELEMENT maile (at,lista_domen)>
-<!ELEMENT at (#PCDATA)>
-<!ELEMENT lista_domen (definicja_domeny+)>
-<!ELEMENT definicja_domeny (#PCDATA)>
+<!ELEMENT spis_owiec (nagłówek,lista_ras,pastwisko+)>
 
 <!ELEMENT nagłówek (data_modyfikacji,autorzy)>
 
@@ -10,54 +6,21 @@
 <!ELEMENT autorzy (autor)+>
 <!ELEMENT autor (imię_autora,nazwisko,mail)>
 <!ATTLIST autor
-  		album NMTOKENS #IMPLIED>
+  		album NMTOKEN #IMPLIED>
 <!ELEMENT imię_autora (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)>
-
 
 <!ELEMENT mail (alias,znak,domena)>
 <!ELEMENT alias (#PCDATA)>
 <!ELEMENT znak (#PCDATA)>
-<!ATTLIST znak at  NMTOKENS #IMPLIED>
-<!ELEMENT domena (#PCDATA)>
-<!ATTLIST domena definicja_domeny NMTOKENS #REQUIRED>
+<!ELEMENT domena EMPTY>
+<!ATTLIST domena definicja_domeny (edu.p.lodz.pl|p.lodz.pl|info.p.lodz.pl) #REQUIRED>
 
 <!ELEMENT lista_ras (definicja_rasy)+>
   <!ELEMENT definicja_rasy EMPTY>
   <!ATTLIST definicja_rasy
   		nazwa NMTOKENS #IMPLIED
   		identyfikator ID #REQUIRED>
-
-<!ELEMENT definicja_płci (k,m)>
-        <!ELEMENT k  (#PCDATA)>
-		<!ELEMENT m (#PCDATA)>
-
-
-<!ELEMENT definicja_jednostek (jednostka_szybkości, jednostki_wagowe, jednostki_długości, jednostki_posiłkowe, jednostki_powierzchniowe)>
-<!ELEMENT jednostka_szybkości (#PCDATA)>
-<!ELEMENT jednostki_wagowe EMPTY>
-<!ATTLIST jednostki_wagowe
-  		kg NMTOKENS #IMPLIED
-  		dkg NMTOKENS #IMPLIED
-  		funt NMTOKENS #IMPLIED>
-
-<!ELEMENT jednostki_długości EMPTY>
-<!ATTLIST jednostki_długości
-  		mm NMTOKENS #IMPLIED
-  		cm NMTOKENS #IMPLIED
-  		cal NMTOKENS #IMPLIED>
-
-<!ELEMENT jednostki_posiłkowe EMPTY>
-<!ATTLIST jednostki_posiłkowe
-  		talerzmin CDATA #IMPLIED
-  		miskamin CDATA #IMPLIED
-  		wiadroh CDATA #IMPLIED>
-
-<!ELEMENT jednostki_powierzchniowe EMPTY>
-<!ATTLIST jednostki_powierzchniowe
-  		ha NMTOKENS #IMPLIED
-  		ar NMTOKENS #IMPLIED
-  		m2 CDATA #IMPLIED>
 
 
 

@@ -488,8 +488,16 @@ owca szybkość_marszu {
 	display: block;
 }
 
+owca szybkość_marszu[jednostka=kms]::after {
+	content: "km/s";
+}
+
 owca szybkość_marszu[jednostka=ms]::after {
 	content: "m/s";
+}
+
+owca szybkość_marszu[jednostka=kmh]::after {
+	content: "km/s";
 }
 
 owca szybkość_zjadania_trawy::before {
@@ -504,10 +512,11 @@ owca szybkość_zjadania_trawy {
 owca szybkość_zjadania_trawy[jednostka=talerzmin]::after {
 	content: "talerz/min";
 }
+
 owca szybkość_zjadania_trawy[jednostka=miskamin]::after {
 	content: "miska/min";
 }
+
 owca szybkość_zjadania_trawy[jednostka=wiadroh]::after {
-  margin-left:
-  content: "wiadro/h";
+	content: "wiadro/h";
 }

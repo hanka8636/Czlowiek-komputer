@@ -2,14 +2,6 @@
 <?xml-stylesheet type="text/css" href="spisOwiec.css"?>
 <!DOCTYPE spis_owiec SYSTEM "spisOwiec.dtd" [] >
 <spis_owiec>
-  <maile>
-      <at>@</at>
-      <lista_domen>
-          <definicja_domeny>edu.p.lodz.pl</definicja_domeny>
-          <definicja_domeny>p.lodz.pl</definicja_domeny>
-          <definicja_domeny>info.p.lodz.pl</definicja_domeny>
-      </lista_domen>
-  </maile>
 
   <nagłówek>
     <data_modyfikacji>2018-03-12</data_modyfikacji>
@@ -72,18 +64,6 @@
     <definicja_rasy nazwa="Merynos polski w starym typie" identyfikator="o34"/>
     <definicja_rasy nazwa="Czarnogłówka" identyfikator="o35"/>
   </lista_ras>
- <definicja_płci>
-    <k>K</k>
-    <m>M</m>
-  </definicja_płci>
-
-<definicja_jednostek>
-	<jednostka_szybkości>m/s</jednostka_szybkości>
-	<jednostki_wagowe kg="kilo" dkg="dkg" funt="funt"/>
-	<jednostki_długości mm="mm" cm="cm" cal="cal"/>
-	<jednostki_posiłkowe talerzmin="talerz/min" miskamin="miska/min" wiadroh="wiadro/h"	/>
-	<jednostki_powierzchniowe ha="ha" ar="ar" m2="m2"	/>
-</definicja_jednostek>
 
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
