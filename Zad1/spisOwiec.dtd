@@ -1,4 +1,4 @@
-<!ELEMENT spis_owiec (nagłówek,lista_ras,pastwisko+)>
+<!ELEMENT spis_owiec (nagłówek,lista_ras,lista_pastwisk)>
 
 <!ELEMENT nagłówek (data_modyfikacji,autorzy)>
 
@@ -22,12 +22,11 @@
   		nazwa CDATA #IMPLIED
   		idr ID #REQUIRED>
 
-
-
-<!ELEMENT pastwisko (nazwa,powierzchnia,stado)>
+<!ELEMENT lista_pastwisk (pastwisko)+>
+ <!ELEMENT pastwisko (nazwa,powierzchnia,stado)>
 <!ELEMENT nazwa (#PCDATA)>
 <!ELEMENT powierzchnia (#PCDATA)>
-<!ATTLIST powierzchnia jednostka (ha|ar|m2) #REQUIRED>
+<!ATTLIST powierzchnia jednostka (ha|ar|m2) #REQUIRED >
 
 <!ELEMENT stado (rasa,owca+)>
 <!ELEMENT rasa EMPTY>

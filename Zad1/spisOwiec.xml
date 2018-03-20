@@ -65,6 +65,7 @@
     <definicja_rasy nazwa="Czarnogłówka" idr="o35"/>
   </lista_ras>
 
+  <lista_pastwisk>
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
     <powierzchnia jednostka="ha">125.8</powierzchnia>
@@ -1090,4 +1091,6 @@
       </owca>
     </stado>
   </pastwisko>
+ </lista_pastwisk>
+
 </spis_owiec>
