@@ -20,7 +20,7 @@
   <!ELEMENT definicja_rasy EMPTY>
   <!ATTLIST definicja_rasy
   		nazwa CDATA #IMPLIED
-  		identyfikator ID #REQUIRED>
+  		idr ID #REQUIRED>
 
 
 
@@ -31,7 +31,7 @@
 
 <!ELEMENT stado (rasa,owca+)>
 <!ELEMENT rasa EMPTY>
-<!ATTLIST rasa identyfikator IDREF #REQUIRED>
+<!ATTLIST rasa idr IDREF #REQUIRED>
 <!ELEMENT owca (imię,data_urodzenia,płeć,waga,długość_runa,opis,
                 szybkość_marszu,szybkość_zjadania_trawy)>
 <!ATTLIST owca id ID #REQUIRED>

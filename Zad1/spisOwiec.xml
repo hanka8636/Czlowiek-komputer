@@ -28,48 +28,48 @@
   </nagłówek>
 
   <lista_ras>
-    <definicja_rasy nazwa="Białogłowa Owca Mięsna" identyfikator="o01"/>
-    <definicja_rasy nazwa="Corriedale" identyfikator="o02"/>
-    <definicja_rasy nazwa="Dorset Horn" identyfikator="o03"/>
-    <definicja_rasy nazwa="Owca Fryzyjska" identyfikator="o04"/>
-    <definicja_rasy nazwa="Ile de france" identyfikator="o05"/>
-    <definicja_rasy nazwa="Kamieniecka" identyfikator="o06"/>
-    <definicja_rasy nazwa="Leine" identyfikator="o07"/>
-    <definicja_rasy nazwa="Merynos Polski" identyfikator="o08"/>
-    <definicja_rasy nazwa="Merynos Polski odmiana barwna" identyfikator="o09"/>
-    <definicja_rasy nazwa="Mouton charollaise" identyfikator="o10"/>
-    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" identyfikator="o11"/>
-    <definicja_rasy nazwa="Odmiana owcy Dorset" identyfikator="o12"/>
-    <definicja_rasy nazwa="Olkuska" identyfikator="o13"/>
-    <definicja_rasy nazwa="Owca plenna 09" identyfikator="o14"/>
-    <definicja_rasy nazwa="Owca plenno-mięsna 08" identyfikator="o15"/>
-    <definicja_rasy nazwa="Polska owca górska" identyfikator="o16"/>
-    <definicja_rasy nazwa="Polska owca nizinna" identyfikator="o17"/>
-    <definicja_rasy nazwa="Polska owca pogórza" identyfikator="o18"/>
-    <definicja_rasy nazwa="Pomorska" identyfikator="o19"/>
-    <definicja_rasy nazwa="Romanowska" identyfikator="o20"/>
-    <definicja_rasy nazwa="Suffolk" identyfikator="o21"/>
-    <definicja_rasy nazwa="Świniarka" identyfikator="o22"/>
-    <definicja_rasy nazwa="Texel" identyfikator="o23"/>
-    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" identyfikator="o24"/>
-    <definicja_rasy nazwa="Wielkopolska" identyfikator="o25"/>
-    <definicja_rasy nazwa="Wrzosówka" identyfikator="o26"/>
-    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" identyfikator="o27"/>
-    <definicja_rasy nazwa="Owca kołudzka" identyfikator="o28"/>
-    <definicja_rasy nazwa="Owca SCP" identyfikator="o29"/>
-    <definicja_rasy nazwa="Owca BCP" identyfikator="o30"/>
-    <definicja_rasy nazwa="Berrichon du cher" identyfikator="o31"/>
-    <definicja_rasy nazwa="Biała masywu centralnego" identyfikator="o32"/>
-    <definicja_rasy nazwa="Cakiel podhalański" identyfikator="o33"/>
-    <definicja_rasy nazwa="Merynos polski w starym typie" identyfikator="o34"/>
-    <definicja_rasy nazwa="Czarnogłówka" identyfikator="o35"/>
+    <definicja_rasy nazwa="Białogłowa Owca Mięsna" idr="o01"/>
+    <definicja_rasy nazwa="Corriedale" idr="o02"/>
+    <definicja_rasy nazwa="Dorset Horn" idr="o03"/>
+    <definicja_rasy nazwa="Owca Fryzyjska" idr="o04"/>
+    <definicja_rasy nazwa="Ile de france" idr="o05"/>
+    <definicja_rasy nazwa="Kamieniecka" idr="o06"/>
+    <definicja_rasy nazwa="Leine" idr="o07"/>
+    <definicja_rasy nazwa="Merynos Polski" idr="o08"/>
+    <definicja_rasy nazwa="Merynos Polski odmiana barwna" idr="o09"/>
+    <definicja_rasy nazwa="Mouton charollaise" idr="o10"/>
+    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" idr="o11"/>
+    <definicja_rasy nazwa="Odmiana owcy Dorset" idr="o12"/>
+    <definicja_rasy nazwa="Olkuska" idr="o13"/>
+    <definicja_rasy nazwa="Owca plenna 09" idr="o14"/>
+    <definicja_rasy nazwa="Owca plenno-mięsna 08" idr="o15"/>
+    <definicja_rasy nazwa="Polska owca górska" idr="o16"/>
+    <definicja_rasy nazwa="Polska owca nizinna" idr="o17"/>
+    <definicja_rasy nazwa="Polska owca pogórza" idr="o18"/>
+    <definicja_rasy nazwa="Pomorska" idr="o19"/>
+    <definicja_rasy nazwa="Romanowska" idr="o20"/>
+    <definicja_rasy nazwa="Suffolk" idr="o21"/>
+    <definicja_rasy nazwa="Świniarka" idr="o22"/>
+    <definicja_rasy nazwa="Texel" idr="o23"/>
+    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" idr="o24"/>
+    <definicja_rasy nazwa="Wielkopolska" idr="o25"/>
+    <definicja_rasy nazwa="Wrzosówka" idr="o26"/>
+    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" idr="o27"/>
+    <definicja_rasy nazwa="Owca kołudzka" idr="o28"/>
+    <definicja_rasy nazwa="Owca SCP" idr="o29"/>
+    <definicja_rasy nazwa="Owca BCP" idr="o30"/>
+    <definicja_rasy nazwa="Berrichon du cher" idr="o31"/>
+    <definicja_rasy nazwa="Biała masywu centralnego" idr="o32"/>
+    <definicja_rasy nazwa="Cakiel podhalański" idr="o33"/>
+    <definicja_rasy nazwa="Merynos polski w starym typie" idr="o34"/>
+    <definicja_rasy nazwa="Czarnogłówka" idr="o35"/>
   </lista_ras>
 
   <pastwisko>
     <nazwa>Radosne Pole</nazwa>
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o01"/>
+      <rasa idr="o01"/>
       <owca id="ow1">
 
         <imię>Wafel</imię>
@@ -103,7 +103,7 @@
     <nazwa>Dzikie Pole</nazwa>
     <powierzchnia jednostka="ha">125.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o02" />
+      <rasa idr="o02" />
       <owca id="ow3">
 
         <imię>Zosia</imię>
@@ -137,7 +137,7 @@
     <nazwa>Pole Huncwotów</nazwa>
     <powierzchnia jednostka="ha">100.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o03" />
+      <rasa idr="o03" />
       <owca id="ow5">
 
         <imię>Rosół</imię>
@@ -158,7 +158,7 @@
     <nazwa>Alejka róż</nazwa>
     <powierzchnia jednostka="ha">400.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o04" />
+      <rasa idr="o04" />
       <owca id="ow6">
 
         <imię>Tropi</imię>
@@ -205,7 +205,7 @@
     <nazwa>Zielone pastwiska</nazwa>
     <powierzchnia jednostka="ha">65.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o05" />
+      <rasa idr="o05" />
       <owca id="ow9">
 
         <imię>Ludmiła</imię>
@@ -239,7 +239,7 @@
     <nazwa>Radosna kraina</nazwa>
     <powierzchnia jednostka="ha">158.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o06" />
+      <rasa idr="o06" />
       <owca id="ow11">
 
         <imię>Truskawa</imię>
@@ -351,7 +351,7 @@
     <nazwa>Tęczynki</nazwa>
     <powierzchnia jednostka="ha">425.0</powierzchnia>
     <stado>
-      <rasa identyfikator="o07" />
+      <rasa idr="o07" />
       <owca id="ow19">
 
         <imię>Czerwonek</imię>
@@ -385,7 +385,7 @@
     <nazwa>Teletubisie</nazwa>
     <powierzchnia jednostka="ha">355.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o09" />
+      <rasa idr="o09" />
       <owca id="ow21">
 
         <imię>Dipsy</imię>
@@ -406,7 +406,7 @@
     <nazwa>Florki nowe</nazwa>
     <powierzchnia jednostka="ha">15.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o10" />
+      <rasa idr="o10" />
       <owca id="ow22">
 
         <imię>Florek</imię>
@@ -440,7 +440,7 @@
     <nazwa>Cela 11</nazwa>
     <powierzchnia jednostka="ha">145.7</powierzchnia>
     <stado>
-      <rasa identyfikator="o11" />
+      <rasa idr="o11" />
       <owca id="ow24">
 
         <imię>Więzień</imię>
@@ -461,7 +461,7 @@
     <nazwa>Wolny kraj</nazwa>
     <powierzchnia jednostka="ha">51.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o12" />
+      <rasa idr="o12" />
       <owca id="ow25">
 
         <imię>Prezydent</imię>
@@ -482,7 +482,7 @@
     <nazwa>Przeludnienie</nazwa>
     <powierzchnia jednostka="ha">100.2</powierzchnia>
     <stado>
-      <rasa identyfikator="o13" />
+      <rasa idr="o13" />
       <owca id="ow26">
 
         <imię>Owca1</imię>
@@ -529,7 +529,7 @@
     <nazwa>Podwojona cena utrzymania</nazwa>
     <powierzchnia jednostka="ha">1000.0</powierzchnia>
     <stado>
-      <rasa identyfikator="o14" />
+      <rasa idr="o14" />
       <owca id="ow29">
 
         <imię>Bogaczka</imię>
@@ -550,7 +550,7 @@
     <nazwa>Kreatywność to podstawa</nazwa>
     <powierzchnia jednostka="ha">515.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o15" />
+      <rasa idr="o15" />
       <owca id="ow30">
 
         <imię>Mozart</imię>
@@ -584,7 +584,7 @@
     <nazwa>Połowa</nazwa>
     <powierzchnia jednostka="ha">16.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o16" />
+      <rasa idr="o16" />
       <owca id="ow32">
 
         <imię>Rodzynek</imię>
@@ -605,7 +605,7 @@
     <nazwa>Dolina zagłady</nazwa>
     <powierzchnia jednostka="ha">666.6</powierzchnia>
     <stado>
-      <rasa identyfikator="o17" />
+      <rasa idr="o17" />
       <owca id="ow33">
 
         <imię>Śmierć</imię>
@@ -626,7 +626,7 @@
     <nazwa>Dorosłość</nazwa>
     <powierzchnia jednostka="ha">301.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o18" />
+      <rasa idr="o18" />
       <owca id="ow34">
 
         <imię>Powaga</imię>
@@ -673,7 +673,7 @@
     <nazwa>Słodka kraina</nazwa>
     <powierzchnia jednostka="ha">68.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o19" />
+      <rasa idr="o19" />
       <owca id="ow37">
 
         <imię>Gorycz</imię>
@@ -694,7 +694,7 @@
     <nazwa>Kraina raków</nazwa>
     <powierzchnia jednostka="ha">322.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o20" />
+      <rasa idr="o20" />
       <owca id="ow38">
 
         <imię>Rak</imię>
@@ -715,7 +715,7 @@
     <nazwa>Rodzinna atmosfera</nazwa>
     <powierzchnia jednostka="ha">321.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o21" />
+      <rasa idr="o21" />
       <owca id="ow39">
 
         <imię>Samotnik</imię>
@@ -736,7 +736,7 @@
     <nazwa>Słodka parka</nazwa>
     <powierzchnia jednostka="ha">35.7</powierzchnia>
     <stado>
-      <rasa identyfikator="o22" />
+      <rasa idr="o22" />
       <owca id="ow40">
 
         <imię>Jacek</imię>
@@ -770,7 +770,7 @@
     <nazwa>Miasto owiec</nazwa>
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o23" />
+      <rasa idr="o23" />
       <owca id="ow42">
 
         <imię>Bob</imię>
@@ -791,7 +791,7 @@
     <nazwa>Twoja kraina</nazwa>
     <powierzchnia jednostka="ha">545.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o24" />
+      <rasa idr="o24" />
       <owca id="ow43">
 
         <imię>Właściciel</imię>
@@ -825,7 +825,7 @@
     <nazwa>Testujemy na ludziach</nazwa>
     <powierzchnia jednostka="ha">452.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o25" />
+      <rasa idr="o25" />
       <owca id="ow45">
 
         <imię>Testerka</imię>
@@ -846,7 +846,7 @@
     <nazwa>Owocki</nazwa>
     <powierzchnia jednostka="ha">12.7</powierzchnia>
     <stado>
-      <rasa identyfikator="o26" />
+      <rasa idr="o26" />
       <owca id="ow46">
 
         <imię>Kiwi</imię>
@@ -880,7 +880,7 @@
     <nazwa>Czysto tu</nazwa>
     <powierzchnia jednostka="ha">32.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o27" />
+      <rasa idr="o27" />
       <owca id="ow48">
 
         <imię>Pedant</imię>
@@ -901,7 +901,7 @@
     <nazwa>Nizina</nazwa>
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
-      <rasa identyfikator="o28" />
+      <rasa idr="o28" />
       <owca id="ow49">
 
         <imię>Depresja</imię>
@@ -922,7 +922,7 @@
     <nazwa>Wolność i niezależność</nazwa>
     <powierzchnia jednostka="ha">61.5</powierzchnia>
     <stado>
-      <rasa identyfikator="o29" />
+      <rasa idr="o29" />
       <owca id="ow50">
 
         <imię>Wolność</imię>
@@ -956,7 +956,7 @@
     <nazwa>Nowy świat</nazwa>
     <powierzchnia jednostka="ha">12.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o30" />
+      <rasa idr="o30" />
       <owca id="ow52">
 
         <imię>Arka</imię>
@@ -977,7 +977,7 @@
     <nazwa>Mamy telewizję</nazwa>
     <powierzchnia jednostka="ha">21.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o31" />
+      <rasa idr="o31" />
       <owca id="ow53">
 
         <imię>Fan</imię>
@@ -998,7 +998,7 @@
     <nazwa>Gamerzy</nazwa>
     <powierzchnia jednostka="ha">3135.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o32" />
+      <rasa idr="o32" />
       <owca id="ow54">
 
         <imię>Gracz1</imię>
@@ -1032,7 +1032,7 @@
     <nazwa>Programiści</nazwa>
     <powierzchnia jednostka="ha">36.7</powierzchnia>
     <stado>
-      <rasa identyfikator="o33" />
+      <rasa idr="o33" />
       <owca id="ow56">
 
         <imię>Koder</imię>
@@ -1053,7 +1053,7 @@
     <nazwa>Nowe pole</nazwa>
     <powierzchnia jednostka="ha">325.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o34" />
+      <rasa idr="o34" />
       <owca id="ow57">
 
         <imię>Tadzio</imię>
@@ -1074,7 +1074,7 @@
     <nazwa>Ostatnia szansa</nazwa>
     <powierzchnia jednostka="ha">155.8</powierzchnia>
     <stado>
-      <rasa identyfikator="o35" />
+      <rasa idr="o35" />
       <owca id="ow58">
 
         <imię>Miodzio</imię>
