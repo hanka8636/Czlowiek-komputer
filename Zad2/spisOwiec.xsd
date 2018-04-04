@@ -91,9 +91,42 @@
 
 <xs:simpleType name="nazwa_typ">
   <xs:restriction base="xs:string">
-   <xs:length value="100"/>
+   <xs:length value="150"/>
   </xs:restriction>
 </xs:simpleType>
 
 <xs:complexType name="lista_pastwisk_typ">
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element name="pastwisko" type="pastwisko_typ"/>
+  </xs:sequence>
 </xs:complexType>
+
+<xs:complexType name="pastwisko_typ">
+  <xs:sequence minOccurs="1" maxOccurs="1">
+    <xs:element name="nazwa" type="nazwa_typ"/>
+    <xs:element name="powierzchnia" type="powierzchnia_typ"/>
+  </xs:sequence>
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element name="stado" type="stado_typ"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="powierzchnia_typ">
+  <xs:simpleContent>
+    <xs:extension base="powierzchnia_typ_typ">
+        <xs:attribute name="jednostka" type="jednostka_typ" use="required"/>
+      </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="powierzchnia_typ_typ">
+  <xs:restriction base="xs:decimal">
+   <xs:fractionDigits value="1"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="jednostka_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="ha|ar|m2"/>
+  </xs:restriction>
+</xs:simpleType>
