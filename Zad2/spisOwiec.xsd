@@ -12,7 +12,69 @@
 </xs:element>
 
 <xs:complexType name="nagłówek_typ">
+  <xs:sequence minOccurs="1" maxOccurs="1">
+    <xs:element name="data_modyfikacji" type="xs:date"/>
+    <xs:element name="autorzy" type="autorzy_typ"/>
+  </xs:sequence>
 </xs:complexType>
+
+<xs:complexType name="autorzy_typ">
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element name="autor" type="autor_typ"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="album_typ">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="100000"/>
+    <xs:maxInclusive value="999999"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="autor_typ">
+  <xs:sequence minOccurs="1" maxOccurs="1">
+    <xs:element name="imię_autora" type="imię_autora_typ"/>
+    <xs:element name="nazwisko" type="nazwisko_typ"/>
+    <xs:element name="mail" type="mail_typ"/>
+  </xs:sequence>
+  <xs:attribute name="album" use="required" type="album_typ"/>
+</xs:complexType>
+
+<xs:simpleType name="imie_nazwisko_baza_typ">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[A-Z][a-z]*( [A-Z][a-z]*)*"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="imię_autora_typ">
+  <xs:restriction base="imie_nazwisko_baza_typ">
+    <xs:length value="20"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="nazwisko_typ">
+  <xs:restriction base="imie_nazwisko_baza_typ">
+    <xs:length value="50"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="mail_typ">
+  <xs:sequence minOccurs="1" maxOccurs="1">
+    <xs:element name="alias" type="album_typ"/>
+    <xs:element name="znak" type="xs:string" default="@"/>
+    <xs:element name="domena" type="domena_typ"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="domena_typ">
+  <xs:attribute name="definicja_domeny" type="definicja_domeny_typ" use="required"/>
+</xs:complexType>
+
+<xs:simpleType name="definicja_domeny_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="edu.p.lodz.pl|p.lodz.pl|info.p.lodz.pl"/>
+  </xs:restriction>
+</xs:simpleType>
 
 <xs:complexType name="lista_ras_typ">
 </xs:complexType>
