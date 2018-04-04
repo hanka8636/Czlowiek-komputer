@@ -110,19 +110,19 @@
 
 <xs:complexType name="powierzchnia_typ">
   <xs:simpleContent>
-    <xs:extension base="powierzchnia_typ_typ">
-        <xs:attribute name="jednostka" type="jednostka_typ" use="required"/>
+    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="jednostka_powierzchni_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>
 
-<xs:simpleType name="powierzchnia_typ_typ">
+<xs:simpleType name="liczba_z_jednym_miejscem_po_przecinku_typ">
   <xs:restriction base="xs:decimal">
    <xs:fractionDigits value="1"/>
   </xs:restriction>
 </xs:simpleType>
 
-<xs:simpleType name="jednostka_typ">
+<xs:simpleType name="jednostka_powierzchni_typ">
   <xs:restriction base="xs:string">
    <xs:pattern value="ha|ar|m2"/>
   </xs:restriction>
@@ -134,3 +134,98 @@
     <xs:element name="owca" type="owca_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
+
+<!-- RASA I OWCA KLUCZE -->
+
+<xs:complexType name="owca_typ">
+  <xs:sequence>
+    <xs:element name="imię" type="imię_typ"/>
+    <xs:element name="data_urodzenia" type="xs:date"/>
+    <xs:element name="płeć" type="płeć_typ"/>
+    <xs:element name="waga" type="waga_typ"/>
+    <xs:element name="długość_runa" type="długość_runa_typ"/>
+    <xs:element name="opis" type="opis_typ"/>
+    <xs:element name="szybkość_marszu" type="szybkość_marszu_typ"/>
+    <xs:element name="szybkość_zjadania_trawy" type="szybkość_zjadania_trawy_typ"/>
+  </xs:sequence>
+  <xs:attribute name="id" type="id_typ" use="required"/>
+</xs:complexType>
+
+<xs:simpleType name="imię_typ">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[A-Z][a-z]*"/>
+    <xs:length value="30"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="płeć_typ">
+  <xs:attribute name="p" type="p_typ" use="required"/>
+</xs:complexType>
+
+<xs:simpleType name="p_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="m|k"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="waga_typ">
+  <xs:simpleContent>
+    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="jednostka_wagi_typ" use="required"/>
+      </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="jednostka_wagi_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="kg|dkg|funt"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="długość_runa_typ">
+  <xs:simpleContent>
+    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="jednostka_runa_typ" use="required"/>
+      </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="jednostka_runa_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="mm|cm|cal"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="opis_typ">
+  <xs:restriction base="xs:string">
+   <xs:length value="300"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="szybkość_marszu_typ">
+  <xs:simpleContent>
+    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="jednostka_marszu_typ" use="required"/>
+      </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="jednostka_marszu_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="ms|kms|kmh"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="szybkość_zjadania_trawy_typ">
+  <xs:simpleContent>
+    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="jednostka_trawy_typ" use="required"/>
+      </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="jednostka_trawy_typ">
+  <xs:restriction base="xs:string">
+   <xs:pattern value="talerzmin|miskamin|wiadroh"/>
+  </xs:restriction>
+</xs:simpleType>
