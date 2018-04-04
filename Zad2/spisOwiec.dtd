@@ -1,0 +1,55 @@
+<!ELEMENT spis_owiec (nagłówek,lista_ras,lista_pastwisk)>
+
+<!ELEMENT nagłówek (data_modyfikacji,autorzy)>
+
+<!ELEMENT data_modyfikacji (#PCDATA)>
+<!ELEMENT autorzy (autor)+>
+<!ELEMENT autor (imię_autora,nazwisko,mail)>
+<!ATTLIST autor
+  		album CDATA #IMPLIED>
+<!ELEMENT imię_autora (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+
+<!ELEMENT mail (alias,znak,domena)>
+<!ELEMENT alias (#PCDATA)>
+<!ELEMENT znak (#PCDATA)>
+<!ELEMENT domena EMPTY>
+<!ATTLIST domena definicja_domeny (edu.p.lodz.pl|p.lodz.pl|info.p.lodz.pl) #REQUIRED>
+
+<!ELEMENT lista_ras (definicja_rasy)+>
+  <!ELEMENT definicja_rasy EMPTY>
+  <!ATTLIST definicja_rasy
+  		nazwa CDATA #IMPLIED
+  		idr ID #REQUIRED>
+
+<!ELEMENT lista_pastwisk (pastwisko)+>
+ <!ELEMENT pastwisko (nazwa,powierzchnia,stado)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT powierzchnia (#PCDATA)>
+<!ATTLIST powierzchnia jednostka (ha|ar|m2) #REQUIRED >
+
+<!ELEMENT stado (rasa,owca+)>
+<!ELEMENT rasa EMPTY>
+<!ATTLIST rasa idr IDREF #REQUIRED>
+<!ELEMENT owca (imię,data_urodzenia,płeć,waga,długość_runa,opis,
+                szybkość_marszu,szybkość_zjadania_trawy)>
+<!ATTLIST owca id ID #REQUIRED>
+
+<!ELEMENT imię (#PCDATA)>
+<!ELEMENT data_urodzenia (#PCDATA)>
+<!ELEMENT płeć EMPTY>
+<!ATTLIST płeć p (k|m) #REQUIRED>
+
+<!ELEMENT waga (#PCDATA)>
+<!ATTLIST waga jednostka (kg|dkg|funt) #REQUIRED>
+
+<!ELEMENT długość_runa (#PCDATA)>
+<!ATTLIST długość_runa jednostka (mm|cm|cal) #REQUIRED>
+
+<!ELEMENT opis (#PCDATA)>
+
+<!ELEMENT szybkość_marszu (#PCDATA)>
+<!ATTLIST szybkość_marszu jednostka (ms|kms|kmh) #REQUIRED>
+
+<!ELEMENT szybkość_zjadania_trawy (#PCDATA)>
+<!ATTLIST szybkość_zjadania_trawy jednostka (talerzmin|miskamin|wiadroh) #REQUIRED>

@@ -1,0 +1,501 @@
+spis_owiec {
+  margin: 0px;
+  padding: 4ex 3em 4ex 3em;
+  background-color: #fff;
+  color: #000;
+  font-size: 10pt;
+  font-family: "DejaVu Sans", sans-serif;
+}
+
+nagłówek {
+  display: block;
+  font-size: 150%;
+  font-family: "DejaVu Sans", sans-serif;
+}
+
+nagłówek>* {
+  display: block;
+}
+
+nagłówek>data_modyfikacji:before {
+  content: "Data modyfikacji: ";
+}
+
+nagłówek>autorzy:before {
+  content: "Autorzy pracy: ";
+  display: inline-block;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
+nagłówek>autorzy {
+  margin-left: 1em;
+    display: inline-block;
+}
+
+nagłówek autor {
+  display: list-item;
+  list-style-position: inside;
+  margin-bottom: 1ex;
+}
+
+nagłówek autor>album:before {
+  content: "nr albumu: ";
+}
+
+nagłówek autor>mail:before {
+  content: "mail: ";
+}
+nagłówek autor>mail>domena[definicja_domeny]::after {
+  content: attr(definicja_domeny);
+}
+
+nagłówek autor>mail, nagłówek autor>album {
+  font-size: 80%;
+  display: list-item;
+  list-style: square;
+  margin-left: 50px;
+}
+
+pastwisko:before {
+  content: "Pastwisko: ";
+  display: inline-block;
+  padding: 2ex 1em 1ex 1em;
+  color: white;
+  font-size: 20px;
+}
+
+pastwisko {
+  background-color: #a2d680;
+  display: block;
+  margin: 50px 10px 50px 10px;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+powierzchnia::before {
+  content: "Powierzchnia: ";
+  display: inline-block;
+  padding: 2ex 1em 1ex 1em;
+  color: white;
+  font-size: 15px;
+}
+
+pastwisko>nazwa {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+}
+
+powierzchnia {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+}
+
+powierzchnia[jednostka]::after {
+  content: attr(jednostka);
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+stado {
+	display: block;
+	border-radius: 10px;
+  padding: 6px 5px 5px 5px;
+	background-color: #689b50;
+}
+
+rasa[identyfikator=o01]:before {
+  content: "Stado rasy Białogłowa Owca Mięsna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o02]:before {
+  content: "Stado rasy Corriedale";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o03]:before {
+  content: "Stado rasy Dorset Horn";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o04]:before {
+  content: "Stado rasy Owca Fryzyjska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o05]:before {
+  content: "Stado rasy Ile de france";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o06]:before {
+  content: "Stado rasy Kamieniecka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o07]:before {
+  content: "Stado rasy Leine";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o08]:before {
+  content: "Stado rasy Merynos Polski";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o09]:before {
+  content: "Stado rasy Polski odmiana barwna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o10]:before {
+  content: "Stado rasy Mouton charollaise";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o11]:before {
+  content: "Stado rasy Odmiana barwna polskiej owcy górskiej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o12]:before {
+  content: "Stado rasy Odmiana owcy Dorset";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o13]:before {
+  content: "Stado rasy Olkuska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o14]:before {
+  content: "Stado rasy Owca plenna 09";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o15]:before {
+  content: "Stado rasy Owca plenno-mięsna 08";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o16]:before {
+  content: "Stado rasy Polska owca górska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o17]:before {
+  content: "Stado rasy Polska owca nizinna";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o18]:before {
+  content: "Stado rasy Polska owca pogórza";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o19]:before {
+  content: "Stado rasy Pomorska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o20]:before {
+  content: "Stado rasy Romanowska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o21]:before {
+  content: "Stado rasy Suffolk";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o22]:before {
+  content: "Stado rasy Świniarka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o23]:before {
+  content: "Stado rasy Texel";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o24]:before {
+  content: "Stado rasy Odmiana Uhruska polskiej owcy nizinnej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o25]:before {
+  content: "Stado rasy Wielkopolska";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o26]:before {
+  content: "Stado rasy Wrzosówka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o27]:before {
+  content: "Stado rasy Odmiana żelaźnieńska polskiej owcy nizinnej";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o28]:before {
+  content: "Stado rasy Owca kołudzka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o29]:before {
+  content: "Stado rasy Owca SCP";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+rasa[identyfikator=o30]:before {
+  content: "Stado rasy Owca BCP";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o31]:before {
+  content: "Stado rasy Berrichon du cher";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o32]:before {
+  content: "Stado rasy Biała masywu centralnego";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o33]:before {
+  content: "Stado rasy Cakiel podhalański";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o34]:before {
+  content: "Stado rasy Merynos polski w starym typie";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}rasa[identyfikator=o35]:before {
+  content: "Stado rasy Czarnogłówka";
+  display: block;
+	text-align: center;
+  color: #ffffff;
+  font-size: 20pt;
+}
+
+owca:before {
+  content: "Owca: ";
+  display: block;
+	margin: -6px -6px 0 -6px;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #203019;
+  padding: 1ex 2em 1ex 1em;
+  color: #A2D680;
+  font-size: 15pt;
+
+}
+
+owca imię {
+	display: block;
+  margin: -6px -6px 0 -6px;
+	border-radius: 2px 2px 0px 0px;
+	background-color: #203019;
+  padding: 0ex 2em 1ex 6em;
+  color: #ffffff;
+  font-size: 20pt;
+}
+
+owca {
+  display: inline-block;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #203019;
+	padding: 5px 5px 5px 5px;
+}
+
+owca * {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+owca id {
+	display: none;
+}
+
+owca data_urodzenia::before {
+	content: "Data urodzenia: ";
+  font-weight: bold;
+}
+
+owca data_urodzenia {
+	display: block;
+}
+
+owca płeć::before {
+	content: "Płeć: ";
+  font-weight: bold;
+}
+
+owca płeć {
+  	display: block;
+}
+
+owca płeć[p]::after {
+  content: attr(p);
+}
+
+owca waga::before {
+	content: "Waga: ";
+  font-weight: bold;
+}
+
+owca waga {
+	display: block;
+}
+
+owca waga[jednostka]::after {
+	content: attr(jednostka);
+  padding-left: 4px;
+}
+
+owca długość_runa::before {
+	content: "Długość runa: ";
+  font-weight: bold;
+}
+
+owca długość_runa {
+	display: block;
+}
+
+owca długość_runa[jednostka]::after {
+	content: attr(jednostka);
+  padding-left: 4px;
+}
+
+owca opis::before {
+	content: "Opis:";
+  font-weight: bold;
+}
+
+owca opis {
+	display: block;
+}
+
+owca szybkość_marszu::before {
+	content: "Szybkość marszu: ";
+  font-weight: bold;
+}
+
+owca szybkość_marszu {
+	display: block;
+}
+
+owca szybkość_marszu[jednostka=kms]::after {
+	content: "km/s";
+    padding-left: 4px;
+}
+
+owca szybkość_marszu[jednostka=ms]::after {
+	content: "m/s";
+    padding-left: 4px;
+}
+
+owca szybkość_marszu[jednostka=kmh]::after {
+	content: "km/s";
+    padding-left: 4px;
+}
+
+owca szybkość_zjadania_trawy::before {
+	content: "Szybkość zjadania trawy: ";
+  font-weight: bold;
+}
+
+owca szybkość_zjadania_trawy {
+	display: block;
+}
+
+owca szybkość_zjadania_trawy[jednostka=talerzmin]::after {
+	content: "talerz/min";
+    padding-left: 4px;
+}
+
+owca szybkość_zjadania_trawy[jednostka=miskamin]::after {
+	content: "miska/min";
+    padding-left: 4px;
+}
+
+owca szybkość_zjadania_trawy[jednostka=wiadroh]::after {
+	content: "wiadro/h";
+    padding-left: 4px;
+}

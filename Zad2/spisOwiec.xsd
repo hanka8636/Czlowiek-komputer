@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="spis_owiec">
+  <xs:complexType>
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="nagłówek" type="nagłówek_typ"/>
+      <xs:element name="lista_ras" type="lista_ras_typ"/>
+      <xs:element name="lista_pastwisk" type="lista_pastwisk_typ"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:complexType name="nagłówek_typ">
+</xs:complexType>
+
+<xs:complexType name="lista_ras_typ">
+</xs:complexType>
+
+<xs:complexType name="lista_pastwisk_typ">
+</xs:complexType>

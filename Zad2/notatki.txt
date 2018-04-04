@@ -1,0 +1,17 @@
+https://www.google.pl/search?q=rasy+owiec&oq=rasy+owiec&aqs=chrome..69i57j0l5.2750j0j4&sourceid=chrome&ie=UTF-8
+
+<definicja_jednostek>
+  <kg>kg</kg>
+  <dkg>dkg</dkg>
+  <funt>funt</funt>
+
+  <mm>mm</mm>
+  <cm>cm</cm>
+  <cal>cal</cal>
+
+  <ms>m/s</ms>
+  <talerzmin>talerz/min</talerzmin>
+  <miskamin>miska/min</miskamin>
+  <wiadroh>wiadro/h</wiadroh>
+
+</definicja_jednostek>
