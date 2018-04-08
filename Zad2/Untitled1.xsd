@@ -1,0 +1,244 @@
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+
+ <xsd:element name='spis_owiec'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='nag'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='nagłówek'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='data_modyfikacji'/>
+    <xsd:element ref='autorzy'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='data_modyfikacji' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='autorzy'>
+  <xsd:complexType>
+   <xsd:sequence maxOccurs='unbounded'>
+    <xsd:element ref='autor'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='autor'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='imi'/>
+   <xsd:attribute name='album' type='xsd:string' use='optional'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='imię_autora' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='nazwisko' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='mail'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='alias'/>
+    <xsd:element ref='znak'/>
+    <xsd:element ref='domena'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='alias' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='znak' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='domena'>
+  <xsd:complexType>
+   <xsd:attribute name='definicja_domeny' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='edu.p.lodz.pl'/>
+      <xsd:enumeration value='p.lodz.pl'/>
+      <xsd:enumeration value='info.p.lodz.pl'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='lista_ras'>
+  <xsd:complexType>
+   <xsd:sequence maxOccurs='unbounded'>
+    <xsd:element ref='definicja_rasy'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='definicja_rasy'>
+  <xsd:complexType>
+   <xsd:attribute name='nazwa' type='xsd:string' use='optional'/>
+   <xsd:attribute name='idr' type='xsd:ID' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='lista_pastwisk'>
+  <xsd:complexType>
+   <xsd:sequence maxOccurs='unbounded'>
+    <xsd:element ref='pastwisko'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='pastwisko'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='nazwa'/>
+    <xsd:element ref='powierzchnia'/>
+    <xsd:element ref='stado'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='nazwa' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='powierzchnia'>
+  <xsd:complexType>
+  <xsd:simpleContent>
+  <xsd:extension base='xsd:string'>
+   <xsd:attribute name='jednostka' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='ha'/>
+      <xsd:enumeration value='ar'/>
+      <xsd:enumeration value='m2'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='stado'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='rasa'/>
+    <xsd:element ref='owca' maxOccurs='unbounded'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='rasa'>
+  <xsd:complexType>
+   <xsd:attribute name='idr' type='xsd:IDREF' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='owca'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='imi'/>
+   <xsd:attribute name='id' type='xsd:ID' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='imię' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='data_urodzenia' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='płeć'>
+  <xsd:complexType>
+   <xsd:attribute name='p' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='k'/>
+      <xsd:enumeration value='m'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='waga'>
+  <xsd:complexType>
+  <xsd:simpleContent>
+  <xsd:extension base='xsd:string'>
+   <xsd:attribute name='jednostka' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='kg'/>
+      <xsd:enumeration value='dkg'/>
+      <xsd:enumeration value='funt'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='długość_runa'>
+  <xsd:complexType>
+  <xsd:simpleContent>
+  <xsd:extension base='xsd:string'>
+   <xsd:attribute name='jednostka' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='mm'/>
+      <xsd:enumeration value='cm'/>
+      <xsd:enumeration value='cal'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='opis' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='szybkość_marszu'>
+  <xsd:complexType>
+  <xsd:simpleContent>
+  <xsd:extension base='xsd:string'>
+   <xsd:attribute name='jednostka' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='ms'/>
+      <xsd:enumeration value='kms'/>
+      <xsd:enumeration value='kmh'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='szybkość_zjadania_trawy'>
+  <xsd:complexType>
+  <xsd:simpleContent>
+  <xsd:extension base='xsd:string'>
+   <xsd:attribute name='jednostka' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='talerzmin'/>
+      <xsd:enumeration value='miskamin'/>
+      <xsd:enumeration value='wiadroh'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+</xsd:schema>

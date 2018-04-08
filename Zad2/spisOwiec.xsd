@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.w3schools.com"
+           xmlns:typ="http://www.w3schools.com"
+            elementFormDefault="qualified">
 
 <xs:element name="spis_owiec">
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="nagłówek" type="nagłówek_typ"/>
-      <xs:element name="lista_ras" type="lista_ras_typ"/>
-      <xs:element name="lista_pastwisk" type="lista_pastwisk_typ"/>
+      <xs:element name="nagłówek" type="typ:nagłówek_typ"/>
+      <xs:element name="lista_ras" type="typ:lista_ras_typ"/>
+      <xs:element name="lista_pastwisk" type="typ:lista_pastwisk_typ"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
 
-<xs:complexType name="nagłówek_typ">
+<xs:complexType name="typ:nagłówek_typ">
   <xs:sequence>
     <xs:element name="data_modyfikacji" type="xs:date"/>
-    <xs:element name="autorzy" type="autorzy_typ"/>
+    <xs:element name="autorzy" type="typ:autorzy_typ"/>
   </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="autorzy_typ">
   <xs:sequence>
-    <xs:element name="autor" type="autor_typ" maxOccurs="unbounded"/>
+    <xs:element name="autor" type="typ:autor_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
 
@@ -33,11 +36,11 @@
 
 <xs:complexType name="autor_typ">
   <xs:sequence>
-    <xs:element name="imię_autora" type="imię_autora_typ"/>
-    <xs:element name="nazwisko" type="nazwisko_typ"/>
-    <xs:element name="mail" type="mail_typ"/>
+    <xs:element name="imię_autora" type="typ:imię_autora_typ"/>
+    <xs:element name="nazwisko" type="typ:nazwisko_typ"/>
+    <xs:element name="mail" type="typ:mail_typ"/>
   </xs:sequence>
-  <xs:attribute name="album" use="required" type="album_typ"/>
+  <xs:attribute name="album" use="required" type="typ:album_typ"/>
 </xs:complexType>
 
 <xs:simpleType name="imie_nazwisko_baza_typ">
@@ -60,14 +63,14 @@
 
 <xs:complexType name="mail_typ">
   <xs:sequence>
-    <xs:element name="alias" type="album_typ"/>
+    <xs:element name="alias" type="typ:album_typ"/>
     <xs:element name="znak" type="xs:string" default="@"/>
-    <xs:element name="domena" type="domena_typ"/>
+    <xs:element name="domena" type="typ:domena_typ"/>
   </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="domena_typ">
-  <xs:attribute name="definicja_domeny" type="definicja_domeny_typ" use="required"/>
+  <xs:attribute name="definicja_domeny" type="typ:definicja_domeny_typ" use="required"/>
 </xs:complexType>
 
 <xs:simpleType name="definicja_domeny_typ">
@@ -78,16 +81,25 @@
 
 <xs:complexType name="lista_ras_typ">
   <xs:sequence>
-    <xs:element name="definicja_rasy" type="definicja_rasy_typ" maxOccurs="unbounded"/>
+    <xs:element name="definicja_rasy" type="typ:definicja_rasy_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="definicja_rasy_typ">
-  <xs:attribute name="nazwa" type="nazwa_typ" use="required"/>
-  <xs:attribute name="idr" type="idr_typ" use="required"/>
+  <xs:attribute name="nazwa" type="typ:nazwa_typ" use="required"/>
+  <xs:attribute name="idr" type="typ:idr_typ" use="required"/>
 </xs:complexType>
 
-<!-- DODAJ KLUCZE!!!!!!! -->
+<!-- DODAJ KLUCZE!!!!!!! Nie wiem czy tak -->
+
+<xs:key name="RasaIDRkey">
+    <xs:selector xpath="typ:lista_ras_typ/typ:definicja_rasy_typ/typ:idr_typ"/>
+    <xs:field xpath="@id"/>
+</xs:key>
+<xs:keyref name="RasaIDRref" refer="RasaIDRkey">
+  <xs:selector xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:rasa_typ"/>
+    <xs:field xpath="@idref"/>
+</xs:keyref>
 
 <xs:simpleType name="nazwa_typ">
   <xs:restriction base="xs:string">
@@ -95,23 +107,24 @@
   </xs:restriction>
 </xs:simpleType>
 
+
 <xs:complexType name="lista_pastwisk_typ">
   <xs:sequence>
-    <xs:element name="pastwisko" type="pastwisko_typ" maxOccurs="unbounded"/>
+    <xs:element name="pastwisko" type="typ:pastwisko_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="pastwisko_typ">
   <xs:sequence>
-    <xs:element name="nazwa" type="nazwa_typ"/>
-    <xs:element name="powierzchnia" type="powierzchnia_typ"/>
-    <xs:element name="stado" type="stado_typ" maxOccurs="unbounded"/>
+    <xs:element name="nazwa" type="typ:nazwa_typ"/>
+    <xs:element name="powierzchnia" type="typ:powierzchnia_typ"/>
+    <xs:element name="stado" type="typ:stado_typ" maxOccurs="unbounded"/>
 </xs:complexType>
 
 <xs:complexType name="powierzchnia_typ">
   <xs:simpleContent>
     <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
-        <xs:attribute name="jednostka" type="jednostka_powierzchni_typ" use="required"/>
+        <xs:attribute name="jednostka" type="typ:jednostka_powierzchni_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>
@@ -130,25 +143,29 @@
 
 <xs:complexType name="stado_typ">
   <xs:sequence>
-    <xs:element name="rasa" type="rasa_typ"/>
-    <xs:element name="owca" type="owca_typ" maxOccurs="unbounded"/>
+    <xs:element name="rasa" type="typ:rasa_typ"/>
+    <xs:element name="owca" type="typ:owca_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
 
-<!-- RASA I OWCA KLUCZE -->
+<!-- RASA I OWCA KLUCZE wydaje mi się, że klucze ras są wyżej-->
+<xs:key name="OwcaIDRkey">
+    <xs:selector  xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:owca_typ/typ:id_typ"/>
+    <xs:field xpath="@id"/>
+</xs:key>
 
 <xs:complexType name="owca_typ">
   <xs:sequence>
-    <xs:element name="imię" type="imię_typ"/>
+    <xs:element name="imię" type="typ:imię_typ"/>
     <xs:element name="data_urodzenia" type="xs:date"/>
-    <xs:element name="płeć" type="płeć_typ"/>
-    <xs:element name="waga" type="waga_typ"/>
-    <xs:element name="długość_runa" type="długość_runa_typ"/>
-    <xs:element name="opis" type="opis_typ"/>
-    <xs:element name="szybkość_marszu" type="szybkość_marszu_typ"/>
-    <xs:element name="szybkość_zjadania_trawy" type="szybkość_zjadania_trawy_typ"/>
+    <xs:element name="płeć" type="typ:płeć_typ"/>
+    <xs:element name="waga" type="typ:waga_typ"/>
+    <xs:element name="długość_runa" type="typ:długość_runa_typ"/>
+    <xs:element name="opis" type="typ:opis_typ"/>
+    <xs:element name="szybkość_marszu" type="typ:szybkość_marszu_typ"/>
+    <xs:element name="szybkość_zjadania_trawy" type="typ:szybkość_zjadania_trawy_typ"/>
   </xs:sequence>
-  <xs:attribute name="id" type="id_typ" use="required"/>
+  <xs:attribute name="id" type="typ:id_typ" use="required"/>
 </xs:complexType>
 
 <xs:simpleType name="imię_typ">
@@ -159,7 +176,7 @@
 </xs:simpleType>
 
 <xs:complexType name="płeć_typ">
-  <xs:attribute name="p" type="p_typ" use="required"/>
+  <xs:attribute name="p" type="typ:p_typ" use="required"/>
 </xs:complexType>
 
 <xs:simpleType name="p_typ">
@@ -171,7 +188,7 @@
 <xs:complexType name="waga_typ">
   <xs:simpleContent>
     <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
-        <xs:attribute name="jednostka" type="jednostka_wagi_typ" use="required"/>
+        <xs:attribute name="jednostka" type="typ:jednostka_wagi_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>
@@ -205,7 +222,7 @@
 <xs:complexType name="szybkość_marszu_typ">
   <xs:simpleContent>
     <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
-        <xs:attribute name="jednostka" type="jednostka_marszu_typ" use="required"/>
+        <xs:attribute name="jednostka" type="typ:jednostka_marszu_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>
@@ -219,7 +236,7 @@
 <xs:complexType name="szybkość_zjadania_trawy_typ">
   <xs:simpleContent>
     <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
-        <xs:attribute name="jednostka" type="jednostka_trawy_typ" use="required"/>
+        <xs:attribute name="jednostka" type="typ:jednostka_trawy_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>

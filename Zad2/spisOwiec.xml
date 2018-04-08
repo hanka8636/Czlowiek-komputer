@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="spisOwiec.css"?>
-<!DOCTYPE spis_owiec SYSTEM "spisOwiec.dtd" [] >
-<spis_owiec>
+<spis_owiec
+            xmlns="http://www.w3schools.com"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.w3schools.com xmlSchema.xsd">
 
   <nagłówek>
     <data_modyfikacji>2018-03-12</data_modyfikacji>
