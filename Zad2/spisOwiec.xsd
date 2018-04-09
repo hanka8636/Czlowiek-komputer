@@ -99,9 +99,13 @@
 </xs:complexType>
 
 <xs:complexType name="definicja_rasy_typ">
-  <xs:attribute name="nazwa" type="typ:nazwa_typ" use="required"/>
-  <xs:attribute name="idr" type="typ:idr_typ" use="required"/>
+   <xs:attributeGroup ref="typ:idrNazwa"/>
 </xs:complexType>
+
+<xs:attributeGroup name="idrNazwa">
+    <xs:attribute type="typ:nazwa_typ" name="nazwa" use="required"/>
+    <xs:attribute type="typ:idr_typ" name="idr" use="required"/>
+</xs:attributeGroup>
 
 <xs:simpleType name="idr_typ">
   <xs:restriction base="xs:string">
