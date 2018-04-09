@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://www.w3schools.com"
            xmlns:typ="http://www.w3schools.com"
@@ -59,19 +59,19 @@
 
 <xs:simpleType name="imie_nazwisko_baza_typ">
   <xs:restriction base="xs:string">
-    <xs:pattern value="[A-Z][a-z]*( [A-Z][a-z]*)*"/>
+    <xs:pattern value="[A-ZĀ-ż][a-zĀ-ż]*( [A-ZĀ-ż][a-zĀ-ż]*)*"/>
   </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="imię_autora_typ">
   <xs:restriction base="typ:imie_nazwisko_baza_typ">
-    <xs:length value="20"/>
+    <xs:maxLength value="30"/>
   </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="nazwisko_typ">
   <xs:restriction base="typ:imie_nazwisko_baza_typ">
-    <xs:length value="50"/>
+    <xs:maxLength value="50"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -105,23 +105,14 @@
 </xs:complexType>
 
 <xs:simpleType name="idr_typ">
-  <xs:union>
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-       <xs:enumeration value="o"/>
-      </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType>
-      <xs:restriction base="xs:integer">
-       <xs:minInclusive value="1"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:union>
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[o][0-9]*"/>
+  </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="nazwa_typ">
   <xs:restriction base="xs:string">
-   <xs:length value="150"/>
+   <xs:maxLength value="150"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -161,9 +152,13 @@
 
 <xs:complexType name="stado_typ">
   <xs:sequence>
-    <xs:element name="rasa" type="typ:idr_typ"/>
+    <xs:element name="rasa" type="typ:rasa_typ"/>
     <xs:element name="owca" type="typ:owca_typ" maxOccurs="unbounded"/>
   </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="rasa_typ">
+  <xs:attribute name="idr" type="typ:idr_typ" use="required"/>
 </xs:complexType>
 
 <xs:complexType name="owca_typ">
@@ -181,24 +176,14 @@
 </xs:complexType>
 
 <xs:simpleType name="id_typ">
-  <xs:union>
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-       <xs:enumeration value="ow"/>
-      </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType>
-      <xs:restriction base="xs:integer">
-       <xs:minInclusive value="1"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:union>
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[o][w][0-9]*"/>
+  </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="imię_typ">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[A-Z][a-z]*"/>
-    <xs:length value="30"/>
+  <xs:restriction base="typ:imie_nazwisko_baza_typ">
+    <xs:maxLength value="30"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -242,7 +227,7 @@
 
 <xs:simpleType name="opis_typ">
   <xs:restriction base="xs:string">
-   <xs:length value="300"/>
+   <xs:maxLength value="300"/>
   </xs:restriction>
 </xs:simpleType>
 
