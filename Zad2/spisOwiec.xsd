@@ -51,9 +51,8 @@
 </xs:complexType>
 
 <xs:simpleType name="album_typ">
-  <xs:restriction base="xs:integer">
-    <xs:minInclusive value="100000"/>
-    <xs:maxInclusive value="999999"/>
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[0-9]{6}"/>
   </xs:restriction>
 </xs:simpleType>
 
