@@ -43,12 +43,18 @@
 
 <xs:complexType name="autor_typ">
   <xs:sequence>
-    <xs:element name="imię_autora" type="typ:imię_autora_typ"/>
-    <xs:element name="nazwisko" type="typ:nazwisko_typ"/>
+    <xs:group ref="typ:imię_nazwisko_grupa" minOccurs="0"/>
     <xs:element name="mail" type="typ:mail_typ"/>
   </xs:sequence>
   <xs:attribute name="album" use="required" type="typ:album_typ"/>
 </xs:complexType>
+
+<xs:group name="imię_nazwisko_grupa">
+   <xs:sequence>
+     <xs:element name="imię_autora" type="typ:imię_autora_typ"/>
+     <xs:element name="nazwisko" type="typ:nazwisko_typ"/>
+   </xs:sequence>
+ </xs:group>
 
 <xs:simpleType name="album_typ">
   <xs:restriction base="xs:string">
