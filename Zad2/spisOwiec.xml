@@ -30,15 +30,15 @@
   </nagłówek>
 
   <lista_ras>
-    <definicja_rasy nazwa="Białogłowa Owca Mięsna" idr="o01"/>
-    <definicja_rasy nazwa="Corriedale" idr="o02"/>
-    <definicja_rasy nazwa="Dorset Horn" idr="o03"/>
-    <definicja_rasy nazwa="Owca Fryzyjska" idr="o04"/>
-    <definicja_rasy nazwa="Ile de france" idr="o05"/>
-    <definicja_rasy nazwa="Kamieniecka" idr="o06"/>
-    <definicja_rasy nazwa="Leine" idr="o07"/>
-    <definicja_rasy nazwa="Merynos Polski" idr="o08"/>
-    <definicja_rasy nazwa="Merynos Polski odmiana barwna" idr="o09"/>
+    <definicja_rasy nazwa="Białogłowa Owca Mięsna" idr="o1"/>
+    <definicja_rasy nazwa="Corriedale" idr="o2"/>
+    <definicja_rasy nazwa="Dorset Horn" idr="o3"/>
+    <definicja_rasy nazwa="Owca Fryzyjska" idr="o4"/>
+    <definicja_rasy nazwa="Ile de france" idr="o5"/>
+    <definicja_rasy nazwa="Kamieniecka" idr="o6"/>
+    <definicja_rasy nazwa="Leine" idr="o7"/>
+    <definicja_rasy nazwa="Merynos Polski" idr="o8"/>
+    <definicja_rasy nazwa="Merynos Polski odmiana barwna" idr="o9"/>
     <definicja_rasy nazwa="Mouton charollaise" idr="o10"/>
     <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" idr="o11"/>
     <definicja_rasy nazwa="Odmiana owcy Dorset" idr="o12"/>

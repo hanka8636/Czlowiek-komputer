@@ -14,7 +14,7 @@
   </xs:complexType>
 </xs:element>
 
-<xs:complexType name="typ:nagłówek_typ">
+<xs:complexType name="nagłówek_typ">
   <xs:sequence>
     <xs:element name="data_modyfikacji" type="xs:date"/>
     <xs:element name="autorzy" type="typ:autorzy_typ"/>
@@ -50,13 +50,13 @@
 </xs:simpleType>
 
 <xs:simpleType name="imię_autora_typ">
-  <xs:restriction base="imie_nazwisko_baza_typ">
+  <xs:restriction base="typ:imie_nazwisko_baza_typ">
     <xs:length value="20"/>
   </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="nazwisko_typ">
-  <xs:restriction base="imie_nazwisko_baza_typ">
+  <xs:restriction base="typ:imie_nazwisko_baza_typ">
     <xs:length value="50"/>
   </xs:restriction>
 </xs:simpleType>
@@ -91,10 +91,24 @@
 </xs:complexType>
 
 <!-- DODAJ KLUCZE!!!!!!! Nie wiem czy tak -->
+<xs:simpleType name="idr_typ">
+  <xs:union>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:enumeration value="o"/>
+      </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+       <xs:minInclusive value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union>
+</xs:simpleType>
 
 <xs:key name="RasaIDRkey">
     <xs:selector xpath="typ:lista_ras_typ/typ:definicja_rasy_typ/typ:idr_typ"/>
-    <xs:field xpath="@id"/>
+    <xs:field xpath="@idr"/>
 </xs:key>
 <xs:keyref name="RasaIDRref" refer="RasaIDRkey">
   <xs:selector xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:rasa_typ"/>
@@ -107,7 +121,6 @@
   </xs:restriction>
 </xs:simpleType>
 
-
 <xs:complexType name="lista_pastwisk_typ">
   <xs:sequence>
     <xs:element name="pastwisko" type="typ:pastwisko_typ" maxOccurs="unbounded"/>
@@ -119,11 +132,12 @@
     <xs:element name="nazwa" type="typ:nazwa_typ"/>
     <xs:element name="powierzchnia" type="typ:powierzchnia_typ"/>
     <xs:element name="stado" type="typ:stado_typ" maxOccurs="unbounded"/>
+  </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="powierzchnia_typ">
   <xs:simpleContent>
-    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+    <xs:extension base="typ:liczba_z_jednym_miejscem_po_przecinku_typ">
         <xs:attribute name="jednostka" type="typ:jednostka_powierzchni_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
@@ -150,7 +164,7 @@
 
 <!-- RASA I OWCA KLUCZE wydaje mi się, że klucze ras są wyżej-->
 <xs:key name="OwcaIDRkey">
-    <xs:selector  xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:owca_typ/typ:id_typ"/>
+    <xs:selector xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:owca_typ/typ:id_typ"/>
     <xs:field xpath="@id"/>
 </xs:key>
 
@@ -167,6 +181,21 @@
   </xs:sequence>
   <xs:attribute name="id" type="typ:id_typ" use="required"/>
 </xs:complexType>
+
+<xs:simpleType name="id_typ">
+  <xs:union>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:enumeration value="ow"/>
+      </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+       <xs:minInclusive value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union>
+</xs:simpleType>
 
 <xs:simpleType name="imię_typ">
   <xs:restriction base="xs:string">
@@ -187,7 +216,7 @@
 
 <xs:complexType name="waga_typ">
   <xs:simpleContent>
-    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+    <xs:extension base="typ:liczba_z_jednym_miejscem_po_przecinku_typ">
         <xs:attribute name="jednostka" type="typ:jednostka_wagi_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
@@ -201,8 +230,8 @@
 
 <xs:complexType name="długość_runa_typ">
   <xs:simpleContent>
-    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
-        <xs:attribute name="jednostka" type="jednostka_runa_typ" use="required"/>
+    <xs:extension base="typ:liczba_z_jednym_miejscem_po_przecinku_typ">
+        <xs:attribute name="jednostka" type="typ:jednostka_runa_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
 </xs:complexType>
@@ -221,7 +250,7 @@
 
 <xs:complexType name="szybkość_marszu_typ">
   <xs:simpleContent>
-    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+    <xs:extension base="typ:liczba_z_jednym_miejscem_po_przecinku_typ">
         <xs:attribute name="jednostka" type="typ:jednostka_marszu_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
@@ -235,7 +264,7 @@
 
 <xs:complexType name="szybkość_zjadania_trawy_typ">
   <xs:simpleContent>
-    <xs:extension base="liczba_z_jednym_miejscem_po_przecinku_typ">
+    <xs:extension base="typ:liczba_z_jednym_miejscem_po_przecinku_typ">
         <xs:attribute name="jednostka" type="typ:jednostka_trawy_typ" use="required"/>
       </xs:extension>
   </xs:simpleContent>
@@ -246,3 +275,5 @@
    <xs:pattern value="talerzmin|miskamin|wiadroh"/>
   </xs:restriction>
 </xs:simpleType>
+
+</xs:schema>
