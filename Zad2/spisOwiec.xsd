@@ -12,6 +12,20 @@
       <xs:element name="lista_pastwisk" type="typ:lista_pastwisk_typ"/>
     </xs:sequence>
   </xs:complexType>
+
+  <xs:key name="RasaIDRkey">
+      <xs:selector xpath="typ:lista_ras/typ:definicja_rasy"/>
+      <xs:field xpath="@idr"/>
+  </xs:key>
+  <xs:keyref name="RasaIDRref" refer="typ:RasaIDRkey">
+    <xs:selector xpath="typ:lista_pastwisk/typ:pastwisko/typ:stado/typ:rasa"/>
+      <xs:field xpath="@idr"/>
+  </xs:keyref>
+
+  <xs:key name="OwcaIDRkey">
+      <xs:selector xpath="typ:lista_pastwisk/typ:pastwisko/typ:stado/typ:owca"/>
+      <xs:field xpath="@id"/>
+  </xs:key>
 </xs:element>
 
 <xs:complexType name="nagłówek_typ">
@@ -27,13 +41,6 @@
   </xs:sequence>
 </xs:complexType>
 
-<xs:simpleType name="album_typ">
-  <xs:restriction base="xs:integer">
-    <xs:minInclusive value="100000"/>
-    <xs:maxInclusive value="999999"/>
-  </xs:restriction>
-</xs:simpleType>
-
 <xs:complexType name="autor_typ">
   <xs:sequence>
     <xs:element name="imię_autora" type="typ:imię_autora_typ"/>
@@ -42,6 +49,13 @@
   </xs:sequence>
   <xs:attribute name="album" use="required" type="typ:album_typ"/>
 </xs:complexType>
+
+<xs:simpleType name="album_typ">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="100000"/>
+    <xs:maxInclusive value="999999"/>
+  </xs:restriction>
+</xs:simpleType>
 
 <xs:simpleType name="imie_nazwisko_baza_typ">
   <xs:restriction base="xs:string">
@@ -90,7 +104,6 @@
   <xs:attribute name="idr" type="typ:idr_typ" use="required"/>
 </xs:complexType>
 
-<!-- DODAJ KLUCZE!!!!!!! Nie wiem czy tak -->
 <xs:simpleType name="idr_typ">
   <xs:union>
     <xs:simpleType>
@@ -105,15 +118,6 @@
     </xs:simpleType>
   </xs:union>
 </xs:simpleType>
-
-<xs:key name="RasaIDRkey">
-    <xs:selector xpath="typ:lista_ras_typ/typ:definicja_rasy_typ/typ:idr_typ"/>
-    <xs:field xpath="@idr"/>
-</xs:key>
-<xs:keyref name="RasaIDRref" refer="RasaIDRkey">
-  <xs:selector xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:rasa_typ"/>
-    <xs:field xpath="@idref"/>
-</xs:keyref>
 
 <xs:simpleType name="nazwa_typ">
   <xs:restriction base="xs:string">
@@ -157,16 +161,10 @@
 
 <xs:complexType name="stado_typ">
   <xs:sequence>
-    <xs:element name="rasa" type="typ:rasa_typ"/>
+    <xs:element name="rasa" type="typ:idr_typ"/>
     <xs:element name="owca" type="typ:owca_typ" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
-
-<!-- RASA I OWCA KLUCZE wydaje mi się, że klucze ras są wyżej-->
-<xs:key name="OwcaIDRkey">
-    <xs:selector xpath="typ:lista_pastwisk_typ/typ:pastwisko_typ/typ:stado/typ:owca_typ/typ:id_typ"/>
-    <xs:field xpath="@id"/>
-</xs:key>
 
 <xs:complexType name="owca_typ">
   <xs:sequence>
