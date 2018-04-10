@@ -43,7 +43,7 @@
 
 <xs:complexType name="autor_typ">
   <xs:sequence>
-    <xs:group ref="typ:imię_nazwisko_grupa" minOccurs="0"/>
+    <xs:group ref="typ:imię_nazwisko_grupa" minOccurs="1"/>
     <xs:element name="mail" type="typ:mail_typ"/>
   </xs:sequence>
   <xs:attribute name="album" use="required" type="typ:album_typ"/>
@@ -75,7 +75,8 @@
 </xs:simpleType>
 
 <xs:simpleType name="nazwisko_typ">
-  <xs:restriction base="typ:imie_nazwisko_baza_typ">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[A-ZĀ-ż][a-zĀ-ż]+(-[A-ZĀ-ż][a-zĀ-ż]+)*"/>
     <xs:maxLength value="50"/>
   </xs:restriction>
 </xs:simpleType>
@@ -117,7 +118,7 @@
 
 <xs:simpleType name="idr_typ">
   <xs:restriction base="xs:string">
-    <xs:pattern value="[o][0-9]*"/>
+    <xs:pattern value="[o][0-9][0-9]+"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -152,6 +153,7 @@
 <xs:simpleType name="liczba_z_jednym_miejscem_po_przecinku_typ">
   <xs:restriction base="xs:decimal">
    <xs:fractionDigits value="1"/>
+   <xs:minExclusive value="0"/>
   </xs:restriction>
 </xs:simpleType>
 

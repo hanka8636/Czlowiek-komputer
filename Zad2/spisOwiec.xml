@@ -3,7 +3,7 @@
 <spis_owiec
             xmlns="http://www.w3schools.com"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.w3schools.com xmlSchema.xsd">
+            xsi:schemaLocation="http://www.w3schools.com spisOwiec.xsd">
 
   <nagłówek>
     <data_modyfikacji>2018-03-12</data_modyfikacji>
