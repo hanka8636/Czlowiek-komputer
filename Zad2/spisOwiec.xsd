@@ -94,7 +94,9 @@
 
 <xs:simpleType name="definicja_domeny_typ">
   <xs:restriction base="xs:string">
-   <xs:pattern value="edu.p.lodz.pl|p.lodz.pl|info.p.lodz.pl"/>
+    <xs:enumeration value="edu.p.lodz.pl"/>
+    <xs:enumeration value="p.lodz.pl"/>
+    <xs:enumeration value="info.p.lodz.pl"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -176,7 +178,10 @@
     <xs:element name="data_urodzenia" type="xs:date"/>
     <xs:element name="płeć" type="typ:płeć_typ"/>
     <xs:element name="waga" type="typ:waga_typ"/>
-    <xs:element name="długość_runa" type="typ:długość_runa_typ"/>
+    <xs:choice>
+      <xs:element name="długość_runa" type="typ:długość_runa_typ"/>
+      <xs:element name="łysa" nillable="true" type="xs:int"/>
+    </xs:choice>
     <xs:element name="opis" type="typ:opis_typ"/>
     <xs:element name="szybkość_marszu" type="typ:szybkość_marszu_typ"/>
     <xs:element name="szybkość_zjadania_trawy" type="typ:szybkość_zjadania_trawy_typ"/>
