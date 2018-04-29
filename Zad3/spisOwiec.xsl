@@ -9,7 +9,7 @@
         <h2>Autorzy:</h2>
         <ul style="list-style-type:disc">
           <xsl:for-each select="nagłówek/autorzy/autor">
-          <li><xsl:value-of select="imię_autora"/><xsl:text> </xsl:text><xsl:value-of select="nazwisko"/></li>
+          <li><xsl:value-of select="concat(imię_autora, ' ', nazwisko)"/></li>
           </xsl:for-each>
         </ul>
       </body>
