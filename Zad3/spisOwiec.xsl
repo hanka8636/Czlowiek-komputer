@@ -6,18 +6,12 @@
     <html>
       <body>
         <h2>Data modyfikacji: <xsl:value-of select="nagłówek/data_modyfikacji" /></h2>
-        <table border="1">
-            <tr bgcolor="#9acd32">
-              <th style="text-align:left">imie</th>
-              <th style="text-align:left">nazwisko</th>
-            </tr>
-            <xsl:for-each select="nagłówek/autorzy/autor">
-            <tr>
-              <td><xsl:value-of select="imię_autora"/></td>
-              <td><xsl:value-of select="nazwisko"/></td>
-            </tr>
-            </xsl:for-each>
-          </table>
+        <h2>Autorzy:</h2>
+        <ul style="list-style-type:disc">
+          <xsl:for-each select="nagłówek/autorzy/autor">
+          <li><xsl:value-of select="imię_autora"/><xsl:text> </xsl:text><xsl:value-of select="nazwisko"/></li>
+          </xsl:for-each>
+        </ul>
       </body>
     </html>
   </xsl:template>
