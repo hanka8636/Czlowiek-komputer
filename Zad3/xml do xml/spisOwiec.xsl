@@ -3,19 +3,15 @@
 	<xsl:preserve-space elements = '*' />
   <xsl:template match="/">
 		<raport>
-      <xsl:apply-templates select="//nagłówek"/>
+      <tytul> Spis Owiec </tytul>
+      <autorzy>
+        <xsl:for-each select="//autor">
+          <autor>
+            <xsl:value-of select="concat(imię_autora, ' ', nazwisko)"/>
+          </autor>
+        </xsl:for-each>
+      </autorzy>
 		</raport>
 	</xsl:template>
-
-	<xsl:template match="//nagłówek">
-    <tytul> Spis Owiec </tytul>
-    <autorzy>
-      <xsl:for-each select="//autorzy">
-        <autor>
-          <xsl:value-of select="concat(imię_autora, ' ', nazwisko)"/>
-        </autor>
-      </xsl:for-each>
-    </autorzy>
-  </xsl:template>
 
 </xsl:stylesheet>
