@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<spis_owiec>
+<?xml-stylesheet type="text/xsl" href="spisOwiec.xsl"?>
+<spis_owiec
+            xmlns="http://www.w3schools.com"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.w3schools.com spisOwiec.xsd">
 
   <nagłówek>
     <data_modyfikacji>2018-03-12</data_modyfikacji>
@@ -372,7 +376,7 @@
           <waga jednostka="kg">52.7</waga>
           <długość_runa jednostka="mm">65.6</długość_runa>
           <opis>
-            Peace and love.
+            Peace &amp; love.
           </opis>
           <szybkość_marszu jednostka="ms">25.8</szybkość_marszu>
           <szybkość_zjadania_trawy jednostka="talerzmin">0.9</szybkość_zjadania_trawy>
