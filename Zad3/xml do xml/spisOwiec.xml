@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="spisOwiec.xsl"?>
-<spis_owiec
-            xmlns="http://www.w3schools.com"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.w3schools.com spisOwiec.xsd">
+<spis_owiec>
 
   <nagłówek>
     <data_modyfikacji>2018-03-12</data_modyfikacji>
