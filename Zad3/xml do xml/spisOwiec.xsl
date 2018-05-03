@@ -40,10 +40,17 @@
 									</owca>
 								</xsl:for-each>
 							</pastwisko>
+							<xsl:variable name="liczbaOwiec" select="count(../owca)"/>
 							<liczba_owiec>
-								<xsl:variable name="kg" select="count(../owca)"/>
-								<xsl:value-of select="$kg"/>
+								<xsl:value-of select="$liczbaOwiec"/>
 							</liczba_owiec>
+							<średnia_waga>
+								<xsl:variable name="kilogramy" select="sum(../owca/waga[@jednostka='kg'])"/>
+								<xsl:variable name="dekagramy" select="sum(../owca/waga[@jednostka='dkg']) * 0.01"/>
+								<xsl:variable name="funty" select="sum(../owca/waga[@jednostka='funt']) * 0.4"/>
+								<xsl:variable name="waga" select="(($kilogramy + $dekagramy + $funty) div $liczbaOwiec)"/>
+								<xsl:value-of select="$waga"/>
+							</średnia_waga>
 						</xsl:for-each>
 					</rasa_owiec>
 				</xsl:for-each>

@@ -75,7 +75,7 @@
           <imię>Wafel</imię>
           <data_urodzenia>2002-09-24</data_urodzenia>
           <płeć p="m"/>
-          <waga jednostka="kg">50.8</waga>
+          <waga jednostka="funt">50.8</waga>
           <długość_runa jednostka="mm">14.5</długość_runa>
           <opis>
             Elegancki samiec rasy owiec domowych.
