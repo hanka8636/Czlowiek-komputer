@@ -81,6 +81,27 @@
 								<xsl:variable name="waga" select="(($kilogramy + $dekagramy + $funty) div $liczbaOwiec)"/>
 								<xsl:value-of select="$waga"/>
 							</średnia_waga>
+							<średnia_długość_runa jednostka="mm">
+								<xsl:variable name="mm" select="sum(../owca/długość_runa[@jednostka='mm'])"/>
+								<xsl:variable name="cm" select="sum(../owca/długość_runa[@jednostka='cm']) * 10"/>
+								<xsl:variable name="cal" select="sum(../owca/długość_runa[@jednostka='cal']) * 25.4"/>
+								<xsl:variable name="dlugość" select="(($mm + $cm + $cal) div $liczbaOwiec)"/>
+								<xsl:value-of select="$dlugość"/>
+							</średnia_długość_runa>
+							<średnia_szybkość_marszu jednostka="ms">
+								<xsl:variable name="ms" select="sum(../owca/szybkość_marszu[@jednostka='ms'])"/>
+								<xsl:variable name="kms" select="sum(../owca/szybkość_marszu[@jednostka='kms']) * 1000"/>
+								<xsl:variable name="kmh" select="sum(../owca/szybkość_marszu[@jednostka='kmh']) * 0.28"/>
+								<xsl:variable name="szybkośćMarszu" select="(($ms + $kms + $kmh) div $liczbaOwiec)"/>
+								<xsl:value-of select="$szybkośćMarszu"/>
+							</średnia_szybkość_marszu>
+							<średnia_szybkość_zjadania_trawy jednostka="talerzmin">
+								<xsl:variable name="talerzmin" select="sum(../owca/szybkość_zjadania_trawy[@jednostka='talerzmin'])"/>
+								<xsl:variable name="miskamin" select="sum(../owca/szybkość_zjadania_trawy[@jednostka='miskamin']) * 2"/>
+								<xsl:variable name="wiadroh" select="sum(../owca/szybkość_zjadania_trawy[@jednostka='wiadroh']) * 3"/>
+								<xsl:variable name="szybkośćJedzenia" select="(($talerzmin + $miskamin + $wiadroh) div $liczbaOwiec)"/>
+								<xsl:value-of select="$szybkośćJedzenia"/>
+							</średnia_szybkość_zjadania_trawy>
 						</xsl:for-each>
 					</rasa_owiec>
 				</xsl:for-each>
