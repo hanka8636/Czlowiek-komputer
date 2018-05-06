@@ -35,6 +35,8 @@
 
 <xsl:template match="spis" >
     <xsl:call-template name="rasa" />
+    <xsl:call-template name="Owce" />
+    <xsl:call-template name="podsumowanie" />
 </xsl:template>
 
 <!-- Rasy -->
@@ -85,7 +87,7 @@
 
 <!-- SORT -->
     <xsl:template name="Owce">
-        <div id="listaOwiec">
+        <div id="owca">
             <h2> Sortowanie </h2>
 
             <table>
@@ -93,6 +95,7 @@
                     <th>Owca</th>
                     <th>Opis</th>
                     <th>Płeć</th>
+                    <th>Data urodzenia</th>
                 </tr>
                 <xsl:for-each select="//owca" >
                     <xsl:sort select="imię" />
@@ -106,6 +109,9 @@
                         <td>
                             <xsl:value-of select="płeć" />
                         </td>
+                        <td>
+                            <xsl:value-of select="data_urodzenia" />
+                        </td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -114,17 +120,13 @@
             <table>
                 <tr>
                     <th>Nazwa</th>
-                    <th>Rasa</th>
                     <th>Powierzchnia</th>
                 </tr>
                 <xsl:for-each select="//pastwisko" >
-                    <xsl:sort select="nazwa" />
+                    <xsl:sort select="@nazwa" />
                     <tr>
                         <td>
-                            <xsl:value-of select="nazwa" />
-                        </td>
-                        <td>
-                            <xsl:value-of select="rasa" />
+                            <xsl:value-of select="@nazwa" />
                         </td>
                         <td>
                             <xsl:value-of select="powierzchnia" />
@@ -138,7 +140,7 @@
     </xsl:template>
 
     <!--    PODSUMOWANIE -->
-    <xsl:template match="Podsumowanie" >
+    <xsl:template match="podsumowanie" >
         <div id="podsumowanie" >
             <h2> Podsumowanie </h2>
             <table>
@@ -155,7 +157,7 @@
                     <th>Średnia szybkość marszu</th>
                     <th>Średnia szybkość zjadania trawy</th>
                 </tr>
-                <xsl:for-each select="//Podsumowanie" >
+                <xsl:for-each select="//podsumowanie" >
                     <tr>
                         <td>
                             <xsl:value-of select="całkowita_liczba_owiec" />
