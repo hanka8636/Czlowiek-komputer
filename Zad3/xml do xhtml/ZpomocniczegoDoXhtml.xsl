@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
-<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"
-doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-doctype-public="-//W3C//DTD XHTML 2.0 Strict//EN" />
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns="http://www.w3.org/1999/xhtml">
+  <xsl:output method="xml" version="1.0" encoding="utf-8"
+      doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" />
 
 <xsl:template match="/">
   <xsl:attribute name="xml:lang">pl</xsl:attribute>
@@ -53,28 +54,28 @@ doctype-public="-//W3C//DTD XHTML 2.0 Strict//EN" />
                 <th>Średnia szybkość zjadania trawy</th>
             </tr>
 
-            <xsl:for-each select="//definicja_rasy" >
+                <xsl:for-each select="//rasa_owiec">
                 <tr>
                     <td>
-                        <xsl:value-of select="rasaOwcy" />
+                        <xsl:value-of  select="@nazwa"/>
                     </td>
                     <td>
-                        <xsl:value-of select="nazwaPastwiska" />
+                        <xsl:value-of select="pastwisko//@nazwa" />
                     </td>
                     <td>
-                        <xsl:value-of select="liczbaOwiec" />
+                        <xsl:value-of select="liczba_owiec" />
                     </td>
                     <td>
-                        <xsl:value-of select="waga" />
+                        <xsl:value-of select="średnia_waga" />
                     </td>
                     <td>
-                        <xsl:value-of select="dlugość" />
+                        <xsl:value-of select="średnia_długość_runa" />
                     </td>
                     <td>
-                        <xsl:value-of select="szybkośćMarszu" />
+                        <xsl:value-of select="średnia_szybkość_marszu" />
                     </td>
                     <td>
-                        <xsl:value-of select="szybkośćJedzenia" />
+                        <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
                     </td>
                 </tr>
             </xsl:for-each>
