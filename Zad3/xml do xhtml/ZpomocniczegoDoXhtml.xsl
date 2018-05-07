@@ -10,20 +10,59 @@
   <xsl:attribute name="lang">pl</xsl:attribute>
     <html>
         <head>
-            <title>Zadanie 3</title>
+            <title> <xsl:value-of select="//tytul"/></title>
             <!-- <link rel="stylesheet" type="text/css" href="cssxhtml.css" /> -->
+
+
         </head>
         <body>
             <xsl:apply-templates/>
         </body>
+        <style>
+
+table {
+     border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+h1 {
+    background-color: #4CAF50;
+     padding: 30px;
+    color: white;
+}
+
+h2 {
+    background-color: #a5d899;
+     padding: 20px;
+    color: white;
+}
+h1, h2 {text-align: center; }
+</style>
     </html>
+</xsl:template>
+
+<xsl:template match="tytul" >
+    <div id="tytul" >
+       <h1> <xsl:value-of select="//tytul"/> </h1>
+
+    </div>
+
 </xsl:template>
 
 <!-- AUTORZY  -->
 <xsl:template match="autorzy" >
     <div id="naglowek" >
-        <h1> Zadanie 3 - XML z XSL -> XHTML </h1>
 
+ <h2> Autorzy </h2>
         <xsl:value-of select="//autor[1]"/>
         <br />
         <xsl:value-of select="//autor[2]"/>
