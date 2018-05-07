@@ -19,7 +19,13 @@
             <xsl:apply-templates/>
         </body>
         <style>
+        body, head {
+   font-family: Verdana, sans-serif;
+}
+body {
+    text-align: center;
 
+}
 table {
      border-collapse: collapse;
     width: 100%;
@@ -54,6 +60,16 @@ h1, h2 {text-align: center; }
     <div id="tytul" >
        <h1> <xsl:value-of select="//tytul"/> </h1>
 
+    </div>
+
+</xsl:template>
+
+<!-- Data  -->
+<xsl:template match="data_wygenerowania" >
+    <div id="data" >
+
+ <h2> Data generacji </h2>
+        <xsl:value-of select="//data_wygenerowania"/>
     </div>
 
 </xsl:template>
