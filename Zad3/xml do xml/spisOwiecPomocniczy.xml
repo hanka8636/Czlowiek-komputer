@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raport>
    <tytul> Spis Owiec </tytul>
+   <data_wygenerowania>2018-05-08</data_wygenerowania>
    <autorzy>
-      <autor>Hanna Paluszkiewicz</autor>
-      <autor>Aneta Wiśniewska</autor>
+      <autor>Hanna Paluszkiewicz 203962@edu.p.lodz.pl</autor>
+      <autor>Aneta Wiśniewska 204029@edu.p.lodz.pl</autor>
    </autorzy>
    <spis>
       <rasa_owiec nazwa="Białogłowa Owca Mięsna">
