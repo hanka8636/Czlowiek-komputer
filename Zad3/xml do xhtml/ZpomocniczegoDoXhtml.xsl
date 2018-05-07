@@ -11,48 +11,14 @@
     <html>
         <head>
             <title> <xsl:value-of select="//tytul"/></title>
-            <!-- <link rel="stylesheet" type="text/css" href="cssxhtml.css" /> -->
+            <link rel="stylesheet" type="text/css" href="raport.css" />
 
 
         </head>
         <body>
             <xsl:apply-templates/>
         </body>
-        <style>
-        body, head {
-   font-family: Verdana, sans-serif;
-}
-body {
-    text-align: center;
 
-}
-table {
-     border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-    padding: 15px;
-    text-align: center;
-}
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-tr:nth-child(even) {background-color: #f2f2f2;}
-
-h1 {
-    background-color: #4CAF50;
-     padding: 30px;
-    color: white;
-}
-
-h2 {
-    background-color: #a5d899;
-     padding: 20px;
-    color: white;
-}
-h1, h2 {text-align: center; }
-</style>
     </html>
 </xsl:template>
 
@@ -105,9 +71,13 @@ h1, h2 {text-align: center; }
                 <th>Pastwisko</th>
                 <th>Liczba owiec</th>
                 <th>Średnia waga</th>
+                <th>[j]</th>
                 <th>Średnia długość runa</th>
+                <th>[j]</th>
                 <th>Średnia szybkość marszu</th>
+                <th>[j]</th>
                 <th>Średnia szybkość zjadania trawy</th>
+                <th>[j]</th>
             </tr>
 
                 <xsl:for-each select="//rasa_owiec">
@@ -125,13 +95,25 @@ h1, h2 {text-align: center; }
                         <xsl:value-of select="średnia_waga" />
                     </td>
                     <td>
+                        <xsl:value-of  select="średnia_waga//@jednostka"/>
+                    </td>
+                    <td>
                         <xsl:value-of select="średnia_długość_runa" />
+                    </td>
+                    <td>
+                        <xsl:value-of  select="średnia_długość_runa//@jednostka"/>
                     </td>
                     <td>
                         <xsl:value-of select="średnia_szybkość_marszu" />
                     </td>
                     <td>
+                        <xsl:value-of  select="średnia_szybkość_marszu//@jednostka"/>
+                    </td>
+                    <td>
                         <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
+                    </td>
+                    <td>
+                        <xsl:value-of  select="średnia_szybkość_marszu//@jednostka"/>
                     </td>
                 </tr>
             </xsl:for-each>
@@ -147,9 +129,15 @@ h1, h2 {text-align: center; }
             <table>
                 <tr>
                     <th>Owca</th>
-                    <th>Opis</th>
-                    <th>Płeć</th>
                     <th>Data urodzenia</th>
+                    <th>Płeć</th>
+                    <th>Waga</th>
+                    <th>Długość runa</th>
+                    <th>Szybkość marszu</th>
+                    <th>Szybkość zjadania trawy</th>
+                    <th>Opis</th>
+
+
                 </tr>
                 <xsl:for-each select="//owca" >
                     <xsl:sort select="imię" />
@@ -157,15 +145,29 @@ h1, h2 {text-align: center; }
                         <td>
                             <xsl:value-of select="imię" />
                         </td>
-                        <td>
-                            <xsl:value-of select="opis" />
+                          <td>
+                            <xsl:value-of select="data_urodzenia" />
                         </td>
                         <td>
                             <xsl:value-of select="płeć" />
                         </td>
-                        <td>
-                            <xsl:value-of select="data_urodzenia" />
+                         <td>
+                            <xsl:value-of select="concat(waga, ' ', waga//@jednostka)"/>
                         </td>
+                        <td>
+                            <xsl:value-of select="concat(długość_runa, ' ', długość_runa//@jednostka)"/>
+                        </td>
+                        <td>
+                            <xsl:value-of select="concat(szybkość_marszu, ' ', szybkość_marszu//@jednostka)"/>
+                        </td>
+                        <td>
+                            <xsl:value-of select="concat(szybkość_zjadania_trawy, ' ', szybkość_zjadania_trawy//@jednostka)"/>
+                        </td>
+                        <td>
+                            <xsl:value-of select="opis" />
+                        </td>
+
+
                     </tr>
                 </xsl:for-each>
             </table>
@@ -183,7 +185,7 @@ h1, h2 {text-align: center; }
                             <xsl:value-of select="@nazwa" />
                         </td>
                         <td>
-                            <xsl:value-of select="powierzchnia" />
+                            <xsl:value-of select="concat(powierzchnia, ' ', powierzchnia//@jednostka)"/>
                         </td>
                     </tr>
                 </xsl:for-each>
@@ -229,19 +231,19 @@ h1, h2 {text-align: center; }
                             <xsl:value-of select="całkowita_liczba_pastwisk" />
                         </td>
                         <td>
-                            <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
+                             <xsl:value-of select="concat(całkowita_powierzchnia_pastwisk, ' ', całkowita_powierzchnia_pastwisk//@jednostka)"/>
                         </td>
                         <td>
-                            <xsl:value-of select="średnia_waga" />
+                            <xsl:value-of select="concat(średnia_waga, ' ', średnia_waga//@jednostka)"/>
                         </td>
                         <td>
-                            <xsl:value-of select="średnia_długość_runa" />
+                            <xsl:value-of select="concat(średnia_długość_runa, ' ', średnia_długość_runa//@jednostka)"/>
                         </td>
                         <td>
-                            <xsl:value-of select="średnia_szybkość_marszu" />
+                            <xsl:value-of select="concat(średnia_szybkość_marszu, ' ', średnia_szybkość_marszu//@jednostka)"/>
                         </td>
                         <td>
-                            <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
+                            <xsl:value-of select="concat(średnia_szybkość_zjadania_trawy, ' ', średnia_szybkość_zjadania_trawy//@jednostka)"/>
                         </td>
                     </tr>
             </table>
