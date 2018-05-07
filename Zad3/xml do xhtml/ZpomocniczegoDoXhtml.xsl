@@ -149,7 +149,18 @@
                             <xsl:value-of select="data_urodzenia" />
                         </td>
                         <td>
-                            <xsl:value-of select="płeć" />
+
+                        <xsl:choose>
+                                <xsl:when test="płeć='Samiec'">
+                                    <img src="img/samiec.png" alt="Samiec"/>
+                                </xsl:when>
+                                <xsl:when test="płeć='Samiczka'">
+                                    <img src="img/samiczka.png" alt="Samiczka"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <img src="img/samiczka.png" alt="Nic"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </td>
                          <td>
                             <xsl:value-of select="concat(waga, ' ', waga//@jednostka)"/>
@@ -175,7 +186,7 @@
 
             <table>
                 <tr>
-                    <th>Nazwa</th>
+                    <th>Nazwa pastwiska</th>
                     <th>Powierzchnia</th>
                 </tr>
                 <xsl:for-each select="//pastwisko" >
