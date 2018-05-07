@@ -5,10 +5,11 @@
 		<raport>
 
       <tytul> Spis Owiec </tytul>
+			<data_wygenerowania>2018-05-08</data_wygenerowania>
       <autorzy>
         <xsl:for-each select="//autor">
           <autor>
-            <xsl:value-of select="concat(imię_autora, ' ', nazwisko)"/>
+            <xsl:value-of select="concat(imię_autora, ' ', nazwisko, ' ', mail/alias, mail/znak, mail/domena/@definicja_domeny)"/>
           </autor>
         </xsl:for-each>
       </autorzy>
