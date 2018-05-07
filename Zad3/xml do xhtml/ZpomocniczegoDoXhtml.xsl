@@ -36,7 +36,6 @@
 <xsl:template match="spis" >
     <xsl:call-template name="rasa" />
     <xsl:call-template name="Owce" />
-    <xsl:call-template name="podsumowanie" />
 </xsl:template>
 
 <!-- Rasy -->
@@ -157,7 +156,7 @@
                     <th>Średnia szybkość marszu</th>
                     <th>Średnia szybkość zjadania trawy</th>
                 </tr>
-                <xsl:for-each select="//podsumowanie" >
+
                     <tr>
                         <td>
                             <xsl:value-of select="całkowita_liczba_owiec" />
@@ -190,7 +189,6 @@
                             <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
                         </td>
                     </tr>
-                </xsl:for-each>
             </table>
         </div>
 
