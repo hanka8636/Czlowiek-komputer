@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raport>
+   <tytul> Spis Owiec </tytul>
+   <data_wygenerowania>2018-05-08</data_wygenerowania>
+   <autorzy>
+      <autor>Hanna Paluszkiewicz 203962@edu.p.lodz.pl</autor>
+      <autor>Aneta Wiśniewska 204029@edu.p.lodz.pl</autor>
+   </autorzy>
+   <spis>
+      <rasa_owiec nazwa="Białogłowa Owca Mięsna">
+         <pastwisko nazwa="Radosne Pole">
+            <powierzchnia jednostka="ha">125.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Wafel</imię>
+                  <data_urodzenia>2002-09-24</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">20.3</waga>
+                  <długość_runa jednostka="mm">14.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Elegancki samiec rasy owiec domowych.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Masnfred</imię>
+                  <data_urodzenia>2012-09-22</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">50.1</waga>
+                  <długość_runa jednostka="mm">12.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.1</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
+                  <opis>
+            Samiec rasy owiec domowych pochodzących z RPA.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">35.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">13.4</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">12.6</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Corriedale">
+         <pastwisko nazwa="Dzikie Pole">
+            <powierzchnia jednostka="ha">125.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Zosia</imię>
+                  <data_urodzenia>2002-09-24</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">29.8</waga>
+                  <długość_runa jednostka="mm">38.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Elegancki i wyrafinowana owca.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Pizza</imię>
+                  <data_urodzenia>2002-09-24</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">60.8</waga>
+                  <długość_runa jednostka="mm">12.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.1</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
+                  <opis>
+            Owca, która lubi placki.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">45.3</średnia_waga>
+         <średnia_długość_runa jednostka="mm">25.4</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">12.6</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Dorset Horn">
+         <pastwisko nazwa="Pole Huncwotów">
+            <powierzchnia jednostka="ha">100.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Rosołek</imię>
+                  <data_urodzenia>2012-07-10</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">47.8</waga>
+                  <długość_runa jednostka="mm">2.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">30.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.9</szybkość_zjadania_trawy>
+                  <opis>
+            Owca, która panicznie boi się niedziel.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">47.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">2.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">30.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.9</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca Fryzyjska">
+         <pastwisko nazwa="Alejka róż">
+            <powierzchnia jednostka="ha">400.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Tropi</imię>
+                  <data_urodzenia>2003-11-13</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">28.8</waga>
+                  <długość_runa jednostka="mm">11.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">5.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">1.0</szybkość_zjadania_trawy>
+                  <opis>
+            Elegancki tropiciel.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Tupi</imię>
+                  <data_urodzenia>2007-02-01</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">52.8</waga>
+                  <długość_runa jednostka="mm">18.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">28.1</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Strasznie głośno chodzi.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Tuli</imię>
+                  <data_urodzenia>2010-01-15</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">15.8</waga>
+                  <długość_runa jednostka="mm">10.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Uwielbia się przytulać.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>3</liczba_owiec>
+         <średnia_waga jednostka="kg">32.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">13.4</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">16.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.6</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Ile de france">
+         <pastwisko nazwa="Zielone pastwiska">
+            <powierzchnia jednostka="ha">65.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Ludmiła</imię>
+                  <data_urodzenia>2012-09-04</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">100.8</waga>
+                  <długość_runa jednostka="mm">14.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">10.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Piękna długowłosa dama.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Bernard</imię>
+                  <data_urodzenia>2008-12-24</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">27.8</waga>
+                  <długość_runa jednostka="mm">12.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">25.1</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
+                  <opis>
+            Wcale nie pies.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">64.3</średnia_waga>
+         <średnia_długość_runa jednostka="mm">13.4</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">17.6</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Kamieniecka">
+         <pastwisko nazwa="Radosna kraina">
+            <powierzchnia jednostka="ha">158.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Truskawa</imię>
+                  <data_urodzenia>2010-09-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">47.2</waga>
+                  <długość_runa jednostka="mm">18.6</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Jakby mogła się przefarbować, to na czerwono.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Pomarańczka</imię>
+                  <data_urodzenia>2013-12-31</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">16.9</waga>
+                  <długość_runa jednostka="mm">15.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">7.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+                  <opis>
+            Lubi kwaśne.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Kwas</imię>
+                  <data_urodzenia>2001-12-10</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">16.5</waga>
+                  <długość_runa jednostka="mm">25.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Wcale nie lubi kwaśnego.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Mucha</imię>
+                  <data_urodzenia>1996-11-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">3.5</waga>
+                  <długość_runa jednostka="mm">30.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Anorektyczka.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Skakanka</imię>
+                  <data_urodzenia>2013-09-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">97.2</waga>
+                  <długość_runa jednostka="mm">14.6</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">.3</szybkość_zjadania_trawy>
+                  <opis>
+            Gdyby owca nie skakała, to by się nie poplątała.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Guma</imię>
+                  <data_urodzenia>2013-12-31</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">16.9</waga>
+                  <długość_runa jednostka="mm">15.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">7.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+                  <opis>
+            Wyjątkowo rozciągnięta.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Shock</imię>
+                  <data_urodzenia>2001-12-10</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">16.5</waga>
+                  <długość_runa jednostka="mm">25.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Jego kwaśna mina potrafi wykrzywić cudzą twarz.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Motylek</imię>
+                  <data_urodzenia>1999-11-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">3.5</waga>
+                  <długość_runa jednostka="mm">30.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">15.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Piękna i delikatna, krótko pożyje.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>8</liczba_owiec>
+         <średnia_waga jednostka="kg">27.3</średnia_waga>
+         <średnia_długość_runa jednostka="mm">22.1</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">17.7</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Leine">
+         <pastwisko nazwa="Tęczynki">
+            <powierzchnia jednostka="ha">425.0</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Czerwonek</imię>
+                  <data_urodzenia>1999-04-02</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">15.7</waga>
+                  <długość_runa jednostka="mm">32.6</długość_runa>
+                  <szybkość_marszu jednostka="ms">100.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Jest super szybki.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Zielonek</imię>
+                  <data_urodzenia>1999-02-10</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">52.7</waga>
+                  <długość_runa jednostka="mm">65.6</długość_runa>
+                  <szybkość_marszu jednostka="ms">25.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.9</szybkość_zjadania_trawy>
+                  <opis>
+            Peace &amp; love.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">34.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">49.1</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">63.3</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Merynos Polski"/>
+      <rasa_owiec nazwa="Merynos Polski odmiana barwna">
+         <pastwisko nazwa="Teletubisie">
+            <powierzchnia jednostka="ha">355.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Dipsy</imię>
+                  <data_urodzenia>1980-05-25</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">80.4</waga>
+                  <długość_runa jednostka="mm">45.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">65.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Reszta moich przyjaciół nie żyje.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">80.4</średnia_waga>
+         <średnia_długość_runa jednostka="mm">45.3</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">65.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.1</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Mouton charollaise">
+         <pastwisko nazwa="Florki nowe">
+            <powierzchnia jednostka="ha">15.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Florek</imię>
+                  <data_urodzenia>1998-06-14</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">54.5</waga>
+                  <długość_runa jednostka="mm">15.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">12.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Chce zostać komikiem.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Florka</imię>
+                  <data_urodzenia>1998-06-14</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">25.5</waga>
+                  <długość_runa jednostka="mm">4.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">23.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
+                  <opis>
+            Dziewczyna Florka.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">40.0</średnia_waga>
+         <średnia_długość_runa jednostka="mm">10.0</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">18.0</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Odmiana barwna polskiej owcy górskiej">
+         <pastwisko nazwa="Cela 11">
+            <powierzchnia jednostka="ha">145.7</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Więzień</imię>
+                  <data_urodzenia>2001-12-25</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">100.5</waga>
+                  <długość_runa jednostka="mm">100.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">0.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+                  <opis>
+            Jest więźniem swojego futra.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">100.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">100.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">.4</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.2</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Odmiana owcy Dorset">
+         <pastwisko nazwa="Wolny kraj">
+            <powierzchnia jednostka="ha">51.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Prezydent</imię>
+                  <data_urodzenia>2005-03-02</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">13.5</waga>
+                  <długość_runa jednostka="mm">5.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">48.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Ma wielkie aspiracje.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">13.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">5.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">48.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Olkuska">
+         <pastwisko nazwa="Przeludnienie">
+            <powierzchnia jednostka="ha">100.2</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Owca</imię>
+                  <data_urodzenia>2003-05-13</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">61.5</waga>
+                  <długość_runa jednostka="mm">31.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">54.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Czemu mam takie imię?
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Owca</imię>
+                  <data_urodzenia>2003-05-15</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">65.5</waga>
+                  <długość_runa jednostka="mm">15.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">31.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.7</szybkość_zjadania_trawy>
+                  <opis>
+            Nie przejmuj się.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Tadek</imię>
+                  <data_urodzenia>2003-03-03</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">64.5</waga>
+                  <długość_runa jednostka="mm">31.7</długość_runa>
+                  <szybkość_marszu jednostka="ms">54.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Ja mam normalne.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>3</liczba_owiec>
+         <średnia_waga jednostka="kg">63.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">26.2</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">46.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.3</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca plenna 09">
+         <pastwisko nazwa="Podwojona cena utrzymania">
+            <powierzchnia jednostka="ha">1000.0</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Bogaczka</imię>
+                  <data_urodzenia>2000-06-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">44.6</waga>
+                  <długość_runa jednostka="mm">54512.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">6.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Stać ją.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">44.6</średnia_waga>
+         <średnia_długość_runa jednostka="mm">54512.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">6.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.1</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca plenno-mięsna 08">
+         <pastwisko nazwa="Kreatywność to podstawa">
+            <powierzchnia jednostka="ha">515.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Mozart</imię>
+                  <data_urodzenia>1980-03-04</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">62.5</waga>
+                  <długość_runa jednostka="mm">51.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">6.7</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Nie słyszy nas.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Van Goh</imię>
+                  <data_urodzenia>1995-09-25</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">15.5</waga>
+                  <długość_runa jednostka="mm">65.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">5.6</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Nie ma gdzie iść.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">39.0</średnia_waga>
+         <średnia_długość_runa jednostka="mm">58.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">6.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.3</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Polska owca górska">
+         <pastwisko nazwa="Połowa">
+            <powierzchnia jednostka="ha">16.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Rodzynek</imię>
+                  <data_urodzenia>2001-08-03</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">16.2</waga>
+                  <długość_runa jednostka="mm">23.3</długość_runa>
+                  <szybkość_marszu jednostka="ms">61.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Jest sam jak palec.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">16.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">23.3</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">61.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.8</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Polska owca nizinna">
+         <pastwisko nazwa="Dolina zagłady">
+            <powierzchnia jednostka="ha">666.6</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Śmierć</imię>
+                  <data_urodzenia>1999-06-19</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">16.2</waga>
+                  <długość_runa jednostka="mm">25.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">65.2</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.6</szybkość_zjadania_trawy>
+                  <opis>
+            Lubi spotykać innych.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">16.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">25.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">65.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.6</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Polska owca pogórza">
+         <pastwisko nazwa="Dorosłość">
+            <powierzchnia jednostka="ha">301.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Powaga</imię>
+                  <data_urodzenia>2006-03-28</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">30.2</waga>
+                  <długość_runa jednostka="mm">10.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Wielce niepoważna.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Nadzieja</imię>
+                  <data_urodzenia>2011-06-10</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">32.2</waga>
+                  <długość_runa jednostka="mm">12.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">64.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Bez nadziei.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Miłość</imię>
+                  <data_urodzenia>2003-02-14</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">23.2</waga>
+                  <długość_runa jednostka="mm">16.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.3</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
+                  <opis>
+            Nikogo nie kocha.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>3</liczba_owiec>
+         <średnia_waga jednostka="kg">28.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">13.3</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">43.3</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Pomorska">
+         <pastwisko nazwa="Słodka kraina">
+            <powierzchnia jednostka="ha">68.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Gorycz</imię>
+                  <data_urodzenia>2016-12-09</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">64.5</waga>
+                  <długość_runa jednostka="mm">31.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Lubi być tym oryginalnym.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">64.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">31.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">32.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.8</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Romanowska">
+         <pastwisko nazwa="Kraina raków">
+            <powierzchnia jednostka="ha">322.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Rak</imię>
+                  <data_urodzenia>2001-05-16</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">35.2</waga>
+                  <długość_runa jednostka="mm">35.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">64.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">1.5</szybkość_zjadania_trawy>
+                  <opis>
+            Chodzi bokiem.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">35.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">35.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">64.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">1.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Suffolk">
+         <pastwisko nazwa="Rodzinna atmosfera">
+            <powierzchnia jednostka="ha">321.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Samotnik</imię>
+                  <data_urodzenia>2003-05-10</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">6.2</waga>
+                  <długość_runa jednostka="mm">32.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">64.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.9</szybkość_zjadania_trawy>
+                  <opis>
+            Co ja tu robię?
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">6.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">32.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">64.4</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.9</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Świniarka">
+         <pastwisko nazwa="Słodka parka">
+            <powierzchnia jednostka="ha">35.7</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Jacek</imię>
+                  <data_urodzenia>2001-03-08</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">354.4</waga>
+                  <długość_runa jednostka="mm">53.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">52.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.6</szybkość_zjadania_trawy>
+                  <opis>
+            Moją połówką jest Barbara.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Barbara</imię>
+                  <data_urodzenia>2002-10-30</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">13.4</waga>
+                  <długość_runa jednostka="mm">5.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">5.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Moją połówką jest Jacek.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">183.9</średnia_waga>
+         <średnia_długość_runa jednostka="mm">29.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">29.3</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Texel">
+         <pastwisko nazwa="Miasto owiec">
+            <powierzchnia jednostka="ha">61.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Bob</imię>
+                  <data_urodzenia>2005-08-06</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">46.6</waga>
+                  <długość_runa jednostka="mm">654.7</długość_runa>
+                  <szybkość_marszu jednostka="ms">54.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+                  <opis>
+            OBO.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">46.6</średnia_waga>
+         <średnia_długość_runa jednostka="mm">654.7</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">54.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.2</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Odmiana Uhruska polskiej owcy nizinnej">
+         <pastwisko nazwa="Twoja kraina">
+            <powierzchnia jednostka="ha">545.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Właściciel</imię>
+                  <data_urodzenia>1998-12-08</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">55.5</waga>
+                  <długość_runa jednostka="mm">252.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">52.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            To on tu rządzi.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Sprzątacz</imię>
+                  <data_urodzenia>2003-11-30</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">36.8</waga>
+                  <długość_runa jednostka="mm">14.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">56.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.7</szybkość_zjadania_trawy>
+                  <opis>
+            On tu tylko sprząta.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">46.2</średnia_waga>
+         <średnia_długość_runa jednostka="mm">133.6</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">54.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.6</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Wielkopolska">
+         <pastwisko nazwa="Testujemy na ludziach">
+            <powierzchnia jednostka="ha">452.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Testerka</imię>
+                  <data_urodzenia>2001-02-25</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">54.7</waga>
+                  <długość_runa jednostka="mm">87.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">21.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
+                  <opis>
+            Jest bardzo delikatna.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">54.7</średnia_waga>
+         <średnia_długość_runa jednostka="mm">87.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">21.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.2</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Wrzosówka">
+         <pastwisko nazwa="Owocki">
+            <powierzchnia jednostka="ha">12.7</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Kiwi</imię>
+                  <data_urodzenia>2015-07-15</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">65.8</waga>
+                  <długość_runa jednostka="mm">54.9</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.7</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            To owca, na bank.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Morela</imię>
+                  <data_urodzenia>2015-07-15</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">26.8</waga>
+                  <długość_runa jednostka="mm">61.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">21.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Mirabelka.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">46.3</średnia_waga>
+         <średnia_długość_runa jednostka="mm">58.2</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">27.2</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej">
+         <pastwisko nazwa="Czysto tu">
+            <powierzchnia jednostka="ha">32.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Pedant</imię>
+                  <data_urodzenia>2003-04-30</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">15.5</waga>
+                  <długość_runa jednostka="mm">215.</długość_runa>
+                  <szybkość_marszu jednostka="ms">613.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Uwialbia sprzątać.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">15.5</średnia_waga>
+         <średnia_długość_runa jednostka="mm">215.0</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">613.4</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca kołudzka">
+         <pastwisko nazwa="Nizina">
+            <powierzchnia jednostka="ha">36.7</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Depresja</imię>
+                  <data_urodzenia>2001-06-20</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">15.8</waga>
+                  <długość_runa jednostka="mm">16.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">62.5</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Tak niska, że aż samotna.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">15.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">16.8</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">62.5</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.1</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca SCP">
+         <pastwisko nazwa="Wolność i niezależność">
+            <powierzchnia jednostka="ha">61.5</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Wolność</imię>
+                  <data_urodzenia>2014-02-03</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">32.4</waga>
+                  <długość_runa jednostka="mm">32.7</długość_runa>
+                  <szybkość_marszu jednostka="ms">25.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Robtajta co chceta.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Niezależność</imię>
+                  <data_urodzenia>2015-06-23</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">35.8</waga>
+                  <długość_runa jednostka="mm">14.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">30.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
+                  <opis>
+            Problemy z asertywnością.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">34.1</średnia_waga>
+         <średnia_długość_runa jednostka="mm">23.8</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">28.3</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Owca BCP">
+         <pastwisko nazwa="Nowy świat">
+            <powierzchnia jednostka="ha">12.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Arka</imię>
+                  <data_urodzenia>2012-08-30</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">153.8</waga>
+                  <długość_runa jednostka="mm">51.5</długość_runa>
+                  <szybkość_marszu jednostka="ms">31.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Noego.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">153.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">51.5</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">31.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.8</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Berrichon du cher">
+         <pastwisko nazwa="Mamy telewizję">
+            <powierzchnia jednostka="ha">21.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Fan</imię>
+                  <data_urodzenia>2001-12-03</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">16.8</waga>
+                  <długość_runa jednostka="mm">5.8</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.9</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Uwielbia 'Modę na skuces'.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">16.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">5.8</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">32.9</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.1</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Biała masywu centralnego">
+         <pastwisko nazwa="Gamerzy">
+            <powierzchnia jednostka="ha">3135.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Gracz</imię>
+                  <data_urodzenia>2015-12-03</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">45.8</waga>
+                  <długość_runa jednostka="mm">32.4</długość_runa>
+                  <szybkość_marszu jednostka="ms">31.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Zawsze ma pada 1.
+          </opis>
+               </owca>
+               <owca>
+                  <imię>Gracz</imię>
+                  <data_urodzenia>2015-12-03</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">32.8</waga>
+                  <długość_runa jednostka="mm">15.4</długość_runa>
+                  <szybkość_marszu jednostka="ms">32.4</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
+                  <opis>
+            Zawsze ma pada 2.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>2</liczba_owiec>
+         <średnia_waga jednostka="kg">39.3</średnia_waga>
+         <średnia_długość_runa jednostka="mm">23.9</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">31.9</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.8</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Cakiel podhalański">
+         <pastwisko nazwa="Programiści">
+            <powierzchnia jednostka="ha">36.7</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Koder</imię>
+                  <data_urodzenia>2009-09-19</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">36.8</waga>
+                  <długość_runa jednostka="mm">32.7</długość_runa>
+                  <szybkość_marszu jednostka="ms">2.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
+                  <opis>
+            Ten to koduje.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">36.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">32.7</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">2.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.1</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Merynos polski w starym typie">
+         <pastwisko nazwa="Nowe pole">
+            <powierzchnia jednostka="ha">325.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Tadzio</imię>
+                  <data_urodzenia>2003-06-24</data_urodzenia>
+                  <płeć>Samiec</płeć>
+                  <waga jednostka="kg">64.7</waga>
+                  <długość_runa jednostka="mm">25.7</długość_runa>
+                  <szybkość_marszu jednostka="ms">25.7</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.9</szybkość_zjadania_trawy>
+                  <opis>
+            Zwykła owca.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">64.7</średnia_waga>
+         <średnia_długość_runa jednostka="mm">25.7</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">25.7</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.9</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+      <rasa_owiec nazwa="Czarnogłówka">
+         <pastwisko nazwa="Ostatnia szansa">
+            <powierzchnia jednostka="ha">155.8</powierzchnia>
+            <stado>
+               <owca>
+                  <imię>Miodzio</imię>
+                  <data_urodzenia>2009-03-14</data_urodzenia>
+                  <płeć>Samiczka</płeć>
+                  <waga jednostka="kg">16.8</waga>
+                  <długość_runa jednostka="mm">36.4</długość_runa>
+                  <szybkość_marszu jednostka="ms">25.8</szybkość_marszu>
+                  <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
+                  <opis>
+            Ma znajomości z pszczołami.
+          </opis>
+               </owca>
+            </stado>
+         </pastwisko>
+         <liczba_owiec>1</liczba_owiec>
+         <średnia_waga jednostka="kg">16.8</średnia_waga>
+         <średnia_długość_runa jednostka="mm">36.4</średnia_długość_runa>
+         <średnia_szybkość_marszu jednostka="ms">25.8</średnia_szybkość_marszu>
+         <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.4</średnia_szybkość_zjadania_trawy>
+      </rasa_owiec>
+   </spis>
+   <podsumowanie>
+      <całkowita_liczba_owiec>58</całkowita_liczba_owiec>
+      <liczebność_samców>37</liczebność_samców>
+      <liczebność_samic>21</liczebność_samic>
+      <całkowita_liczba_ras>35</całkowita_liczba_ras>
+      <całkowita_liczba_pastwisk>34</całkowita_liczba_pastwisk>
+      <całkowita_powierzchnia_pastwisk jednostka="ha">176.1</całkowita_powierzchnia_pastwisk>
+      <średnia_waga jednostka="kg">45.8</średnia_waga>
+      <średnia_długość_runa jednostka="mm">985.4</średnia_długość_runa>
+      <średnia_szybkość_marszu jednostka="ms">40.9</średnia_szybkość_marszu>
+      <średnia_szybkość_zjadania_trawy jednostka="talerzmin">.5</średnia_szybkość_zjadania_trawy>
+   </podsumowanie>
+</raport>
