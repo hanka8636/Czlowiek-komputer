@@ -1,0 +1,161 @@
+# # # # # Spis Owiec (2018-05-08)# # # # #
+
+# # # # # Autorzy # # # # #
+Hanna Paluszkiewicz 203962@edu.p.lodz.pl
+Aneta Wiśniewska 204029@edu.p.lodz.pl
+
+# # # # # Rasy # # # # #
+Nazwa rasy                                  |Pastwisko                  |L.owiec|Średnia waga[kg]|Średnia długość runa[mm]|Średnia szybkość marszu[m/s]|Średnia szybkość zjadania trawy[talerz/min]
+--------------------------------------------|---------------------------|-------|----------------|------------------------|----------------------------|-------------------------------------------
+Białogłowa Owca Mięsna                      |Radosne Pole               |2      |35.2            |13.4                    |12.6                        |.4
+Corriedale                                  |Dzikie Pole                |2      |45.3            |25.4                    |12.6                        |.4
+Dorset Horn                                 |Pole Huncwotów             |1      |47.8            |2.5                     |30.2                        |.9
+Owca Fryzyjska                              |Alejka róż                 |3      |32.5            |13.4                    |16.2                        |.6
+Ile de france                               |Zielone pastwiska          |2      |64.3            |13.4                    |17.6                        |.4
+Kamieniecka                                 |Radosna kraina             |8      |27.3            |22.1                    |17.7                        |.4
+Leine                                       |Tęczynki                   |2      |34.2            |49.1                    |63.3                        |.5
+Merynos Polski                              |                           |       |                |                        |                            |
+Merynos Polski odmiana barwna               |Teletubisie                |1      |80.4            |45.3                    |65.5                        |.1
+Mouton charollaise                          |Florki nowe                |2      |40.0            |10.0                    |18.0                        |.4
+Odmiana barwna polskiej owcy górskiej       |Cela 11                    |1      |100.5           |100.5                   |.4                          |.2
+Odmiana owcy Dorset                         |Wolny kraj                 |1      |13.5            |5.5                     |48.2                        |.5
+Olkuska                                     |Przeludnienie              |3      |63.8            |26.2                    |46.8                        |.3
+Owca plenna 09                              |Podwojona cena utrzymania  |1      |44.6            |54512.5                 |6.8                         |.1
+Owca plenno-mięsna 08                       |Kreatywność to podstawa    |2      |39.0            |58.5                    |6.2                         |.3
+Polska owca górska                          |Połowa                     |1      |16.2            |23.3                    |61.5                        |.8
+Polska owca nizinna                         |Dolina zagłady             |1      |16.2            |25.5                    |65.2                        |.6
+Polska owca pogórza                         |Dorosłość                  |3      |28.5            |13.3                    |43.3                        |.5
+Pomorska                                    |Słodka kraina              |1      |64.5            |31.5                    |32.5                        |.8
+Romanowska                                  |Kraina raków               |1      |35.2            |35.5                    |64.5                        |1.5
+Suffolk                                     |Rodzinna atmosfera         |1      |6.2             |32.5                    |64.4                        |.9
+Świniarka                                   |Słodka parka               |2      |183.9           |29.5                    |29.3                        |.5
+Texel                                       |Miasto owiec               |1      |46.6            |654.7                   |54.8                        |.2
+Odmiana Uhruska polskiej owcy nizinnej      |Twoja kraina               |2      |46.2            |133.6                   |54.5                        |.6
+Wielkopolska                                |Testujemy na ludziach      |1      |54.7            |87.5                    |21.5                        |.2
+Wrzosówka                                   |Owocki                     |2      |46.3            |58.2                    |27.2                        |.5
+Odmiana żelaźnieńska polskiej owcy nizinnej |Czysto tu                  |1      |15.5            |215.0                   |613.4                       |.5
+Owca kołudzka                               |Nizina                     |1      |15.8            |16.8                    |62.5                        |.1
+Owca SCP                                    |Wolność i niezależność     |2      |34.1            |23.8                    |28.3                        |.5
+Owca BCP                                    |Nowy świat                 |1      |153.8           |51.5                    |31.8                        |.8
+Berrichon du cher                           |Mamy telewizję             |1      |16.8            |5.8                     |32.9                        |.1
+Biała masywu centralnego                    |Gamerzy                    |2      |39.3            |23.9                    |31.9                        |.8
+Cakiel podhalański                          |Programiści                |1      |36.8            |32.7                    |2.8                         |.1
+Merynos polski w starym typie               |Nowe pole                  |1      |64.7            |25.7                    |25.7                        |.9
+Czarnogłówka                                |Ostatnia szansa            |1      |16.8            |36.4                    |25.8                        |.4
+
+
+# # # # # Owce # # # # #
+Imię          |Data urodzenia |Płeć     |Waga[kg]|Długość runa[mm]|Szybkość marszu[m/s]|Szybkość zjadania trawy[talerz/min]|Opis
+--------------|---------------|---------|--------|----------------|--------------------|-----------------------------------|------------------------------------------------------------
+Arka          |2012-08-30     |Samiczka |153.8   |51.5            |31.8                |0.8                                |Noego
+Barbara       |2002-10-30     |Samiczka |13.4    |5.5             |5.8                 |0.4                                |Moją połówką jest Jacek
+Bernard       |2008-12-24     |Samiec   |27.8    |12.3            |25.1                |0.3                                |Wcale nie pies
+Bob           |2005-08-06     |Samiec   |46.6    |654.7           |54.8                |0.2                                |OBO
+Bogaczka      |2000-06-10     |Samiczka |44.6    |54512.5         |6.8                 |0.1                                |Stać ją
+Czerwonek     |1999-04-02     |Samiec   |15.7    |32.6            |100.8               |0.1                                |Jest super szybki
+Depresja      |2001-06-20     |Samiec   |15.8    |16.8            |62.5                |0.1                                |Tak niska, że aż samotna
+Dipsy         |1980-05-25     |Samiec   |80.4    |45.3            |65.5                |0.1                                |Reszta moich przyjaciół nie żyje
+Fan           |2001-12-03     |Samiec   |16.8    |5.8             |32.9                |0.1                                |Uwielbia 'Modę na skuces'
+Florek        |1998-06-14     |Samiec   |54.5    |15.5            |12.5                |0.5                                |Chce zostać komikiem
+Florka        |1998-06-14     |Samiczka |25.5    |4.5             |23.5                |0.3                                |Dziewczyna Florka
+Gorycz        |2016-12-09     |Samiec   |64.5    |31.5            |32.5                |0.8                                |Lubi być tym oryginalnym
+Gracz         |2015-12-03     |Samiec   |45.8    |32.4            |31.4                |0.8                                |Zawsze ma pada 1
+Gracz         |2015-12-03     |Samiec   |32.8    |15.4            |32.4                |0.8                                |Zawsze ma pada 2
+Guma          |2013-12-31     |Samiczka |16.9    |15.8            |7.5                 |0.2                                |Wyjątkowo rozciągnięta
+Jacek         |2001-03-08     |Samiec   |354.4   |53.5            |52.8                |0.6                                |Moją połówką jest Barbara
+Kiwi          |2015-07-15     |Samiec   |65.8    |54.9            |32.7                |0.5                                |To owca, na bank
+Koder         |2009-09-19     |Samiec   |36.8    |32.7            |2.8                 |0.1                                |Ten to koduje
+Kwas          |2001-12-10     |Samiec   |16.5    |25.5            |32.5                |0.8                                |Wcale nie lubi kwaśnego
+Ludmiła       |2012-09-04     |Samiczka |100.8   |14.5            |10.2                |0.4                                |Piękna długowłosa dama
+Masnfred      |2012-09-22     |Samiec   |50.1    |12.3            |15.1                |0.3                                |Samiec rasy owiec domowych pochodzących z RPA
+Miodzio       |2009-03-14     |Samiczka |16.8    |36.4            |25.8                |0.4                                |Ma znajomości z pszczołami
+Miłość        |2003-02-14     |Samiczka |23.2    |16.5            |32.3                |0.3                                |Nikogo nie kocha
+Morela        |2015-07-15     |Samiczka |26.8    |61.5            |21.8                |0.5                                |Mirabelka
+Motylek       |1999-11-10     |Samiczka |3.5     |30.5            |15.5                |0.5                                |Piękna i delikatna, krótko pożyje
+Mozart        |1980-03-04     |Samiec   |62.5    |51.5            |6.7                 |0.1                                |Nie słyszy nas
+Mucha         |1996-11-10     |Samiczka |3.5     |30.5            |15.5                |0.5                                |Anorektyczka
+Nadzieja      |2011-06-10     |Samiczka |32.2    |12.8            |64.8                |0.4                                |Bez nadziei
+Niezależność  |2015-06-23     |Samiczka |35.8    |14.8            |30.8                |0.5                                |Problemy z asertywnością
+Owca          |2003-05-13     |Samiec   |61.5    |31.5            |54.5                |0.1                                |
+Owca          |2003-05-15     |Samiec   |65.5    |15.5            |31.5                |0.7                                |Nie przejmuj się
+Pedant        |2003-04-30     |Samiec   |15.5    |215.            |613.4               |0.5                                |Uwialbia sprzątać
+Pizza         |2002-09-24     |Samiec   |60.8    |12.3            |15.1                |0.3                                |Owca, która lubi placki
+Pomarańczka   |2013-12-31     |Samiczka |16.9    |15.8            |7.5                 |0.2                                |Lubi kwaśne
+Powaga        |2006-03-28     |Samiczka |30.2    |10.5            |32.8                |0.8                                |Wielce niepoważna
+Prezydent     |2005-03-02     |Samiec   |13.5    |5.5             |48.2                |0.5                                |Ma wielkie aspiracje
+Rak           |2001-05-16     |Samiec   |35.2    |35.5            |64.5                |1.5                                |Chodzi bokiem
+Rodzynek      |2001-08-03     |Samiec   |16.2    |23.3            |61.5                |0.8                                |Jest sam jak palec
+Rosołek       |2012-07-10     |Samiec   |47.8    |2.5             |30.2                |0.9                                |Owca, która panicznie boi się niedziel
+Samotnik      |2003-05-10     |Samiec   |6.2     |32.5            |64.4                |0.9                                |
+Shock         |2001-12-10     |Samiec   |16.5    |25.5            |32.5                |0.8                                |Jego kwaśna mina potrafi wykrzywić cudzą twarz
+Skakanka      |2013-09-10     |Samiczka |97.2    |14.6            |15.2                |.3                                 |Gdyby owca nie skakała, to by się nie poplątała
+Sprzątacz     |2003-11-30     |Samiec   |36.8    |14.8            |56.5                |0.7                                |On tu tylko sprząta
+Tadek         |2003-03-03     |Samiec   |64.5    |31.7            |54.4                |0.1                                |Ja mam normalne
+Tadzio        |2003-06-24     |Samiec   |64.7    |25.7            |25.7                |0.9                                |Zwykła owca
+Testerka      |2001-02-25     |Samiczka |54.7    |87.5            |21.5                |0.2                                |Jest bardzo delikatna
+Tropi         |2003-11-13     |Samiec   |28.8    |11.5            |5.2                 |1.0                                |Elegancki tropiciel
+Truskawa      |2010-09-10     |Samiczka |47.2    |18.6            |15.2                |0.1                                |Jakby mogła się przefarbować, to na czerwono
+Tuli          |2010-01-15     |Samiec   |15.8    |10.5            |15.4                |0.8                                |Uwielbia się przytulać
+Tupi          |2007-02-01     |Samiec   |52.8    |18.3            |28.1                |0.1                                |Strasznie głośno chodzi
+Van Goh       |1995-09-25     |Samiec   |15.5    |65.5            |5.6                 |0.5                                |Nie ma gdzie iść
+Wafel         |2002-09-24     |Samiec   |20.3    |14.5            |10.2                |0.4                                |Elegancki samiec rasy owiec domowych
+Więzień       |2001-12-25     |Samiec   |100.5   |100.5           |0.4                 |0.2                                |Jest więźniem swojego futra
+Wolność       |2014-02-03     |Samiczka |32.4    |32.7            |25.8                |0.5                                |Robtajta co chceta
+Właściciel    |1998-12-08     |Samiec   |55.5    |252.5           |52.5                |0.5                                |To on tu rządzi
+Zielonek      |1999-02-10     |Samiec   |52.7    |65.6            |25.8                |0.9                                |Peace &amp; love
+Zosia         |2002-09-24     |Samiczka |29.8    |38.5            |10.2                |0.4                                |Elegancki i wyrafinowana owca
+Śmierć        |1999-06-19     |Samiczka |16.2    |25.5            |65.2                |0.6                                |Lubi spotykać innych
+
+
+# # # # # Pastwiska # # # # #
+Nazwa pastwiska            |Powierzchnia[ar]
+---------------------------|----------------
+Alejka róż                 |400.8
+Cela 11                    |145.7
+Czysto tu                  |32.5
+Dolina zagłady             |666.6
+Dorosłość                  |301.5
+Dzikie Pole                |125.8
+Florki nowe                |15.8
+Gamerzy                    |3135.8
+Kraina raków               |322.5
+Kreatywność to podstawa    |515.5
+Mamy telewizję             |21.8
+Miasto owiec               |61.5
+Nizina                     |36.7
+Nowe pole                  |325.8
+Nowy świat                 |12.8
+Ostatnia szansa            |155.8
+Owocki                     |12.7
+Podwojona cena utrzymania  |1000.0
+Pole Huncwotów             |100.8
+Połowa                     |16.8
+Programiści                |36.7
+Przeludnienie              |100.2
+Radosna kraina             |158.5
+Radosne Pole               |125.8
+Rodzinna atmosfera         |321.5
+Słodka kraina              |68.5
+Słodka parka               |35.7
+Teletubisie                |355.5
+Testujemy na ludziach      |452.8
+Twoja kraina               |545.5
+Tęczynki                   |425.0
+Wolność i niezależność     |61.5
+Wolny kraj                 |51.5
+Zielone pastwiska          |65.8
+
+
+# # # # # Podsumowanie # # # # #
+Kategoria                       |Wartość
+--------------------------------|-------
+Całkowita liczba owiec          |58
+Liczebność samców               |37
+Liczebność samic                |21
+Całkowita liczba ras            |35
+Całkowita liczba pastwisk       |34
+Całkowita powierzchnia pastwisk |176.1
+Średnia waga                    |35.2
+Średnia długość runa            |13.4
+Średnia szybkość marszu         |12.6
+Średnia szybkość zjadania trawy |.4     
