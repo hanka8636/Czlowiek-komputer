@@ -28,12 +28,11 @@
       <fo:page-sequence master-reference="Spis">
         <fo:static-content flow-name="xsl-region-before">
           <fo:block text-align="center" font-family="Arial" font-size="15px">
-            <xsl:text>Dane plyt</xsl:text>
+            <xsl:text>Spis owiec</xsl:text>
             <fo:block text-align="center" font-family="monospace" font-size="10px">
               <xsl:text>[&#x20;Wygenerowano:</xsl:text>
-              <xsl:value-of select="substring(//document/Podsumowanie/Data_Raportu,1,10)"/>
               <xsl:text>&#xD;&#xA;</xsl:text>
-              <xsl:value-of select="substring(//document/Podsumowanie/Data_Raportu,12,5)"/>
+                            <xsl:value-of select="//data_wygenerowania"/>
               <xsl:text>&#x20;]</xsl:text>
             </fo:block>
           </fo:block>
@@ -61,7 +60,10 @@
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
       <fo:block>
-      <xsl:value-of select="autor"/>
+      <xsl:value-of select="//autor[1]"/>
+      </fo:block>
+      <fo:block>
+      <xsl:value-of select="//autor[2]"/>
       </fo:block>
     </fo:block>
   </xsl:template>
@@ -71,7 +73,7 @@
 <xsl:template match="spis">
     <fo:block font-size="12px" text-align="left" font-family="Actor">
       <fo:block text-align="center" margin="20" font-weight="bold">
-        <xsl:text>Plyty</xsl:text>
+        <xsl:text>Rasy</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
         <fo:block>
