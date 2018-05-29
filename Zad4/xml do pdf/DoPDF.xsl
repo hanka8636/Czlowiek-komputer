@@ -11,13 +11,13 @@
     <fo:root>
       <fo:layout-master-set>
         <fo:simple-page-master  master-name="Spis"
-                                page-height="29,7cm"
-                                page-width="21cm"
-                                margin-top="2cm"
-                                margin-bottom="1cm"
-                                margin-left="2,5cm"
-                                margin-right="2,5cm">
-          <fo:region-body margin="2cm"/>
+                                page-height="297mm"
+                                page-width="210mm"
+                                margin-top="20mm"
+                                margin-bottom="10mm"
+                                margin-left="15mm"
+                                margin-right="15mm">
+          <fo:region-body margin="10mm"/>
           <fo:region-before extent="5" />
           <fo:region-after extent="5" />
           <fo:region-start extent="5" />
@@ -27,22 +27,19 @@
 
       <fo:page-sequence master-reference="Spis">
         <fo:static-content flow-name="xsl-region-before">
-          <fo:block text-align="center" font-family="Arial" font-size="15px">
+          <fo:block text-align="center" font-family="Tahoma" font-size="24px">
             <xsl:text>Spis owiec</xsl:text>
-            <fo:block text-align="center" font-family="monospace" font-size="10px">
-              <xsl:text>[&#x20;Wygenerowano:</xsl:text>
-              <xsl:text>&#xD;&#xA;</xsl:text>
+            <fo:block text-align="center" font-family="Courier New" font-size="12px">
+              <xsl:text>Wygenerowano:</xsl:text>
                             <xsl:value-of select="//data_wygenerowania"/>
-              <xsl:text>&#x20;]</xsl:text>
             </fo:block>
           </fo:block>
         </fo:static-content>
 
         <fo:static-content flow-name="xsl-region-after">
-          <fo:block text-align="center" font-family="monospace"  font-size="10px">
-            <xsl:text>[&#x20;Strona&#x20;</xsl:text>
+          <fo:block text-align="center" font-family= "Courier New"  font-size="12px">
+            <xsl:text>Strona &#xD;&#xA;</xsl:text>
                 <fo:page-number />
-            <xsl:text>&#x20;]</xsl:text>
           </fo:block>
         </fo:static-content>
 
@@ -54,10 +51,9 @@
   </xsl:template>
 
   <xsl:template match="autorzy">
-    <fo:block font-size="15px" text-align="left" font-family="Segoe UI" margin="25">
+    <fo:block font-size="16px" text-align="left" font-family="Calibri" margin="25">
       <fo:block>
         <xsl:text>Autorzy:</xsl:text>
-        <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
       <fo:block>
       <xsl:value-of select="//autor[1]"/>
@@ -71,12 +67,12 @@
 
 
 <xsl:template match="spis">
-    <fo:block font-size="10px" text-align="left" font-family="Actor">
+    <fo:block font-size="20px" text-align="left" font-family="Liberation Sans">
       <fo:block text-align="center" margin="10" font-weight="bold">
         <xsl:text>Rasy</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
-        <fo:block>
+        <fo:block font-size="10px" text-align="left" font-family="Liberation Sans">
         <fo:table border="solid black" width="100%">
 
           <fo:table-header>
@@ -99,42 +95,46 @@
               <fo:table-cell border="solid black">
                 <fo:block font-weight="bold" text-align="center">Średnia szybkość marszu[m/s]</fo:block>
               </fo:table-cell>
-
+              <fo:table-cell border="solid black">
+                <fo:block font-weight="bold" text-align="center">Średnia szybkość jedzenia [talerz/min]</fo:block>
+              </fo:table-cell>
             </fo:table-row>
           </fo:table-header>
 
           <fo:table-body>
             <xsl:for-each select="//rasa_owiec">
               <fo:table-row>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid" border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="@nazwa" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="./pastwisko/@nazwa" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="liczba_owiec" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="średnia_waga" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="średnia_długość_runa" />
                     </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="średnia_szybkość_marszu" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-left-style="solid" border-right-style="solid"  border-bottom-style="dashed">
                     <fo:block text-align="center">
                         <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
                     </fo:block>
@@ -149,12 +149,12 @@
 
     <xsl:text>&#xD;&#xA;&#xA;</xsl:text>
 
-    <fo:block font-size="12px" text-align="left" font-family="Segoe UI">
+    <fo:block font-size="20px" font-family="Liberation Sans">
       <fo:block text-align="center" margin="20" font-weight="bold" space-before="45pt">
         <xsl:text>Owce</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
-      <fo:block>
+      <fo:block font-size="12px" text-align="left" font-family="Segoe UI">
         <fo:table border="solid black" width="100%">
 
           <fo:table-header>
@@ -189,42 +189,42 @@
           <fo:table-body>
             <xsl:for-each select="//owca">
               <fo:table-row>
-                <fo:table-cell>
+                <fo:table-cell  border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./imię" />
                     </fo:block>
-                </fo:table-cell>
-                <fo:table-cell>
+                </fo:table-cell >
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./data_urodzenia" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./płeć" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./waga" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./długość_runa" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./szybkość_marszu" />
                     </fo:block>
                 </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                     <fo:block text-align="center">
                         <xsl:value-of select="./szybkość_zjadania_trawy" />
                     </fo:block>
                     </fo:table-cell>
-                <fo:table-cell>
+                <fo:table-cell border-bottom-style="dotted">
                         <fo:block text-align="center">
                             <xsl:value-of select="./opis" />
                         </fo:block>
@@ -237,13 +237,13 @@
       </fo:block>
     </fo:block>
 
-    <fo:block font-size="12px" text-align="left" font-family="Amaranth">
+    <fo:block font-size="12px" text-align="left" font-family="Poppins Black">
       <fo:block text-align="center" margin="10" font-weight="bold" >
         <xsl:text>&#160;</xsl:text>
         <xsl:text>Pastwiska</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
-        <fo:block>
+        <fo:block font-size="12px" text-align="left" font-family="Segoe UI">
         <fo:table border="solid black" width="100%">
 
           <fo:table-header>
@@ -289,19 +289,19 @@
         <xsl:text>Podsumowanie</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
-      <fo:block>
+      <fo:block font-size="12px" text-align="left" font-family="Segoe UI">
         <fo:table border="solid black" width="100%">
 
           <fo:table-header>
             <fo:table-row>
               <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">całkowita_liczba_owiec</fo:block>
+                <fo:block font-weight="bold" text-align="center">całkowita liczba owiec</fo:block>
               </fo:table-cell>
               <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">liczebność_samców</fo:block>
+                <fo:block font-weight="bold" text-align="center">liczebność samców</fo:block>
               </fo:table-cell>
               <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">liczebność_samic</fo:block>
+                <fo:block font-weight="bold" text-align="center">liczebność samic</fo:block>
               </fo:table-cell>
             </fo:table-row>
           </fo:table-header>

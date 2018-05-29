@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg:svg
+  PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1520" height="1400" font-family="Calibri"><svg:desc>Spis owiec - wizualizacja</svg:desc><svg:title/><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:rgb(195, 255, 193);stop-opacity:1"/><stop offset="100%" style="stop-color:rgb(195, 255, 193);stop-opacity:1"/></linearGradient></defs><svg:rect x="3" y="3" width="1920" height="1080" fill="url(#grad1)" stroke="black" stroke-width="3"/><svg:rect x="40%" y="10" width="300" height="30" onmouseover="mOverS(this)" onmouseout="mOutS(this)" stroke="green" stroke-width="0.1" fill="none"/><svg:text x="50%" y="30" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+                Spis owiec - wizualizacja
+            </svg:text><script>
+            function mOverS(obj) {
+                obj.setAttribute("stroke-width","5")
+            }
+
+            function mOutS(obj) {
+                obj.setAttribute("stroke-width",".1")
+            }
+            </script><script>
+            function mOver(obj) {
+                obj.setAttribute("fill-opacity",".1")
+            }
+
+            function mOut(obj) {
+                obj.setAttribute("fill-opacity","1")
+            }
+            </script><svg version="1.1" id="Warstwa_1" x="45%" y="-70" xml:space="preserve">
+              <style type="text/css">
+                .st0{fill:#3A3A3A;}
+                .st1{fill:#FFFFFF;}
+              </style>
+              <g>
+                <rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                <circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                <circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                <circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                <path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                <path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                <path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                <circle cx="177.5" cy="183.1" r="1"/>
+                <circle cx="181.8" cy="183.1" r="1"/>
+
+              </g>
+
+              </svg><svg version="1.1" id="Warstwa_1" x="5%" y="-70" xml:space="preserve">
+              <style type="text/css">
+                .st0{fill:#3A3A3A;}
+                .st1{fill:#FFFFFF;}
+              </style>
+              <g>
+                <rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                <circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                <circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                <circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                <path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                <path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                <path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                <circle cx="177.5" cy="183.1" r="1"/>
+                <circle cx="181.8" cy="183.1" r="1"/>
+
+              </g>
+
+              </svg><svg:text x="20%" y="120" fill="black" font-size="16">Hanna Paluszkiewicz 203962@edu.p.lodz.pl</svg:text><svg height="80" width="80"><circle onmouseover="mOver(this)" onmouseout="mOut(this)" cx="45" cy="45" r="30" stroke="black" stroke-width="0" fill-opacity="0.1" fill="yellow"/></svg><svg:text x="60%" y="120" fill="black" font-size="16">Aneta Wiśniewska 204029@edu.p.lodz.pl</svg:text><script>
+                        var xF = 21;
+                        var xM = 37;
+
+                        var yF = xF*2.50;
+                        var yM = xM*2.50;
+
+                        function ustawWykresyPlci(){
+                            document.getElementById('rectF').setAttribute("height",yF);
+                            document.getElementById('rectM').setAttribute("height",yM);
+
+                        }
+                    </script><svg:text x="50%" y="230" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+                      Porównanie ilości samic i samców
+                    </svg:text><svg:text x="45%" y="380" fill="black" font-size="16">  Samice </svg:text><svg:text x="55%" y="380" fill="black" font-size="16">  Samce </svg:text>21<svg><rect id="rectF" x="45%" y="250" width="50" height="0" fill="#42f459" stroke="black"><animate attributeType="style" attributeName="fill" from="black" to="#04a018" dur="2s" repeatCount="indefinite"/></rect></svg><svg><rect id="rectM" x="55%" y="250" width="50" height="0" fill="#42f459" stroke="black"><animate attributeType="style" attributeName="fill" from="black" to="#04a018" dur="2s" repeatCount="indefinite"/></rect></svg><svg:g id="authors" class="btn" width="70" height="20" onclick="ustawWykresyPlci()" cursor="pointer"><svg:rect x="49%" y="420" width="70" height="20" fill="#42f459" stroke="black"/><svg:text x="25" y="1" fill="white" font-size="16">Autorzy:</svg:text></svg:g><svg:text x="50%" y="530" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+    Porównanie liczby ras i pastwisk
+  </svg:text><svg:text x="55%" y="620" fill="black" font-size="16">  Rasy </svg:text><svg:text x="45%" y="620" fill="black" font-size="16">  Pastwiska </svg:text><svg:text x="45%" y="640" fill="black" font-size="16">35</svg:text>
+                    Liczba ras: 35;
+                    <svg><rect id="rect11" x="45%" y="550" width="20" height="35" fill="#ffe3bc"><animate attributeName="height" from="0" to="35" dur="3s"/></rect></svg><svg:text x="55%" y="640" fill="black" font-size="16">34</svg:text>
+                    Liczba pastwisk: 34;
+                    <svg><rect id="rect11" x="55%" y="550" width="20" height="34" fill="green"><animate attributeName="height" from="0" to="34" dur="5s"/></rect></svg><svg:text x="50%" y="680" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+                      Calkowita powierzchnia pastwisk
+                    </svg:text><script>
+                    function mOverP(evt) {
+                    var numbers = document.getElementById("txp");
+                    numbers.setAttribute("visibility", "visible");
+
+                    }
+
+                    function mOutP(evt) {
+                    var numbers = document.getElementById("txp");
+                    numbers.setAttribute("visibility", "hidden");
+                    }
+                    </script><rect id="past" x="70%" y="250" width="400" height="800" fill="green" stroke-width="10" stroke="brown"/><svg><circle id="circ" cx="50%" cy="820" r="30" fill="#04a018" stroke-width="5" stroke="brown"><animate attributeName="r" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="0" to="100" repeatCount="indefinite"/></circle></svg><svg:text id="txp" x="50%" y="820" font-size="18" fill="white" font-weight="bold" text-anchor="middle">176.1</svg:text><svg version="1.1" id="Warstwa_1" x="800" y="-100" xml:space="preserve">
+                                      <style type="text/css">
+                                      	.st0{fill:#3A3A3A;}
+                                      	.st1{fill:#FFFFFF;}
+                                      </style>
+                                      <g transform="scale(2.5)">
+                                      	<rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                                      	<rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                                      	<circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                                      	<circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                                      	<circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                                      	<circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                                      	<path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                                      	<path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                                      	<path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                                      	<circle cx="177.5" cy="183.1" r="1"/>
+                                      	<circle cx="181.8" cy="183.1" r="1"/>
+<animateMotion path="M 40 10 L 40 600 L 40 10" dur="8s" repeatCount="indefinite"/>
+                                      </g>
+
+                                      </svg>
+    Spis Owiec 
+   2018-05-29
+   <svg version="1.1" id="Warstwa_1" x="45%" y="-70" xml:space="preserve">
+              <style type="text/css">
+                .st0{fill:#3A3A3A;}
+                .st1{fill:#FFFFFF;}
+              </style>
+              <g>
+                <rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                <circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                <circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                <circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                <path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                <path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                <path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                <circle cx="177.5" cy="183.1" r="1"/>
+                <circle cx="181.8" cy="183.1" r="1"/>
+
+              </g>
+
+              </svg><svg version="1.1" id="Warstwa_1" x="5%" y="-70" xml:space="preserve">
+              <style type="text/css">
+                .st0{fill:#3A3A3A;}
+                .st1{fill:#FFFFFF;}
+              </style>
+              <g>
+                <rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                <circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                <circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                <circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                <circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                <path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                <path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                <path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                <circle cx="177.5" cy="183.1" r="1"/>
+                <circle cx="181.8" cy="183.1" r="1"/>
+
+              </g>
+
+              </svg><svg:text x="20%" y="120" fill="black" font-size="16">Hanna Paluszkiewicz 203962@edu.p.lodz.pl</svg:text><svg height="80" width="80"><circle onmouseover="mOver(this)" onmouseout="mOut(this)" cx="45" cy="45" r="30" stroke="black" stroke-width="0" fill-opacity="0.1" fill="yellow"/></svg><svg:text x="60%" y="120" fill="black" font-size="16">Aneta Wiśniewska 204029@edu.p.lodz.pl</svg:text>
+   
+      
+         
+            125.8
+            
+               
+                  Wafel
+                  2002-09-24
+                  Samiec
+                  20.3
+                  14.5
+                  10.2
+                  0.4
+                  
+            Elegancki samiec rasy owiec domowych.
+          
+               
+               
+                  Masnfred
+                  2012-09-22
+                  Samiec
+                  50.1
+                  12.3
+                  15.1
+                  0.3
+                  
+            Samiec rasy owiec domowych pochodzących z RPA.
+          
+               
+            
+         
+         2
+         35.2
+         13.4
+         12.6
+         .4
+      
+      
+         
+            125.8
+            
+               
+                  Zosia
+                  2002-09-24
+                  Samiczka
+                  29.8
+                  38.5
+                  10.2
+                  0.4
+                  
+            Elegancki i wyrafinowana owca.
+          
+               
+               
+                  Pizza
+                  2002-09-24
+                  Samiec
+                  60.8
+                  12.3
+                  15.1
+                  0.3
+                  
+            Owca, która lubi placki.
+          
+               
+            
+         
+         2
+         45.3
+         25.4
+         12.6
+         .4
+      
+      
+         
+            100.8
+            
+               
+                  Rosołek
+                  2012-07-10
+                  Samiec
+                  47.8
+                  2.5
+                  30.2
+                  0.9
+                  
+            Owca, która panicznie boi się niedziel.
+          
+               
+            
+         
+         1
+         47.8
+         2.5
+         30.2
+         .9
+      
+      
+         
+            400.8
+            
+               
+                  Tropi
+                  2003-11-13
+                  Samiec
+                  28.8
+                  11.5
+                  5.2
+                  1.0
+                  
+            Elegancki tropiciel.
+          
+               
+               
+                  Tupi
+                  2007-02-01
+                  Samiec
+                  52.8
+                  18.3
+                  28.1
+                  0.1
+                  
+            Strasznie głośno chodzi.
+          
+               
+               
+                  Tuli
+                  2010-01-15
+                  Samiec
+                  15.8
+                  10.5
+                  15.4
+                  0.8
+                  
+            Uwielbia się przytulać.
+          
+               
+            
+         
+         3
+         32.5
+         13.4
+         16.2
+         .6
+      
+      
+         
+            65.8
+            
+               
+                  Ludmiła
+                  2012-09-04
+                  Samiczka
+                  100.8
+                  14.5
+                  10.2
+                  0.4
+                  
+            Piękna długowłosa dama.
+          
+               
+               
+                  Bernard
+                  2008-12-24
+                  Samiec
+                  27.8
+                  12.3
+                  25.1
+                  0.3
+                  
+            Wcale nie pies.
+          
+               
+            
+         
+         2
+         64.3
+         13.4
+         17.6
+         .4
+      
+      
+         
+            158.5
+            
+               
+                  Truskawa
+                  2010-09-10
+                  Samiczka
+                  47.2
+                  18.6
+                  15.2
+                  0.1
+                  
+            Jakby mogła się przefarbować, to na czerwono.
+          
+               
+               
+                  Pomarańczka
+                  2013-12-31
+                  Samiczka
+                  16.9
+                  15.8
+                  7.5
+                  0.2
+                  
+            Lubi kwaśne.
+          
+               
+               
+                  Kwas
+                  2001-12-10
+                  Samiec
+                  16.5
+                  25.5
+                  32.5
+                  0.8
+                  
+            Wcale nie lubi kwaśnego.
+          
+               
+               
+                  Mucha
+                  1996-11-10
+                  Samiczka
+                  3.5
+                  30.5
+                  15.5
+                  0.5
+                  
+            Anorektyczka.
+          
+               
+               
+                  Skakanka
+                  2013-09-10
+                  Samiczka
+                  97.2
+                  14.6
+                  15.2
+                  .3
+                  
+            Gdyby owca nie skakała, to by się nie poplątała.
+          
+               
+               
+                  Guma
+                  2013-12-31
+                  Samiczka
+                  16.9
+                  15.8
+                  7.5
+                  0.2
+                  
+            Wyjątkowo rozciągnięta.
+          
+               
+               
+                  Shock
+                  2001-12-10
+                  Samiec
+                  16.5
+                  25.5
+                  32.5
+                  0.8
+                  
+            Jego kwaśna mina potrafi wykrzywić cudzą twarz.
+          
+               
+               
+                  Motylek
+                  1999-11-10
+                  Samiczka
+                  3.5
+                  30.5
+                  15.5
+                  0.5
+                  
+            Piękna i delikatna, krótko pożyje.
+          
+               
+            
+         
+         8
+         27.3
+         22.1
+         17.7
+         .4
+      
+      
+         
+            425.0
+            
+               
+                  Czerwonek
+                  1999-04-02
+                  Samiec
+                  15.7
+                  32.6
+                  100.8
+                  0.1
+                  
+            Jest super szybki.
+          
+               
+               
+                  Zielonek
+                  1999-02-10
+                  Samiec
+                  52.7
+                  65.6
+                  25.8
+                  0.9
+                  
+            Peace &amp; love.
+          
+               
+            
+         
+         2
+         34.2
+         49.1
+         63.3
+         .5
+      
+      
+      
+         
+            355.5
+            
+               
+                  Dipsy
+                  1980-05-25
+                  Samiec
+                  80.4
+                  45.3
+                  65.5
+                  0.1
+                  
+            Reszta moich przyjaciół nie żyje.
+          
+               
+            
+         
+         1
+         80.4
+         45.3
+         65.5
+         .1
+      
+      
+         
+            15.8
+            
+               
+                  Florek
+                  1998-06-14
+                  Samiec
+                  54.5
+                  15.5
+                  12.5
+                  0.5
+                  
+            Chce zostać komikiem.
+          
+               
+               
+                  Florka
+                  1998-06-14
+                  Samiczka
+                  25.5
+                  4.5
+                  23.5
+                  0.3
+                  
+            Dziewczyna Florka.
+          
+               
+            
+         
+         2
+         40.0
+         10.0
+         18.0
+         .4
+      
+      
+         
+            145.7
+            
+               
+                  Więzień
+                  2001-12-25
+                  Samiec
+                  100.5
+                  100.5
+                  0.4
+                  0.2
+                  
+            Jest więźniem swojego futra.
+          
+               
+            
+         
+         1
+         100.5
+         100.5
+         .4
+         .2
+      
+      
+         
+            51.5
+            
+               
+                  Prezydent
+                  2005-03-02
+                  Samiec
+                  13.5
+                  5.5
+                  48.2
+                  0.5
+                  
+            Ma wielkie aspiracje.
+          
+               
+            
+         
+         1
+         13.5
+         5.5
+         48.2
+         .5
+      
+      
+         
+            100.2
+            
+               
+                  Owca
+                  2003-05-13
+                  Samiec
+                  61.5
+                  31.5
+                  54.5
+                  0.1
+                  
+            Czemu mam takie imię?
+          
+               
+               
+                  Owca
+                  2003-05-15
+                  Samiec
+                  65.5
+                  15.5
+                  31.5
+                  0.7
+                  
+            Nie przejmuj się.
+          
+               
+               
+                  Tadek
+                  2003-03-03
+                  Samiec
+                  64.5
+                  31.7
+                  54.4
+                  0.1
+                  
+            Ja mam normalne.
+          
+               
+            
+         
+         3
+         63.8
+         26.2
+         46.8
+         .3
+      
+      
+         
+            1000.0
+            
+               
+                  Bogaczka
+                  2000-06-10
+                  Samiczka
+                  44.6
+                  54512.5
+                  6.8
+                  0.1
+                  
+            Stać ją.
+          
+               
+            
+         
+         1
+         44.6
+         54512.5
+         6.8
+         .1
+      
+      
+         
+            515.5
+            
+               
+                  Mozart
+                  1980-03-04
+                  Samiec
+                  62.5
+                  51.5
+                  6.7
+                  0.1
+                  
+            Nie słyszy nas.
+          
+               
+               
+                  Van Goh
+                  1995-09-25
+                  Samiec
+                  15.5
+                  65.5
+                  5.6
+                  0.5
+                  
+            Nie ma gdzie iść.
+          
+               
+            
+         
+         2
+         39.0
+         58.5
+         6.2
+         .3
+      
+      
+         
+            16.8
+            
+               
+                  Rodzynek
+                  2001-08-03
+                  Samiec
+                  16.2
+                  23.3
+                  61.5
+                  0.8
+                  
+            Jest sam jak palec.
+          
+               
+            
+         
+         1
+         16.2
+         23.3
+         61.5
+         .8
+      
+      
+         
+            666.6
+            
+               
+                  Śmierć
+                  1999-06-19
+                  Samiczka
+                  16.2
+                  25.5
+                  65.2
+                  0.6
+                  
+            Lubi spotykać innych.
+          
+               
+            
+         
+         1
+         16.2
+         25.5
+         65.2
+         .6
+      
+      
+         
+            301.5
+            
+               
+                  Powaga
+                  2006-03-28
+                  Samiczka
+                  30.2
+                  10.5
+                  32.8
+                  0.8
+                  
+            Wielce niepoważna.
+          
+               
+               
+                  Nadzieja
+                  2011-06-10
+                  Samiczka
+                  32.2
+                  12.8
+                  64.8
+                  0.4
+                  
+            Bez nadziei.
+          
+               
+               
+                  Miłość
+                  2003-02-14
+                  Samiczka
+                  23.2
+                  16.5
+                  32.3
+                  0.3
+                  
+            Nikogo nie kocha.
+          
+               
+            
+         
+         3
+         28.5
+         13.3
+         43.3
+         .5
+      
+      
+         
+            68.5
+            
+               
+                  Gorycz
+                  2016-12-09
+                  Samiec
+                  64.5
+                  31.5
+                  32.5
+                  0.8
+                  
+            Lubi być tym oryginalnym.
+          
+               
+            
+         
+         1
+         64.5
+         31.5
+         32.5
+         .8
+      
+      
+         
+            322.5
+            
+               
+                  Rak
+                  2001-05-16
+                  Samiec
+                  35.2
+                  35.5
+                  64.5
+                  1.5
+                  
+            Chodzi bokiem.
+          
+               
+            
+         
+         1
+         35.2
+         35.5
+         64.5
+         1.5
+      
+      
+         
+            321.5
+            
+               
+                  Samotnik
+                  2003-05-10
+                  Samiec
+                  6.2
+                  32.5
+                  64.4
+                  0.9
+                  
+            Co ja tu robię?
+          
+               
+            
+         
+         1
+         6.2
+         32.5
+         64.4
+         .9
+      
+      
+         
+            35.7
+            
+               
+                  Jacek
+                  2001-03-08
+                  Samiec
+                  354.4
+                  53.5
+                  52.8
+                  0.6
+                  
+            Moją połówką jest Barbara.
+          
+               
+               
+                  Barbara
+                  2002-10-30
+                  Samiczka
+                  13.4
+                  5.5
+                  5.8
+                  0.4
+                  
+            Moją połówką jest Jacek.
+          
+               
+            
+         
+         2
+         183.9
+         29.5
+         29.3
+         .5
+      
+      
+         
+            61.5
+            
+               
+                  Bob
+                  2005-08-06
+                  Samiec
+                  46.6
+                  654.7
+                  54.8
+                  0.2
+                  
+            OBO.
+          
+               
+            
+         
+         1
+         46.6
+         654.7
+         54.8
+         .2
+      
+      
+         
+            545.5
+            
+               
+                  Właściciel
+                  1998-12-08
+                  Samiec
+                  55.5
+                  252.5
+                  52.5
+                  0.5
+                  
+            To on tu rządzi.
+          
+               
+               
+                  Sprzątacz
+                  2003-11-30
+                  Samiec
+                  36.8
+                  14.8
+                  56.5
+                  0.7
+                  
+            On tu tylko sprząta.
+          
+               
+            
+         
+         2
+         46.2
+         133.6
+         54.5
+         .6
+      
+      
+         
+            452.8
+            
+               
+                  Testerka
+                  2001-02-25
+                  Samiczka
+                  54.7
+                  87.5
+                  21.5
+                  0.2
+                  
+            Jest bardzo delikatna.
+          
+               
+            
+         
+         1
+         54.7
+         87.5
+         21.5
+         .2
+      
+      
+         
+            12.7
+            
+               
+                  Kiwi
+                  2015-07-15
+                  Samiec
+                  65.8
+                  54.9
+                  32.7
+                  0.5
+                  
+            To owca, na bank.
+          
+               
+               
+                  Morela
+                  2015-07-15
+                  Samiczka
+                  26.8
+                  61.5
+                  21.8
+                  0.5
+                  
+            Mirabelka.
+          
+               
+            
+         
+         2
+         46.3
+         58.2
+         27.2
+         .5
+      
+      
+         
+            32.5
+            
+               
+                  Pedant
+                  2003-04-30
+                  Samiec
+                  15.5
+                  215.
+                  613.4
+                  0.5
+                  
+            Uwialbia sprzątać.
+          
+               
+            
+         
+         1
+         15.5
+         215.0
+         613.4
+         .5
+      
+      
+         
+            36.7
+            
+               
+                  Depresja
+                  2001-06-20
+                  Samiec
+                  15.8
+                  16.8
+                  62.5
+                  0.1
+                  
+            Tak niska, że aż samotna.
+          
+               
+            
+         
+         1
+         15.8
+         16.8
+         62.5
+         .1
+      
+      
+         
+            61.5
+            
+               
+                  Wolność
+                  2014-02-03
+                  Samiczka
+                  32.4
+                  32.7
+                  25.8
+                  0.5
+                  
+            Robtajta co chceta.
+          
+               
+               
+                  Niezależność
+                  2015-06-23
+                  Samiczka
+                  35.8
+                  14.8
+                  30.8
+                  0.5
+                  
+            Problemy z asertywnością.
+          
+               
+            
+         
+         2
+         34.1
+         23.8
+         28.3
+         .5
+      
+      
+         
+            12.8
+            
+               
+                  Arka
+                  2012-08-30
+                  Samiczka
+                  153.8
+                  51.5
+                  31.8
+                  0.8
+                  
+            Noego.
+          
+               
+            
+         
+         1
+         153.8
+         51.5
+         31.8
+         .8
+      
+      
+         
+            21.8
+            
+               
+                  Fan
+                  2001-12-03
+                  Samiec
+                  16.8
+                  5.8
+                  32.9
+                  0.1
+                  
+            Uwielbia 'Modę na skuces'.
+          
+               
+            
+         
+         1
+         16.8
+         5.8
+         32.9
+         .1
+      
+      
+         
+            3135.8
+            
+               
+                  Gracz
+                  2015-12-03
+                  Samiec
+                  45.8
+                  32.4
+                  31.4
+                  0.8
+                  
+            Zawsze ma pada 1.
+          
+               
+               
+                  Gracz
+                  2015-12-03
+                  Samiec
+                  32.8
+                  15.4
+                  32.4
+                  0.8
+                  
+            Zawsze ma pada 2.
+          
+               
+            
+         
+         2
+         39.3
+         23.9
+         31.9
+         .8
+      
+      
+         
+            36.7
+            
+               
+                  Koder
+                  2009-09-19
+                  Samiec
+                  36.8
+                  32.7
+                  2.8
+                  0.1
+                  
+            Ten to koduje.
+          
+               
+            
+         
+         1
+         36.8
+         32.7
+         2.8
+         .1
+      
+      
+         
+            325.8
+            
+               
+                  Tadzio
+                  2003-06-24
+                  Samiec
+                  64.7
+                  25.7
+                  25.7
+                  0.9
+                  
+            Zwykła owca.
+          
+               
+            
+         
+         1
+         64.7
+         25.7
+         25.7
+         .9
+      
+      
+         
+            155.8
+            
+               
+                  Miodzio
+                  2009-03-14
+                  Samiczka
+                  16.8
+                  36.4
+                  25.8
+                  0.4
+                  
+            Ma znajomości z pszczołami.
+          
+               
+            
+         
+         1
+         16.8
+         36.4
+         25.8
+         .4
+      
+   
+   <script>
+                        var xF = 21;
+                        var xM = 37;
+
+                        var yF = xF*2.50;
+                        var yM = xM*2.50;
+
+                        function ustawWykresyPlci(){
+                            document.getElementById('rectF').setAttribute("height",yF);
+                            document.getElementById('rectM').setAttribute("height",yM);
+
+                        }
+                    </script><svg:text x="50%" y="230" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+                      Porównanie ilości samic i samców
+                    </svg:text><svg:text x="45%" y="380" fill="black" font-size="16">  Samice </svg:text><svg:text x="55%" y="380" fill="black" font-size="16">  Samce </svg:text>21<svg><rect id="rectF" x="45%" y="250" width="50" height="0" fill="#42f459" stroke="black"><animate attributeType="style" attributeName="fill" from="black" to="#04a018" dur="2s" repeatCount="indefinite"/></rect></svg><svg><rect id="rectM" x="55%" y="250" width="50" height="0" fill="#42f459" stroke="black"><animate attributeType="style" attributeName="fill" from="black" to="#04a018" dur="2s" repeatCount="indefinite"/></rect></svg><svg:g id="authors" class="btn" width="70" height="20" onclick="ustawWykresyPlci()" cursor="pointer"><svg:rect x="49%" y="420" width="70" height="20" fill="#42f459" stroke="black"/><svg:text x="25" y="1" fill="white" font-size="16">Autorzy:</svg:text></svg:g><svg:text x="50%" y="530" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+    Porównanie liczby ras i pastwisk
+  </svg:text><svg:text x="55%" y="620" fill="black" font-size="16">  Rasy </svg:text><svg:text x="45%" y="620" fill="black" font-size="16">  Pastwiska </svg:text><svg:text x="45%" y="640" fill="black" font-size="16">35</svg:text>
+                    Liczba ras: 35;
+                    <svg><rect id="rect11" x="45%" y="550" width="20" height="35" fill="#ffe3bc"><animate attributeName="height" from="0" to="35" dur="3s"/></rect></svg><svg:text x="55%" y="640" fill="black" font-size="16">34</svg:text>
+                    Liczba pastwisk: 34;
+                    <svg><rect id="rect11" x="55%" y="550" width="20" height="34" fill="green"><animate attributeName="height" from="0" to="34" dur="5s"/></rect></svg><svg:text x="50%" y="680" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
+                      Calkowita powierzchnia pastwisk
+                    </svg:text><script>
+                    function mOverP(evt) {
+                    var numbers = document.getElementById("txp");
+                    numbers.setAttribute("visibility", "visible");
+
+                    }
+
+                    function mOutP(evt) {
+                    var numbers = document.getElementById("txp");
+                    numbers.setAttribute("visibility", "hidden");
+                    }
+                    </script><rect id="past" x="70%" y="250" width="400" height="800" fill="green" stroke-width="10" stroke="brown"/><svg><circle id="circ" cx="50%" cy="820" r="30" fill="#04a018" stroke-width="5" stroke="brown"><animate attributeName="r" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="0" to="100" repeatCount="indefinite"/></circle></svg><svg:text id="txp" x="50%" y="820" font-size="18" fill="white" font-weight="bold" text-anchor="middle">176.1</svg:text><svg version="1.1" id="Warstwa_1" x="800" y="-100" xml:space="preserve">
+                                      <style type="text/css">
+                                      	.st0{fill:#3A3A3A;}
+                                      	.st1{fill:#FFFFFF;}
+                                      </style>
+                                      <g transform="scale(2.5)">
+                                      	<rect x="171.7" y="196.3" class="st0" width="3.1" height="10.9"/>
+                                      	<rect x="184.8" y="196.3" class="st0" width="3.1" height="10.9"/>
+                                      	<circle class="st1" cx="171.3" cy="181.8" r="12.2"/>
+                                      	<circle class="st1" cx="182.4" cy="177.1" r="12.2"/>
+                                      	<circle class="st1" cx="188.3" cy="187.6" r="12.2"/>
+                                      	<circle class="st1" cx="176.7" cy="191.1" r="12.2"/>
+                                      	<path class="st0" d="M186,182.7c0,3.3-2.7,8.9-6,8.9s-6-5.6-6-8.9s2.7-6,6-6S186,179.3,186,182.7z"/>
+                                      	<path class="st0" d="M187.6,178.5c1.5,0.8,3.6,2.8,3.1,3.7c-0.5,0.9-3.3,0.2-4.8-0.5s-2.3-2.1-1.9-3S186.1,177.7,187.6,178.5z"/>
+                                      	<path class="st0" d="M172.8,178c-1.5,0.8-3.6,2.8-3.1,3.7c0.5,0.9,3.3,0.2,4.8-0.5s2.3-2.1,1.9-3S174.3,177.3,172.8,178z"/>
+                                      	<circle cx="177.5" cy="183.1" r="1"/>
+                                      	<circle cx="181.8" cy="183.1" r="1"/>
+<animateMotion path="M 40 10 L 40 600 L 40 10" dur="8s" repeatCount="indefinite"/>
+                                      </g>
+
+                                      </svg>
+</svg:svg>

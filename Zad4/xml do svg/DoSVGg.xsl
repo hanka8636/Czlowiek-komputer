@@ -18,22 +18,33 @@
             </defs>
 
             <svg:rect x="3" y="3" width="1920" height="1080" fill="url(#grad1)" stroke="black" stroke-width="3"/>
+            <svg:rect x="40%" y="10" width="300" height="30"
+              onmouseover="mOverS(this)" onmouseout="mOutS(this)"
+                   stroke="green"
+                        stroke-width="0.1" fill="none" />
 
             <svg:text x="50%" y="30" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
                 Spis owiec - wizualizacja
             </svg:text>
-            <svg:text x="50%" y="1080" font-size="18" fill="black" font-weight="bold" text-anchor="middle">
-                <xsl:value-of select="całkowita_powierzchnia_pastwisk" />;
-            </svg:text>
 
 
             <script>
+            function mOverS(obj) {
+                obj.setAttribute("stroke-width","5")
+            }
+
+            function mOutS(obj) {
+                obj.setAttribute("stroke-width",".1")
+            }
+            </script>
+
+            <script>
             function mOver(obj) {
-                obj.setAttribute("fill","green")
+                obj.setAttribute("fill-opacity",".1")
             }
 
             function mOut(obj) {
-                obj.setAttribute("fill","yellow")
+                obj.setAttribute("fill-opacity","1")
             }
             </script>
                         <xsl:apply-templates select="//autorzy" />
@@ -93,19 +104,13 @@
 
               </svg>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="80" width="80">
-                        <circle onmouseover="mOver(this)" onmouseout="mOut(this)"
-                                cx="45" cy="45" r="30" stroke="black"
-                                stroke-width="0" fill="red" />
 
-                    </svg>
   <svg:text x="20%" y="120" fill="black" font-size="16" > <xsl:value-of select="//autor[1]" /></svg:text>
 
 
                     <svg xmlns="http://www.w3.org/2000/svg" height="80" width="80">
                         <circle onmouseover="mOver(this)" onmouseout="mOut(this)"
-                                cx="45" cy="45" r="30" stroke="black" stroke-width="0" fill="yellow" />
-                                  <svg:text x="25" y="574" fill="white" font-size="16" >  <xsl:value-of select="//autor[2]" /></svg:text>
+                                cx="45" cy="45" r="30" stroke="black" stroke-width="0"  fill-opacity="0.1" fill="yellow" />
                     </svg>
 
   <svg:text x="60%" y="120" fill="black" font-size="16" >  <xsl:value-of select="//autor[2]" /></svg:text>
@@ -171,10 +176,10 @@
                     Liczba ras: <xsl:value-of select="całkowita_liczba_ras" />;
                     <svg xmlns="http://www.w3.org/2000/svg" >
                         <rect id="rect11" x="45%" y="550" width="20"
-                            height="0" fill="blue" stroke="blue">
+                            height="{$liczba_ras}" fill="#ffe3bc" >
                         <animate attributeName="height"
                                  from="0" to="{$liczba_ras}" dur="3s"
-                                 repeatCount="indefinite" />
+                                  />
                         </rect>
                     </svg>
 
@@ -183,10 +188,10 @@
                     Liczba pastwisk: <xsl:value-of select="całkowita_liczba_pastwisk" />;
                     <svg xmlns="http://www.w3.org/2000/svg" >
                         <rect id="rect11" x="55%" y="550" width="20"
-                              height="0" fill="grey" stroke="black">
+                              height="{$liczba_pastwisk}" fill="green" >
                         <animate attributeName="height"
                                  from="0" to="{$liczba_pastwisk}" dur="5s"
-                                 repeatCount="indefinite" />
+                                  />
                         </rect>
                     </svg>
 
@@ -207,18 +212,20 @@
                     }
                     </script>
 
-                    <svg:text id="txp" visibility="hidden"  x="50%" y="920" font-size="18" fill="white" font-weight="bold" text-anchor="middle">
-                      <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
-                    </svg:text>
 
-
+                    <rect id="past" x="70%" y="250" width="400"
+                          height="800" fill="green" stroke-width="10" stroke="brown" >
+                    </rect>
 
 
                                       <svg xmlns="http://www.w3.org/2000/svg" >
-                                          <circle id="rect11"   cx="50%" cy="820" r="30" onmouseover="mOverP(evt)" onmouseout="mOutP(evt)"   fill="#04a018" stroke="red">
-<animate attributeName="r" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="0" to="100" />
+                                          <circle id="circ"   cx="50%" cy="820" r="30"  fill="#04a018" stroke-width="5" stroke="brown">
+<animate attributeName="r" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="0" to="100" repeatCount="indefinite"/>
                                           </circle>
                                       </svg>
+                                      <svg:text id="txp"   x="50%" y="820" font-size="18" fill="white" font-weight="bold" text-anchor="middle">
+                                        <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
+                                      </svg:text>
 
                                       <svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="800" y="-100"  xml:space="preserve">
                                       <style type="text/css">
