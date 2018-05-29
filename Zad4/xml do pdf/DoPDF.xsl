@@ -71,8 +71,8 @@
 
 
 <xsl:template match="spis">
-    <fo:block font-size="12px" text-align="left" font-family="Actor">
-      <fo:block text-align="center" margin="20" font-weight="bold">
+    <fo:block font-size="10px" text-align="left" font-family="Actor">
+      <fo:block text-align="center" margin="10" font-weight="bold">
         <xsl:text>Rasy</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text>
       </fo:block>
@@ -99,9 +99,7 @@
               <fo:table-cell border="solid black">
                 <fo:block font-weight="bold" text-align="center">Średnia szybkość marszu[m/s]</fo:block>
               </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">Średnia szybkość zjadania trawy[talerz/min]</fo:block>
-              </fo:table-cell>
+
             </fo:table-row>
           </fo:table-header>
 
@@ -163,6 +161,9 @@
             <fo:table-row>
               <fo:table-cell border="solid black">
                 <fo:block font-weight="bold" text-align="center">Owca</fo:block>
+              </fo:table-cell>
+              <fo:table-cell border="solid black">
+                <fo:block font-weight="bold" text-align="center">Data ur</fo:block>
               </fo:table-cell>
               <fo:table-cell border="solid black">
                 <fo:block font-weight="bold" text-align="center">Płeć</fo:block>
@@ -259,7 +260,12 @@
           <fo:table-body>
             <xsl:for-each select="//pastwisko">
               <fo:table-row>
-                <fo:table-cell>
+                <fo:table-cell  border="solid black">
+                    <fo:block text-align="center">
+                        <xsl:value-of select="@nazwa" />
+                    </fo:block>
+                </fo:table-cell>
+                <fo:table-cell  border="solid black">
                     <fo:block text-align="center">
                         <xsl:value-of select="./powierzchnia" />
                     </fo:block>
@@ -278,10 +284,13 @@
   </xsl:template>
 
   <xsl:template match="podsumowanie">
-    <fo:block font-size="10px" text-align="left" font-family="Century Gothic">
-      <fo:block text-align="center" font-size="14px">
-      <xsl:text>Podsumowanie</xsl:text>
-        <fo:table border="none" width="50%" margin="20" font-size="10px">
+    <fo:block font-size="12px" text-align="left" font-family="Segoe UI">
+      <fo:block text-align="center" margin="20" font-weight="bold" space-before="45pt">
+        <xsl:text>Podsumowanie</xsl:text>
+        <xsl:text>&#xD;&#xA;</xsl:text>
+      </fo:block>
+      <fo:block>
+        <fo:table border="solid black" width="100%">
 
           <fo:table-header>
             <fo:table-row>
@@ -294,110 +303,116 @@
               <fo:table-cell border="solid black">
                 <fo:block font-weight="bold" text-align="center">liczebność_samic</fo:block>
               </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">całkowita_liczba_ras</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">całkowita_liczba_pastwisk</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">całkowita_powierzchnia_pastwisk</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">średnia_waga</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">średnia_długość_runa</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">średnia_szybkość_marszu</fo:block>
-              </fo:table-cell>
-              <fo:table-cell border="solid black">
-                <fo:block font-weight="bold" text-align="center">średnia_szybkość_zjadania_trawy</fo:block>
-              </fo:table-cell>
             </fo:table-row>
           </fo:table-header>
 
           <fo:table-body>
-            <fo:table-row>
               <fo:table-cell border="solid black">
                 <fo:block text-align="center">
                   <xsl:value-of select="całkowita_liczba_owiec" />
                 </fo:block>
               </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
+
               <fo:table-cell border="solid black">
                 <fo:block text-align="center">
                   <xsl:value-of select="liczebność_samców" />
                 </fo:block>
               </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
+
               <fo:table-cell border="solid black">
                 <fo:block text-align="center">
                   <xsl:value-of select="liczebność_samic" />
                 </fo:block>
               </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
-              <fo:table-cell border="solid black">
-                <fo:block text-align="center">
-                  <xsl:value-of select="całkowita_liczba_ras" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
-              <fo:table-cell border="solid black">
-                <fo:block text-align="center">
-                  <xsl:value-of select="całkowita_liczba_pastwisk" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row>
-            <fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="średnia_waga" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row><fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="średnia_długość_runa" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row><fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row><fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="średnia_szybkość_marszu" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row><fo:table-row>
-              <fo:table-cell>
-                <fo:block text-align="center">
-                  <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
-                </fo:block>
-              </fo:table-cell>
-            </fo:table-row>
+
+
+
           </fo:table-body>
 
         </fo:table>
       </fo:block>
 
-    </fo:block>
+      <fo:block>
+        <fo:table border="solid black" width="100%">
+
+          <fo:table-header>
+            <fo:table-row>
+
+              <fo:table-cell border="solid black">
+                <fo:block font-weight="bold" text-align="center">liczba ras</fo:block>
+              </fo:table-cell>
+              <fo:table-cell border="solid black">
+              <fo:block font-weight="bold" text-align="center">liczba pastwisk</fo:block>
+            </fo:table-cell>
+                <fo:table-cell border="solid black">
+                  <fo:block font-weight="bold" text-align="center">powierzchnia pastwisk</fo:block>
+                </fo:table-cell>
+                <fo:table-cell border="solid black">
+                  <fo:block font-weight="bold" text-align="center">średnia waga</fo:block>
+                </fo:table-cell>
+                <fo:table-cell border="solid black">
+                  <fo:block font-weight="bold" text-align="center">średnia długość runa</fo:block>
+                </fo:table-cell>
+                <fo:table-cell border="solid black">
+                  <fo:block font-weight="bold" text-align="center">średnia szybkość marszu</fo:block>
+                </fo:table-cell>
+                <fo:table-cell border="solid black">
+                  <fo:block font-weight="bold" text-align="center">średnia szybkość zjadania trawy</fo:block>
+                </fo:table-cell>
+            </fo:table-row>
+          </fo:table-header>
+
+          <fo:table-body>
+
+              <fo:table-cell border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="całkowita_liczba_ras" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="całkowita_liczba_pastwisk" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell  border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="całkowita_powierzchnia_pastwisk" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell  border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="średnia_waga" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell  border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="średnia_długość_runa" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell  border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="średnia_szybkość_marszu" />
+                </fo:block>
+              </fo:table-cell>
+
+              <fo:table-cell  border="solid black">
+                <fo:block text-align="center">
+                  <xsl:value-of select="średnia_szybkość_zjadania_trawy" />
+                </fo:block>
+              </fo:table-cell>
+
+          </fo:table-body>
+
+        </fo:table>
+      </fo:block>
+
+</fo:block>
+
   </xsl:template>
 
 </xsl:stylesheet>
