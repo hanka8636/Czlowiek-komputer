@@ -35,9 +35,8 @@ namespace PKCK
             Spis_owiec = XMLCentrum.Zaladuj();
             Owieczki = new Owieczki(Spis_owiec);
 
-            //XMLCentrum.Zapisz(Spis_owiec);
-
-            this.ComboBoxPastwiska.DataContext = Spis_owiec.Lista_pastwisk.Pastwisko;
+            ComboBoxPastwiska.DataContext = Spis_owiec.Lista_pastwisk.Pastwisko;
+            OwieczekLista.DataContext = Owieczki;
             XMLCentrum.Konwertuj();
         }
 

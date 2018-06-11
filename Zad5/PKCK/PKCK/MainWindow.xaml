@@ -5,50 +5,86 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PKCK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="814.4">
+        Title="MainWindow" Height="555.6" Width="1353.6">
     <Grid>
-        <ComboBox ItemsSource="{Binding}" x:Name ="ComboBoxPastwiska" DisplayMemberPath="Nazwa"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="157,47,0,0"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Dodaj owcę" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="Pastwisko:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Imię:" VerticalAlignment="Top"/>
-        <TextBox x:Name ="Imie" HorizontalAlignment="Left" Height="23" Margin="158,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="Data urodzenia:" VerticalAlignment="Top"/>
-        <TextBox  x:Name ="Data" HorizontalAlignment="Left" Height="23" Margin="157,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="11,136,0,0" TextWrapping="Wrap" Text="Płeć:" VerticalAlignment="Top"/>
-        <ComboBox x:Name ="Plec" HorizontalAlignment="Left" Margin="157,130,0,0" VerticalAlignment="Top" Width="238">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="103*"/>
+        </Grid.RowDefinitions>
+        <ComboBox ItemsSource="{Binding}" x:Name ="ComboBoxPastwiska" DisplayMemberPath="Nazwa"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="157,38.6,0,0" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,1.6,0,0" TextWrapping="Wrap" Text="Dodaj owcę" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,40.6,0,0" TextWrapping="Wrap" Text="Pastwisko:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,68.6,0,0" TextWrapping="Wrap" Text="Imię:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name ="Imie" HorizontalAlignment="Left" Height="23" Margin="157,65.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,96.6,0,0" TextWrapping="Wrap" Text="Data urodzenia:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox  x:Name ="Data" HorizontalAlignment="Left" Height="23" Margin="157,93.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,127.6,0,0" TextWrapping="Wrap" Text="Płeć:" VerticalAlignment="Top" Grid.Row="1"/>
+        <ComboBox x:Name ="Plec" HorizontalAlignment="Left" Margin="157,121.6,0,0" VerticalAlignment="Top" Width="238" Grid.Row="1">
             <ComboBoxItem>k</ComboBoxItem>
             <ComboBoxItem>m</ComboBoxItem>
         </ComboBox>
-        <TextBox  x:Name ="Waga" HorizontalAlignment="Left" Height="23" Margin="158,157,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <TextBox  x:Name ="DlugoscRuna" HorizontalAlignment="Left" Height="23" Margin="554,46,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="12,161,0,0" TextWrapping="Wrap" Text="Waga:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="410,48,0,0" TextWrapping="Wrap" Text="Długość runa:" VerticalAlignment="Top"/>
-        <ComboBox x:Name ="WagaJednostka" HorizontalAlignment="Left" Margin="282,158,0,0" VerticalAlignment="Top" Width="113">
+        <TextBox  x:Name ="Waga" HorizontalAlignment="Left" Height="23" Margin="157,148.6,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBox  x:Name ="DlugoscRuna" HorizontalAlignment="Left" Height="23" Margin="554,40.6,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,152.6,0,0" TextWrapping="Wrap" Text="Waga:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,44.6,0,0" TextWrapping="Wrap" Text="Długość runa:" VerticalAlignment="Top" Grid.Row="1"/>
+        <ComboBox x:Name ="WagaJednostka" HorizontalAlignment="Left" Margin="282,149.6,0,0" VerticalAlignment="Top" Width="113" Grid.Row="1">
             <ComboBoxItem>kg</ComboBoxItem>
             <ComboBoxItem>dkg</ComboBoxItem>
             <ComboBoxItem>funt</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name ="DlugoscJednostka" HorizontalAlignment="Left" Margin="679,44,0,0" VerticalAlignment="Top" Width="113">
+        <ComboBox x:Name ="DlugoscJednostka" HorizontalAlignment="Left" Margin="679,39.6,0,0" VerticalAlignment="Top" Width="113" Grid.Row="1">
             <ComboBoxItem>mm</ComboBoxItem>
             <ComboBoxItem>cm</ComboBoxItem>
             <ComboBoxItem>cal</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="410,79,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top"/>
-        <TextBox  x:Name ="Opis" HorizontalAlignment="Left" Height="23" Margin="554,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238"/>
-        <TextBox  x:Name ="SzybkoscMarszu" HorizontalAlignment="Left" Height="23" Margin="554,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox  x:Name ="SzybkoscTrawy" HorizontalAlignment="Left" Height="23" Margin="554,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name ="SzybkoscMarszuJednostka" HorizontalAlignment="Left" Margin="679,105,0,0" VerticalAlignment="Top" Width="113">
+        <TextBlock HorizontalAlignment="Left" Margin="410,70.6,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox  x:Name ="Opis" HorizontalAlignment="Left" Height="23" Margin="554,68.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Grid.Row="1"/>
+        <TextBox  x:Name ="SzybkoscMarszu" HorizontalAlignment="Left" Height="23" Margin="554,95.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBox  x:Name ="SzybkoscTrawy" HorizontalAlignment="Left" Height="23" Margin="554,124.6,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <ComboBox x:Name ="SzybkoscMarszuJednostka" HorizontalAlignment="Left" Margin="679,96.6,0,0" VerticalAlignment="Top" Width="113" Grid.Row="1">
             <ComboBoxItem>ms</ComboBoxItem>
             <ComboBoxItem>kms</ComboBoxItem>
             <ComboBoxItem>kmh</ComboBoxItem>
         </ComboBox>
-        <ComboBox  x:Name ="SzybkoscTrawyJednostka"  HorizontalAlignment="Left" Margin="679,132,0,0" VerticalAlignment="Top" Width="113">
+        <ComboBox  x:Name ="SzybkoscTrawyJednostka"  HorizontalAlignment="Left" Margin="679,123.6,0,0" VerticalAlignment="Top" Width="113" Grid.Row="1">
             <ComboBoxItem>talerzmin</ComboBoxItem>
             <ComboBoxItem>miskamin</ComboBoxItem>
             <ComboBoxItem>wiadroh</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="410,107,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="410,139,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top"/>
-        <Button Content="Dodaj owcę" HorizontalAlignment="Left" Margin="410,161,0,0" VerticalAlignment="Top" Width="382" Click="DodajOwce"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,98.6,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,130.6,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top" Grid.Row="1"/>
+        <Button Content="Dodaj owcę" HorizontalAlignment="Left" Margin="410,152.6,0,0" VerticalAlignment="Top" Width="382" Click="DodajOwce" Height="20" Grid.Row="1"/>
+        <ListBox x:Name="OwieczekLista" ItemsSource="{Binding ListaOwieczek}" ScrollViewer.VerticalScrollBarVisibility="Visible" MaxHeight="300" Margin="12,178,16,10" Grid.Row="1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="220"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="350"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding Pastwisko}" Margin="2"/>
+                        <TextBlock Grid.Column="1" Text="{Binding Rasa}" Margin="2"/>
+                        <TextBlock Grid.Column="2" Text="{Binding Imie}" Margin="2"/>
+                        <TextBlock Grid.Column="3" Text="{Binding DataUrodzenia}" Margin="2"/>
+                        <TextBlock Grid.Column="4" Text="{Binding Plec}" Margin="2"/>
+                        <TextBlock Grid.Column="5" Text="{Binding Waga}" Margin="2"/>
+                        <TextBlock Grid.Column="6" Text="{Binding DlugpscRuna}" Margin="2"/>
+                        <TextBlock Grid.Column="7" Text="{Binding Opis}" Margin="2"/>
+                        <TextBlock Grid.Column="8" Text="{Binding SzybkoscMarszu}" Margin="2"/>
+                        <TextBlock Grid.Column="9" Text="{Binding SzybkoscZjadaniaTrawy}" Margin="2"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
     </Grid>
 </Window>
