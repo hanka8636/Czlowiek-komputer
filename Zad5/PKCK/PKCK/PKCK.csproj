@@ -103,5 +103,8 @@
   <ItemGroup>
     <Resource Include="XML\spisOwiec.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML\spisOwiec.xslt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

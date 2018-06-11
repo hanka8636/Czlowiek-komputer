@@ -8,6 +8,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.IO;
 using Klasy;
+using System.Xml.Xsl;
 
 namespace PKCK
 {
@@ -15,12 +16,14 @@ namespace PKCK
     {
         public FileInfo XML { get; set; }
         public FileInfo Schema { get; set; }
+        public FileInfo XSLT { get; set; }
         XmlSerializer Serializer { get; set; }
 
-        public XMLCentrum(string xml, string schema)
+        public XMLCentrum(string xml, string schema, string xslt)
         {
             XML = new FileInfo(xml);
             Schema = new FileInfo(schema);
+            XSLT = new FileInfo(xslt);
             Serializer = new XmlSerializer(typeof(Spis_owiec));
         }
 
@@ -41,6 +44,64 @@ namespace PKCK
             }
 
             return spis;
+        }
+
+        public void Zapisz(Spis_owiec spis)
+        {
+            if (XML.Exists) XML.Delete();
+
+            Stream stream = new FileStream(XML.FullName, FileMode.Create);
+            Serializer.Serialize(stream, spis);
+            stream.Close();
+        }
+
+        public bool Waliduj(Spis_owiec spis)
+        {
+            try
+            {
+                FileInfo kopia = new FileInfo("kopia.xml");
+
+                if (kopia.Exists) kopia.Delete();
+
+                Stream stream = new FileStream(kopia.FullName, FileMode.Create);
+                Serializer.Serialize(stream, spis);
+                stream.Close();
+
+                XmlDocument xmld = new XmlDocument();
+                string xmlText = File.ReadAllText("kopia.xml");
+                xmld.LoadXml(xmlText);
+                xmld.Schemas.Add("http://www.w3schools.com", Schema.FullName);
+                xmld.Validate(WalidacjaCallBack);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private void WalidacjaCallBack(object sender, ValidationEventArgs e)
+        {
+
+            throw new Exception();
+        }
+
+        public void Konwertuj()
+        {
+            //XslCompiledTransform xslt = new XslCompiledTransform(true);
+
+            //xslt.Load(XSLT.FullName);
+
+            //FileInfo pomocniczy = new FileInfo("pomocniczy.xml");
+            //if (pomocniczy.Exists) pomocniczy.Delete();
+
+            //FileStream outputStream = new FileStream(pomocniczy.FullName, FileMode.Create);
+            //xslt.Transform(XML.FullName, null, outputStream);
+
+            XslCompiledTransform xslt = new XslCompiledTransform();
+            xslt.Load(XSLT.FullName);
+
+            xslt.Transform(XML.FullName, "pomocniczy.xml");
         }
     }
 }
