@@ -1,9 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<spis_owiec
-            xmlns="http://www.w3schools.com"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.w3schools.com spisOwiec.xsd">
-
+<?xml version="1.0"?>
+<spis_owiec  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3schools.com">
   <nagłówek>
     <data_modyfikacji>2018-06-11</data_modyfikacji>
     <autorzy>
@@ -13,7 +9,7 @@
         <mail>
           <alias>203962</alias>
           <znak>@</znak>
-          <domena definicja_domeny="edu.p.lodz.pl"/>
+          <domena definicja_domeny="edu.p.lodz.pl" />
         </mail>
       </autor>
       <autor album="204029">
@@ -22,61 +18,58 @@
         <mail>
           <alias>204029</alias>
           <znak>@</znak>
-          <domena definicja_domeny="edu.p.lodz.pl"/>
+          <domena definicja_domeny="edu.p.lodz.pl" />
         </mail>
       </autor>
     </autorzy>
   </nagłówek>
-
   <lista_ras>
-    <definicja_rasy nazwa="Białogłowa Owca Mięsna" idr="o01"/>
-    <definicja_rasy nazwa="Corriedale" idr="o02"/>
-    <definicja_rasy nazwa="Dorset Horn" idr="o03"/>
-    <definicja_rasy nazwa="Owca Fryzyjska" idr="o04"/>
-    <definicja_rasy nazwa="Ile de france" idr="o05"/>
-    <definicja_rasy nazwa="Kamieniecka" idr="o06"/>
-    <definicja_rasy nazwa="Leine" idr="o07"/>
-    <definicja_rasy nazwa="Merynos Polski" idr="o08"/>
-    <definicja_rasy nazwa="Merynos Polski odmiana barwna" idr="o09"/>
-    <definicja_rasy nazwa="Mouton charollaise" idr="o10"/>
-    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" idr="o11"/>
-    <definicja_rasy nazwa="Odmiana owcy Dorset" idr="o12"/>
-    <definicja_rasy nazwa="Olkuska" idr="o13"/>
-    <definicja_rasy nazwa="Owca plenna 09" idr="o14"/>
-    <definicja_rasy nazwa="Owca plenno-mięsna 08" idr="o15"/>
-    <definicja_rasy nazwa="Polska owca górska" idr="o16"/>
-    <definicja_rasy nazwa="Polska owca nizinna" idr="o17"/>
-    <definicja_rasy nazwa="Polska owca pogórza" idr="o18"/>
-    <definicja_rasy nazwa="Pomorska" idr="o19"/>
-    <definicja_rasy nazwa="Romanowska" idr="o20"/>
-    <definicja_rasy nazwa="Suffolk" idr="o21"/>
-    <definicja_rasy nazwa="Świniarka" idr="o22"/>
-    <definicja_rasy nazwa="Texel" idr="o23"/>
-    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" idr="o24"/>
-    <definicja_rasy nazwa="Wielkopolska" idr="o25"/>
-    <definicja_rasy nazwa="Wrzosówka" idr="o26"/>
-    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" idr="o27"/>
-    <definicja_rasy nazwa="Owca kołudzka" idr="o28"/>
-    <definicja_rasy nazwa="Owca SCP" idr="o29"/>
-    <definicja_rasy nazwa="Owca BCP" idr="o30"/>
-    <definicja_rasy nazwa="Berrichon du cher" idr="o31"/>
-    <definicja_rasy nazwa="Biała masywu centralnego" idr="o32"/>
-    <definicja_rasy nazwa="Cakiel podhalański" idr="o33"/>
-    <definicja_rasy nazwa="Merynos polski w starym typie" idr="o34"/>
-    <definicja_rasy nazwa="Czarnogłówka" idr="o35"/>
+    <definicja_rasy nazwa="Białogłowa Owca Mięsna" idr="o01" />
+    <definicja_rasy nazwa="Corriedale" idr="o02" />
+    <definicja_rasy nazwa="Dorset Horn" idr="o03" />
+    <definicja_rasy nazwa="Owca Fryzyjska" idr="o04" />
+    <definicja_rasy nazwa="Ile de france" idr="o05" />
+    <definicja_rasy nazwa="Kamieniecka" idr="o06" />
+    <definicja_rasy nazwa="Leine" idr="o07" />
+    <definicja_rasy nazwa="Merynos Polski" idr="o08" />
+    <definicja_rasy nazwa="Merynos Polski odmiana barwna" idr="o09" />
+    <definicja_rasy nazwa="Mouton charollaise" idr="o10" />
+    <definicja_rasy nazwa="Odmiana barwna polskiej owcy górskiej" idr="o11" />
+    <definicja_rasy nazwa="Odmiana owcy Dorset" idr="o12" />
+    <definicja_rasy nazwa="Olkuska" idr="o13" />
+    <definicja_rasy nazwa="Owca plenna 09" idr="o14" />
+    <definicja_rasy nazwa="Owca plenno-mięsna 08" idr="o15" />
+    <definicja_rasy nazwa="Polska owca górska" idr="o16" />
+    <definicja_rasy nazwa="Polska owca nizinna" idr="o17" />
+    <definicja_rasy nazwa="Polska owca pogórza" idr="o18" />
+    <definicja_rasy nazwa="Pomorska" idr="o19" />
+    <definicja_rasy nazwa="Romanowska" idr="o20" />
+    <definicja_rasy nazwa="Suffolk" idr="o21" />
+    <definicja_rasy nazwa="Świniarka" idr="o22" />
+    <definicja_rasy nazwa="Texel" idr="o23" />
+    <definicja_rasy nazwa="Odmiana Uhruska polskiej owcy nizinnej" idr="o24" />
+    <definicja_rasy nazwa="Wielkopolska" idr="o25" />
+    <definicja_rasy nazwa="Wrzosówka" idr="o26" />
+    <definicja_rasy nazwa="Odmiana żelaźnieńska polskiej owcy nizinnej" idr="o27" />
+    <definicja_rasy nazwa="Owca kołudzka" idr="o28" />
+    <definicja_rasy nazwa="Owca SCP" idr="o29" />
+    <definicja_rasy nazwa="Owca BCP" idr="o30" />
+    <definicja_rasy nazwa="Berrichon du cher" idr="o31" />
+    <definicja_rasy nazwa="Biała masywu centralnego" idr="o32" />
+    <definicja_rasy nazwa="Cakiel podhalański" idr="o33" />
+    <definicja_rasy nazwa="Merynos polski w starym typie" idr="o34" />
+    <definicja_rasy nazwa="Czarnogłówka" idr="o35" />
   </lista_ras>
-
   <lista_pastwisk>
     <pastwisko>
       <nazwa>Radosne Pole</nazwa>
       <powierzchnia jednostka="ha">125.8</powierzchnia>
       <stado>
-        <rasa idr="o01"/>
+        <rasa idr="o01" />
         <owca id="ow1">
-
           <imię>Wafel</imię>
           <data_urodzenia>2002-09-24</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">50.8</waga>
           <długość_runa jednostka="mm">14.5</długość_runa>
           <opis>
@@ -86,10 +79,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow2">
-
           <imię>Masnfred</imię>
           <data_urodzenia>2012-09-22</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">50.1</waga>
           <długość_runa jednostka="mm">12.3</długość_runa>
           <opis>
@@ -100,17 +92,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Dzikie Pole</nazwa>
       <powierzchnia jednostka="ha">125.8</powierzchnia>
       <stado>
-        <rasa idr="o02"/>
+        <rasa idr="o02" />
         <owca id="ow3">
-
           <imię>Zosia</imię>
           <data_urodzenia>2002-09-24</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">29.8</waga>
           <długość_runa jednostka="mm">38.5</długość_runa>
           <opis>
@@ -120,10 +110,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow4">
-
           <imię>Pizza</imię>
           <data_urodzenia>2002-09-24</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">60.8</waga>
           <długość_runa jednostka="mm">12.3</długość_runa>
           <opis>
@@ -134,17 +123,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Pole Huncwotów</nazwa>
       <powierzchnia jednostka="ha">100.8</powierzchnia>
       <stado>
-        <rasa idr="o03"/>
+        <rasa idr="o03" />
         <owca id="ow5">
-
           <imię>Rosołek</imię>
           <data_urodzenia>2012-07-10</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">47.8</waga>
           <długość_runa jednostka="mm">2.5</długość_runa>
           <opis>
@@ -155,17 +142,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Alejka róż</nazwa>
       <powierzchnia jednostka="ha">400.8</powierzchnia>
       <stado>
-        <rasa idr="o04"/>
+        <rasa idr="o04" />
         <owca id="ow6">
-
           <imię>Tropi</imię>
           <data_urodzenia>2003-11-13</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">28.8</waga>
           <długość_runa jednostka="mm">11.5</długość_runa>
           <opis>
@@ -175,10 +160,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">1.0</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow7">
-
           <imię>Tupi</imię>
           <data_urodzenia>2007-02-01</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">52.8</waga>
           <długość_runa jednostka="mm">18.3</długość_runa>
           <opis>
@@ -188,10 +172,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow8">
-
           <imię>Tuli</imię>
           <data_urodzenia>2010-01-15</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">15.8</waga>
           <długość_runa jednostka="mm">10.5</długość_runa>
           <opis>
@@ -202,17 +185,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Zielone pastwiska</nazwa>
       <powierzchnia jednostka="ha">65.8</powierzchnia>
       <stado>
-        <rasa idr="o05"/>
+        <rasa idr="o05" />
         <owca id="ow9">
-
           <imię>Ludmiła</imię>
           <data_urodzenia>2012-09-04</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">100.8</waga>
           <długość_runa jednostka="mm">14.5</długość_runa>
           <opis>
@@ -222,10 +203,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow10">
-
           <imię>Bernard</imię>
           <data_urodzenia>2008-12-24</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">27.8</waga>
           <długość_runa jednostka="mm">12.3</długość_runa>
           <opis>
@@ -236,17 +216,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Radosna kraina</nazwa>
       <powierzchnia jednostka="ha">158.5</powierzchnia>
       <stado>
-        <rasa idr="o06"/>
+        <rasa idr="o06" />
         <owca id="ow11">
-
           <imię>Truskawa</imię>
           <data_urodzenia>2010-09-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">47.2</waga>
           <długość_runa jednostka="mm">18.6</długość_runa>
           <opis>
@@ -256,10 +234,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow12">
-
           <imię>Pomarańczka</imię>
           <data_urodzenia>2013-12-31</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">16.9</waga>
           <długość_runa jednostka="mm">15.8</długość_runa>
           <opis>
@@ -269,10 +246,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow13">
-
           <imię>Kwas</imię>
           <data_urodzenia>2001-12-10</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">16.5</waga>
           <długość_runa jednostka="mm">25.5</długość_runa>
           <opis>
@@ -282,10 +258,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow14">
-
           <imię>Mucha</imię>
           <data_urodzenia>1996-11-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">3.5</waga>
           <długość_runa jednostka="mm">30.5</długość_runa>
           <opis>
@@ -295,10 +270,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow15">
-
           <imię>Skakanka</imię>
           <data_urodzenia>2013-09-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">97.2</waga>
           <długość_runa jednostka="mm">14.6</długość_runa>
           <opis>
@@ -308,10 +282,9 @@
           <szybkość_zjadania_trawy jednostka="wiadroh">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow16">
-
           <imię>Guma</imię>
           <data_urodzenia>2013-12-31</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">16.9</waga>
           <długość_runa jednostka="mm">15.8</długość_runa>
           <opis>
@@ -321,10 +294,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.2</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow17">
-
           <imię>Shock</imię>
           <data_urodzenia>2001-12-10</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">16.5</waga>
           <długość_runa jednostka="mm">25.5</długość_runa>
           <opis>
@@ -334,10 +306,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow18">
-
           <imię>Motylek</imię>
           <data_urodzenia>1999-11-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">3.5</waga>
           <długość_runa jednostka="mm">30.5</długość_runa>
           <opis>
@@ -348,17 +319,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Tęczynki</nazwa>
       <powierzchnia jednostka="ha">425.0</powierzchnia>
       <stado>
-        <rasa idr="o07"/>
+        <rasa idr="o07" />
         <owca id="ow19">
-
           <imię>Czerwonek</imię>
           <data_urodzenia>1999-04-02</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">15.7</waga>
           <długość_runa jednostka="mm">32.6</długość_runa>
           <opis>
@@ -368,10 +337,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow20">
-
           <imię>Zielonek</imię>
           <data_urodzenia>1999-02-10</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">52.7</waga>
           <długość_runa jednostka="mm">65.6</długość_runa>
           <opis>
@@ -382,17 +350,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Teletubisie</nazwa>
       <powierzchnia jednostka="ha">355.5</powierzchnia>
       <stado>
-        <rasa idr="o09"/>
+        <rasa idr="o09" />
         <owca id="ow21">
-
           <imię>Dipsy</imię>
           <data_urodzenia>1980-05-25</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">80.4</waga>
           <długość_runa jednostka="mm">45.3</długość_runa>
           <opis>
@@ -403,17 +369,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Florki nowe</nazwa>
       <powierzchnia jednostka="ha">15.8</powierzchnia>
       <stado>
-        <rasa idr="o10"/>
+        <rasa idr="o10" />
         <owca id="ow22">
-
           <imię>Florek</imię>
           <data_urodzenia>1998-06-14</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">54.5</waga>
           <długość_runa jednostka="mm">15.5</długość_runa>
           <opis>
@@ -423,10 +387,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow23">
-
           <imię>Florka</imię>
           <data_urodzenia>1998-06-14</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">25.5</waga>
           <długość_runa jednostka="mm">4.5</długość_runa>
           <opis>
@@ -437,17 +400,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Cela 11</nazwa>
       <powierzchnia jednostka="ha">145.7</powierzchnia>
       <stado>
-        <rasa idr="o11"/>
+        <rasa idr="o11" />
         <owca id="ow24">
-
           <imię>Więzień</imię>
           <data_urodzenia>2001-12-25</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">100.5</waga>
           <długość_runa jednostka="mm">100.5</długość_runa>
           <opis>
@@ -458,17 +419,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Wolny kraj</nazwa>
       <powierzchnia jednostka="ha">51.5</powierzchnia>
       <stado>
-        <rasa idr="o12"/>
+        <rasa idr="o12" />
         <owca id="ow25">
-
           <imię>Prezydent</imię>
           <data_urodzenia>2005-03-02</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">13.5</waga>
           <długość_runa jednostka="mm">5.5</długość_runa>
           <opis>
@@ -479,17 +438,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Przeludnienie</nazwa>
       <powierzchnia jednostka="ha">100.2</powierzchnia>
       <stado>
-        <rasa idr="o13"/>
+        <rasa idr="o13" />
         <owca id="ow26">
-
           <imię>Owca</imię>
           <data_urodzenia>2003-05-13</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">61.5</waga>
           <długość_runa jednostka="mm">31.5</długość_runa>
           <opis>
@@ -499,10 +456,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow27">
-
           <imię>Owca</imię>
           <data_urodzenia>2003-05-15</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">65.5</waga>
           <długość_runa jednostka="mm">15.5</długość_runa>
           <opis>
@@ -512,10 +468,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.7</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow28">
-
           <imię>Tadek</imię>
           <data_urodzenia>2003-03-03</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">64.5</waga>
           <długość_runa jednostka="mm">31.7</długość_runa>
           <opis>
@@ -526,17 +481,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Podwojona cena utrzymania</nazwa>
       <powierzchnia jednostka="ha">1000.0</powierzchnia>
       <stado>
-        <rasa idr="o14"/>
+        <rasa idr="o14" />
         <owca id="ow29">
-
           <imię>Bogaczka</imię>
           <data_urodzenia>2000-06-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">44.6</waga>
           <długość_runa jednostka="mm">54512.5</długość_runa>
           <opis>
@@ -547,17 +500,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Kreatywność to podstawa</nazwa>
       <powierzchnia jednostka="ha">515.5</powierzchnia>
       <stado>
-        <rasa idr="o15"/>
+        <rasa idr="o15" />
         <owca id="ow30">
-
           <imię>Mozart</imię>
           <data_urodzenia>1980-03-04</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">62.5</waga>
           <długość_runa jednostka="mm">51.5</długość_runa>
           <opis>
@@ -567,10 +518,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow31">
-
           <imię>Van Goh</imię>
           <data_urodzenia>1995-09-25</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">15.5</waga>
           <długość_runa jednostka="mm">65.5</długość_runa>
           <opis>
@@ -581,17 +531,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Połowa</nazwa>
       <powierzchnia jednostka="ha">16.8</powierzchnia>
       <stado>
-        <rasa idr="o16"/>
+        <rasa idr="o16" />
         <owca id="ow32">
-
           <imię>Rodzynek</imię>
           <data_urodzenia>2001-08-03</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">16.2</waga>
           <długość_runa jednostka="mm">23.3</długość_runa>
           <opis>
@@ -602,17 +550,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Dolina zagłady</nazwa>
       <powierzchnia jednostka="ha">666.6</powierzchnia>
       <stado>
-        <rasa idr="o17"/>
+        <rasa idr="o17" />
         <owca id="ow33">
-
           <imię>Śmierć</imię>
           <data_urodzenia>1999-06-19</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">16.2</waga>
           <długość_runa jednostka="mm">25.5</długość_runa>
           <opis>
@@ -623,17 +569,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Dorosłość</nazwa>
       <powierzchnia jednostka="ha">301.5</powierzchnia>
       <stado>
-        <rasa idr="o18"/>
+        <rasa idr="o18" />
         <owca id="ow34">
-
           <imię>Powaga</imię>
           <data_urodzenia>2006-03-28</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">30.2</waga>
           <długość_runa jednostka="mm">10.5</długość_runa>
           <opis>
@@ -643,10 +587,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow35">
-
           <imię>Nadzieja</imię>
           <data_urodzenia>2011-06-10</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">32.2</waga>
           <długość_runa jednostka="mm">12.8</długość_runa>
           <opis>
@@ -656,10 +599,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.4</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow36">
-
           <imię>Miłość</imię>
           <data_urodzenia>2003-02-14</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">23.2</waga>
           <długość_runa jednostka="mm">16.5</długość_runa>
           <opis>
@@ -670,17 +612,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Słodka kraina</nazwa>
       <powierzchnia jednostka="ha">68.5</powierzchnia>
       <stado>
-        <rasa idr="o19"/>
+        <rasa idr="o19" />
         <owca id="ow37">
-
           <imię>Gorycz</imię>
           <data_urodzenia>2016-12-09</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">64.5</waga>
           <długość_runa jednostka="mm">31.5</długość_runa>
           <opis>
@@ -691,17 +631,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Kraina raków</nazwa>
       <powierzchnia jednostka="ha">322.5</powierzchnia>
       <stado>
-        <rasa idr="o20"/>
+        <rasa idr="o20" />
         <owca id="ow38">
-
           <imię>Rak</imię>
           <data_urodzenia>2001-05-16</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">35.2</waga>
           <długość_runa jednostka="mm">35.5</długość_runa>
           <opis>
@@ -712,17 +650,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Rodzinna atmosfera</nazwa>
       <powierzchnia jednostka="ha">321.5</powierzchnia>
       <stado>
-        <rasa idr="o21"/>
+        <rasa idr="o21" />
         <owca id="ow39">
-
           <imię>Samotnik</imię>
           <data_urodzenia>2003-05-10</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">6.2</waga>
           <długość_runa jednostka="mm">32.5</długość_runa>
           <opis>
@@ -733,17 +669,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Słodka parka</nazwa>
       <powierzchnia jednostka="ha">35.7</powierzchnia>
       <stado>
-        <rasa idr="o22"/>
+        <rasa idr="o22" />
         <owca id="ow40">
-
           <imię>Jacek</imię>
           <data_urodzenia>2001-03-08</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">354.4</waga>
           <długość_runa jednostka="mm">53.5</długość_runa>
           <opis>
@@ -753,10 +687,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.6</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow41">
-
           <imię>Barbara</imię>
           <data_urodzenia>2002-10-30</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">13.4</waga>
           <długość_runa jednostka="mm">5.5</długość_runa>
           <opis>
@@ -767,17 +700,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Miasto owiec</nazwa>
       <powierzchnia jednostka="ha">61.5</powierzchnia>
       <stado>
-        <rasa idr="o23"/>
+        <rasa idr="o23" />
         <owca id="ow42">
-
           <imię>Bob</imię>
           <data_urodzenia>2005-08-06</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">46.6</waga>
           <długość_runa jednostka="mm">654.7</długość_runa>
           <opis>
@@ -788,17 +719,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Twoja kraina</nazwa>
       <powierzchnia jednostka="ha">545.5</powierzchnia>
       <stado>
-        <rasa idr="o24"/>
+        <rasa idr="o24" />
         <owca id="ow43">
-
           <imię>Właściciel</imię>
           <data_urodzenia>1998-12-08</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">55.5</waga>
           <długość_runa jednostka="mm">252.5</długość_runa>
           <opis>
@@ -808,10 +737,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow44">
-
           <imię>Sprzątacz</imię>
           <data_urodzenia>2003-11-30</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">36.8</waga>
           <długość_runa jednostka="mm">14.8</długość_runa>
           <opis>
@@ -822,17 +750,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Testujemy na ludziach</nazwa>
       <powierzchnia jednostka="ha">452.8</powierzchnia>
       <stado>
-        <rasa idr="o25"/>
+        <rasa idr="o25" />
         <owca id="ow45">
-
           <imię>Testerka</imię>
           <data_urodzenia>2001-02-25</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">54.7</waga>
           <długość_runa jednostka="mm">87.5</długość_runa>
           <opis>
@@ -843,17 +769,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Owocki</nazwa>
       <powierzchnia jednostka="ha">12.7</powierzchnia>
       <stado>
-        <rasa idr="o26"/>
+        <rasa idr="o26" />
         <owca id="ow46">
-
           <imię>Kiwi</imię>
           <data_urodzenia>2015-07-15</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">65.8</waga>
           <długość_runa jednostka="mm">54.9</długość_runa>
           <opis>
@@ -863,10 +787,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow47">
-
           <imię>Morela</imię>
           <data_urodzenia>2015-07-15</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">26.8</waga>
           <długość_runa jednostka="mm">61.5</długość_runa>
           <opis>
@@ -877,17 +800,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Czysto tu</nazwa>
       <powierzchnia jednostka="ha">32.5</powierzchnia>
       <stado>
-        <rasa idr="o27"/>
+        <rasa idr="o27" />
         <owca id="ow48">
-
           <imię>Pedant</imię>
           <data_urodzenia>2003-04-30</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">15.5</waga>
           <długość_runa jednostka="mm">215.</długość_runa>
           <opis>
@@ -898,17 +819,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Nizina</nazwa>
       <powierzchnia jednostka="ha">36.7</powierzchnia>
       <stado>
-        <rasa idr="o28"/>
+        <rasa idr="o28" />
         <owca id="ow49">
-
           <imię>Depresja</imię>
           <data_urodzenia>2001-06-20</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">15.8</waga>
           <długość_runa jednostka="mm">16.8</długość_runa>
           <opis>
@@ -919,17 +838,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Wolność i niezależność</nazwa>
       <powierzchnia jednostka="ha">61.5</powierzchnia>
       <stado>
-        <rasa idr="o29"/>
+        <rasa idr="o29" />
         <owca id="ow50">
-
           <imię>Wolność</imię>
           <data_urodzenia>2014-02-03</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">32.4</waga>
           <długość_runa jednostka="mm">32.7</długość_runa>
           <opis>
@@ -939,10 +856,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.5</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow51">
-
           <imię>Niezależność</imię>
           <data_urodzenia>2015-06-23</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">35.8</waga>
           <długość_runa jednostka="mm">14.8</długość_runa>
           <opis>
@@ -953,17 +869,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Nowy świat</nazwa>
       <powierzchnia jednostka="ha">12.8</powierzchnia>
       <stado>
-        <rasa idr="o30"/>
+        <rasa idr="o30" />
         <owca id="ow52">
-
           <imię>Arka</imię>
           <data_urodzenia>2012-08-30</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">153.8</waga>
           <długość_runa jednostka="mm">51.5</długość_runa>
           <opis>
@@ -974,38 +888,34 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Mamy telewizję</nazwa>
       <powierzchnia jednostka="ha">21.8</powierzchnia>
       <stado>
-        <rasa idr="o31"/>
+        <rasa idr="o31" />
         <owca id="ow53">
-
           <imię>Fan</imię>
           <data_urodzenia>2001-12-03</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">16.8</waga>
           <długość_runa jednostka="mm">5.8</długość_runa>
           <opis>
-            Uwielbia &apos;Modę na skuces&apos;.
+            Uwielbia 'Modę na skuces'.
           </opis>
           <szybkość_marszu jednostka="ms">32.9</szybkość_marszu>
           <szybkość_zjadania_trawy jednostka="talerzmin">0.1</szybkość_zjadania_trawy>
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Gamerzy</nazwa>
       <powierzchnia jednostka="ha">3135.8</powierzchnia>
       <stado>
-        <rasa idr="o32"/>
+        <rasa idr="o32" />
         <owca id="ow54">
-
           <imię>Gracz</imię>
           <data_urodzenia>2015-12-03</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">45.8</waga>
           <długość_runa jednostka="mm">32.4</długość_runa>
           <opis>
@@ -1015,10 +925,9 @@
           <szybkość_zjadania_trawy jednostka="talerzmin">0.8</szybkość_zjadania_trawy>
         </owca>
         <owca id="ow55">
-
           <imię>Gracz</imię>
           <data_urodzenia>2015-12-03</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">32.8</waga>
           <długość_runa jednostka="mm">15.4</długość_runa>
           <opis>
@@ -1029,17 +938,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Programiści</nazwa>
       <powierzchnia jednostka="ha">36.7</powierzchnia>
       <stado>
-        <rasa idr="o33"/>
+        <rasa idr="o33" />
         <owca id="ow56">
-
           <imię>Koder</imię>
           <data_urodzenia>2009-09-19</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">36.8</waga>
           <długość_runa jednostka="mm">32.7</długość_runa>
           <opis>
@@ -1050,17 +957,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Nowe pole</nazwa>
       <powierzchnia jednostka="ha">325.8</powierzchnia>
       <stado>
-        <rasa idr="o34"/>
+        <rasa idr="o34" />
         <owca id="ow57">
-
           <imię>Tadzio</imię>
           <data_urodzenia>2003-06-24</data_urodzenia>
-          <płeć p="m"/>
+          <płeć p="m" />
           <waga jednostka="kg">64.7</waga>
           <długość_runa jednostka="mm">25.7</długość_runa>
           <opis>
@@ -1071,17 +976,15 @@
         </owca>
       </stado>
     </pastwisko>
-
     <pastwisko>
       <nazwa>Ostatnia szansa</nazwa>
       <powierzchnia jednostka="ha">155.8</powierzchnia>
       <stado>
-        <rasa idr="o35"/>
+        <rasa idr="o35" />
         <owca id="ow58">
-
           <imię>Miodzio</imię>
           <data_urodzenia>2009-03-14</data_urodzenia>
-          <płeć p="k"/>
+          <płeć p="k" />
           <waga jednostka="kg">16.8</waga>
           <długość_runa jednostka="mm">36.4</długość_runa>
           <opis>
@@ -1093,5 +996,4 @@
       </stado>
     </pastwisko>
   </lista_pastwisk>
-
 </spis_owiec>

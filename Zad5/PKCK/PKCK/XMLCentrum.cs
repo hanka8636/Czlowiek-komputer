@@ -53,6 +53,10 @@ namespace PKCK
             Stream stream = new FileStream(XML.FullName, FileMode.Create);
             Serializer.Serialize(stream, spis);
             stream.Close();
+
+            string text = File.ReadAllText(XML.FullName);
+            text = text.Replace("xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"", "");
+            File.WriteAllText(XML.FullName, text);
         }
 
         public bool Waliduj(Spis_owiec spis)
@@ -67,9 +71,13 @@ namespace PKCK
                 Serializer.Serialize(stream, spis);
                 stream.Close();
 
+                string text = File.ReadAllText("kopia.xml");
+                text = text.Replace("xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"", "");
+                File.WriteAllText("kopia.xml", text);
+
                 XmlDocument xmld = new XmlDocument();
-                string xmlText = File.ReadAllText("kopia.xml");
-                xmld.LoadXml(xmlText);
+                //string xmlText = File.ReadAllText("kopia.xml");
+                xmld.Load("kopia.xml");
                 xmld.Schemas.Add("http://www.w3schools.com", Schema.FullName);
                 xmld.Validate(WalidacjaCallBack);
                 return true;
@@ -78,6 +86,7 @@ namespace PKCK
             {
                 return false;
             }
+
         }
 
         private void WalidacjaCallBack(object sender, ValidationEventArgs e)

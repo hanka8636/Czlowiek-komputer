@@ -11,42 +11,44 @@
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Dodaj owcę" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="Pastwisko:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Imię:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="158,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name ="Imie" HorizontalAlignment="Left" Height="23" Margin="158,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="Data urodzenia:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="157,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox  x:Name ="Data" HorizontalAlignment="Left" Height="23" Margin="157,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="11,136,0,0" TextWrapping="Wrap" Text="Płeć:" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="157,130,0,0" VerticalAlignment="Top" Width="238">
+        <ComboBox x:Name ="Plec" HorizontalAlignment="Left" Margin="157,130,0,0" VerticalAlignment="Top" Width="238">
             <ComboBoxItem>k</ComboBoxItem>
             <ComboBoxItem>m</ComboBoxItem>
         </ComboBox>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="158,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox  x:Name ="Waga" HorizontalAlignment="Left" Height="23" Margin="158,157,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox  x:Name ="DlugoscRuna" HorizontalAlignment="Left" Height="23" Margin="554,46,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="12,161,0,0" TextWrapping="Wrap" Text="Waga:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="410,74,0,0" TextWrapping="Wrap" Text="Długość runa:" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="282,158,0,0" VerticalAlignment="Top" Width="113">
+        <TextBlock HorizontalAlignment="Left" Margin="410,48,0,0" TextWrapping="Wrap" Text="Długość runa:" VerticalAlignment="Top"/>
+        <ComboBox x:Name ="WagaJednostka" HorizontalAlignment="Left" Margin="282,158,0,0" VerticalAlignment="Top" Width="113">
             <ComboBoxItem>kg</ComboBoxItem>
             <ComboBoxItem>dkg</ComboBoxItem>
             <ComboBoxItem>funt</ComboBoxItem>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="679,70,0,0" VerticalAlignment="Top" Width="113">
+        <ComboBox x:Name ="DlugoscJednostka" HorizontalAlignment="Left" Margin="679,44,0,0" VerticalAlignment="Top" Width="113">
             <ComboBoxItem>mm</ComboBoxItem>
             <ComboBoxItem>cm</ComboBoxItem>
             <ComboBoxItem>cal</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="410,105,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="238"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,158,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="679,131,0,0" VerticalAlignment="Top" Width="113">
+        <TextBlock HorizontalAlignment="Left" Margin="410,79,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top"/>
+        <TextBox  x:Name ="Opis" HorizontalAlignment="Left" Height="23" Margin="554,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238"/>
+        <TextBox  x:Name ="SzybkoscMarszu" HorizontalAlignment="Left" Height="23" Margin="554,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox  x:Name ="SzybkoscTrawy" HorizontalAlignment="Left" Height="23" Margin="554,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name ="SzybkoscMarszuJednostka" HorizontalAlignment="Left" Margin="679,105,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>ms</ComboBoxItem>
             <ComboBoxItem>kms</ComboBoxItem>
             <ComboBoxItem>kmh</ComboBoxItem>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="679,158,0,0" VerticalAlignment="Top" Width="113">
-            <ComboBoxItem>talerzmmin</ComboBoxItem>
+        <ComboBox  x:Name ="SzybkoscTrawyJednostka"  HorizontalAlignment="Left" Margin="679,132,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>talerzmin</ComboBoxItem>
             <ComboBoxItem>miskamin</ComboBoxItem>
             <ComboBoxItem>wiadroh</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="410,133,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="410,165,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,107,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,139,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top"/>
+        <Button Content="Dodaj owcę" HorizontalAlignment="Left" Margin="410,161,0,0" VerticalAlignment="Top" Width="382" Click="DodajOwce"/>
     </Grid>
 </Window>
