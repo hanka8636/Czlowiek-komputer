@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml.Serialization;
 using System.Collections.Generic;
+
 namespace Klasy
 {
     [XmlRoot(ElementName = "domena", Namespace = "http://www.w3schools.com")]
