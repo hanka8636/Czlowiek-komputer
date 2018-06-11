@@ -23,6 +23,7 @@ namespace PKCK
     {
         public Spis_owiec Spis_owiec { get; set; }
         public XMLCentrum XMLCentrum { get; set; }
+        public Owieczki Owieczki { get; set; }
 
         public MainWindow()
         {
@@ -32,6 +33,7 @@ namespace PKCK
             XMLCentrum = new XMLCentrum("XML/spisOwiec.xml", "XML/spisOwiec.xsd");
 
             Spis_owiec = XMLCentrum.Zaladuj();
+            Owieczki = new Owieczki(Spis_owiec);
 
             this.ComboBoxPastwiska.DataContext = Spis_owiec.Lista_pastwisk.Pastwisko;
         }
