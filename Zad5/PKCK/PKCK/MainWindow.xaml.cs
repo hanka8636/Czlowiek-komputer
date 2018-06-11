@@ -32,6 +32,8 @@ namespace PKCK
             XMLCentrum = new XMLCentrum("XML/spisOwiec.xml", "XML/spisOwiec.xsd");
 
             Spis_owiec = XMLCentrum.Zaladuj();
+
+            this.ComboBoxPastwiska.DataContext = Spis_owiec.Lista_pastwisk.Pastwisko;
         }
     }
 }

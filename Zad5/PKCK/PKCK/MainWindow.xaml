@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ComboBox ItemsSource="{Binding}" x:Name ="ComboBoxPastwiska" DisplayMemberPath="Nazwa"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="574" Margin="77,96,0,0"/>
     </Grid>
 </Window>
