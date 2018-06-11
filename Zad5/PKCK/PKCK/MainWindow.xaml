@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PKCK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="814.4">
     <Grid>
-        <ComboBox ItemsSource="{Binding}" x:Name ="ComboBoxPastwiska" DisplayMemberPath="Nazwa"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="574" Margin="77,96,0,0"/>
+        <ComboBox ItemsSource="{Binding}" x:Name ="ComboBoxPastwiska" DisplayMemberPath="Nazwa"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="157,47,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Dodaj owcę" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="Pastwisko:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Imię:" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="158,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="Data urodzenia:" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="157,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,136,0,0" TextWrapping="Wrap" Text="Płeć:" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="157,130,0,0" VerticalAlignment="Top" Width="238">
+            <ComboBoxItem>k</ComboBoxItem>
+            <ComboBoxItem>m</ComboBoxItem>
+        </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="158,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,161,0,0" TextWrapping="Wrap" Text="Waga:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,74,0,0" TextWrapping="Wrap" Text="Długość runa:" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="282,158,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>kg</ComboBoxItem>
+            <ComboBoxItem>dkg</ComboBoxItem>
+            <ComboBoxItem>funt</ComboBoxItem>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="679,70,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>mm</ComboBoxItem>
+            <ComboBoxItem>cm</ComboBoxItem>
+            <ComboBoxItem>cal</ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="410,105,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="238"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="554,158,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="679,131,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>kms</ComboBoxItem>
+            <ComboBoxItem>kmh</ComboBoxItem>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="679,158,0,0" VerticalAlignment="Top" Width="113">
+            <ComboBoxItem>talerzmmin</ComboBoxItem>
+            <ComboBoxItem>miskamin</ComboBoxItem>
+            <ComboBoxItem>wiadroh</ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="410,133,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="410,165,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top"/>
     </Grid>
 </Window>
