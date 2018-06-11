@@ -30,7 +30,7 @@ namespace PKCK
             InitializeComponent();
             Spis_owiec = new Spis_owiec();
 
-            XMLCentrum = new XMLCentrum("XML/spisOwiec.xml", "XML/spisOwiec.xsd", "XML/spisOwiec.xslt");
+            XMLCentrum = new XMLCentrum("../../XML/spisOwiec.xml", "../../XML/spisOwiec.xsd", "../../XML/spisOwiec.xslt");
 
             Spis_owiec = XMLCentrum.Zaladuj();
             Owieczki = new Owieczki(Spis_owiec);
