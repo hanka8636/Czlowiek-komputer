@@ -6,6 +6,8 @@
       doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" />
 
 <xsl:template match="/">
+  <xsl:attribute name="xml:lang">pl</xsl:attribute>
+  <xsl:attribute name="lang">pl</xsl:attribute>
     <html>
         <head>
             <title> <xsl:value-of select="//tytul"/></title>

@@ -101,20 +101,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="XML\spisOwiec.xml">
-      <SubType>Designer</SubType>
-    </Resource>
-    <Resource Include="XML\spisOwiec.xslt">
-      <SubType>Designer</SubType>
-    </Resource>
+    <Resource Include="XML\spisOwiec.xml" />
+    <Resource Include="XML\spisOwiec.xslt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="XML\DoSVGg.xsl" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="XML\DoPDF.xsl" />
-    <Resource Include="XML\ZPomocniczegoDoTxt.xsl" />
-    <Resource Include="XML\ZpomocniczegoDoXhtml.xsl" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

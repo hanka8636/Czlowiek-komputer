@@ -156,7 +156,7 @@ namespace PKCK
             outputStream.Close();
         }
 
-        public void DoXHTML()
+     /*   public void DoXHTML()
         {
 
             var xmlDocument = new XPathDocument("pomocniczy.xml");
@@ -167,6 +167,6 @@ namespace PKCK
             xslt.Transform(xmlDocument, null, outputStream);
             outputStream.Close();
         }
-
+        */
     }
 }
