@@ -107,13 +107,13 @@ namespace PKCK
             MessageBox.Show("Zapisano do SVG");
         }
 
-      /*  private void DoPDF(object sender, RoutedEventArgs e)
-        {
-            XMLCentrum.Konwertuj(Spis_owiec);
-            XMLCentrum.DoPDF();
-            MessageBox.Show("Zapisano do PDF");
-        }
-*/
+        //private void DoPDF(object sender, RoutedEventArgs e)
+        //{
+        //    XMLCentrum.Konwertuj(Spis_owiec);
+        //    XMLCentrum.DoPDF();
+        //    MessageBox.Show("Zapisano do PDF");
+        //}
+
         private void DoTXT(object sender, RoutedEventArgs e)
         {
             XMLCentrum.Konwertuj(Spis_owiec);
