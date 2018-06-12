@@ -120,13 +120,13 @@ namespace PKCK
             XMLCentrum.DoTXT();
             MessageBox.Show("Zapisano do TXT");
         }
-/*
+
         private void DoXHTML(object sender, RoutedEventArgs e)
         {
             XMLCentrum.Konwertuj(Spis_owiec);
             XMLCentrum.DoXHTML();
             MessageBox.Show("Zapisano do XHTML");
         }
-        */
+        
     }
 }
