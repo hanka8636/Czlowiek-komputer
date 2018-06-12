@@ -1,13 +1,14 @@
-﻿<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
-  <xsl:preserve-space elements = '*' />
+<?xml version="1.0"?>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:output method="html"/>
   <xsl:template match="/">
     <raport>
 
       <tytul> Spis Owiec </tytul>
       <data_wygenerowania>2018-05-08</data_wygenerowania>
       <autorzy>
-        <xsl:for-each select="//autor">
+        <xsl:for-each select="nagłówek/autorzy/autor">
           <autor>
             <xsl:value-of select="concat(imię_autora, ' ', nazwisko, ' ', mail/alias, mail/znak, mail/domena/@definicja_domeny)"/>
           </autor>

@@ -37,7 +37,7 @@ namespace PKCK
 
             ComboBoxPastwiska.DataContext = Spis_owiec.Lista_pastwisk.Pastwisko;
             OwieczekLista.DataContext = Owieczki;
-            XMLCentrum.Konwertuj();
+            XMLCentrum.Konwertuj(Spis_owiec);
         }
 
         public void DodajOwce(object sender, RoutedEventArgs e)

@@ -100,7 +100,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="XML\spisOwiec.xml" />
     <Resource Include="XML\spisOwiec.xslt" />

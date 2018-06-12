@@ -141,6 +141,16 @@
           <szybkość_marszu jednostka="ms">15.1</szybkość_marszu>
           <szybkość_zjadania_trawy jednostka="talerzmin">0.3</szybkość_zjadania_trawy>
         </owca>
+        <owca id="ow61">
+          <imię>Jas</imię>
+          <data_urodzenia>2010-10-10</data_urodzenia>
+          <płeć p="m" />
+          <waga jednostka="kg">12</waga>
+          <długość_runa jednostka="mm">12</długość_runa>
+          <opis>dfgbn</opis>
+          <szybkość_marszu jednostka="ms">12</szybkość_marszu>
+          <szybkość_zjadania_trawy jednostka="talerzmin">12</szybkość_zjadania_trawy>
+        </owca>
       </stado>
     </pastwisko>
     <pastwisko>

@@ -9,6 +9,8 @@ using System.Xml.Schema;
 using System.IO;
 using Klasy;
 using System.Xml.Xsl;
+using System.Xml.XPath;
+using System.Xml.Linq;
 
 namespace PKCK
 {
@@ -95,22 +97,26 @@ namespace PKCK
             throw new Exception();
         }
 
-        public void Konwertuj()
+        public void Konwertuj(Spis_owiec spis)
         {
-            //XslCompiledTransform xslt = new XslCompiledTransform(true);
+            FileInfo kopia = new FileInfo("kopiaXSL.xml");
 
-            //xslt.Load(XSLT.FullName);
+            if (kopia.Exists) kopia.Delete();
 
-            //FileInfo pomocniczy = new FileInfo("pomocniczy.xml");
-            //if (pomocniczy.Exists) pomocniczy.Delete();
+            Stream stream = new FileStream(kopia.FullName, FileMode.Create);
+            Serializer.Serialize(stream, spis);
+            stream.Close();
+            string text = File.ReadAllText("kopiaXSL.xml");
+            text = text.Replace("xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"", "");
+            text = text.Replace("xmlns=\"http://www.w3schools.com\"", "");
+            File.WriteAllText("kopiaXSL.xml", text);
 
-            //FileStream outputStream = new FileStream(pomocniczy.FullName, FileMode.Create);
-            //xslt.Transform(XML.FullName, null, outputStream);
+            var xmlDocument = new XPathDocument("kopiaXSL.xml");
+            var xslt = new XslCompiledTransform();
 
-            XslCompiledTransform xslt = new XslCompiledTransform();
             xslt.Load(XSLT.FullName);
-
-            xslt.Transform(XML.FullName, "pomocniczy.xml");
+            FileStream outputStream = new FileStream("pomocniczy.xml", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
         }
     }
 }

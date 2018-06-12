@@ -54,7 +54,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="410,98.6,0,0" TextWrapping="Wrap" Text="Szybkość marszu:" VerticalAlignment="Top" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="410,130.6,0,0" TextWrapping="Wrap" Text="Szybkość zjadania trawy:" VerticalAlignment="Top" Grid.Row="1"/>
         <Button Content="Dodaj owcę" HorizontalAlignment="Left" Margin="410,152.6,0,0" VerticalAlignment="Top" Width="382" Click="DodajOwce" Height="20" Grid.Row="1"/>
-        <ListBox x:Name="OwieczekLista" ItemsSource="{Binding ListaOwieczek}" ScrollViewer.VerticalScrollBarVisibility="Visible" MaxHeight="300" Margin="12,178,16,10" Grid.Row="1">
+        <ListBox x:Name="OwieczekLista" ItemsSource="{Binding ListaOwieczek}" ScrollViewer.VerticalScrollBarVisibility="Visible" MaxHeight="300" Margin="12,209.6,16.2,9.6" Grid.Row="1">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -84,6 +84,10 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="15,188.6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Pastwisko" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="165,188.6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Rasa" VerticalAlignment="Top" RenderTransformOrigin="1.83,0.551"/>
+        <TextBlock HorizontalAlignment="Left" Margin="385,188.6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Imię" VerticalAlignment="Top" RenderTransformOrigin="1.83,0.551"/>
+        <TextBlock HorizontalAlignment="Left" Margin="485,188.6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Data Ur." VerticalAlignment="Top" RenderTransformOrigin="1.83,0.551"/>
 
 
     </Grid>
