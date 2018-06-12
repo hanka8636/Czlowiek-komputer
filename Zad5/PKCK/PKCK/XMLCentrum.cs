@@ -117,6 +117,19 @@ namespace PKCK
             xslt.Load(XSLT.FullName);
             FileStream outputStream = new FileStream("pomocniczy.xml", FileMode.Create);
             xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+
+        public void DoSVG()
+        {
+
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
+
+            xslt.Load("../../XML/DoSVGg.xsl");
+            FileStream outputStream = new FileStream("SVG.svg", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
         }
     }
 }
