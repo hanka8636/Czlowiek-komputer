@@ -132,19 +132,22 @@ namespace PKCK
             outputStream.Close();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/*
+        public void DoPDF()
+        {
+>>>>>>> parent of 603b245... Revert "Revert "nie wiem co zmienilam ale dziala - nie konwersja do PDF ale program""
 
-        //public void DoPDF()
-        //{
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
 
-        //    var xmlDocument = new XPathDocument("pomocniczy.xml");
-        //    var xslt = new XslCompiledTransform();
-
-        //    xslt.Load("../../XML/DoPDF.xsl");
-        //    FileStream outputStream = new FileStream("PDF.pdf", FileMode.Create);
-        //    xslt.Transform(xmlDocument, null, outputStream);
-        //    outputStream.Close();
-        //}
-
+            xslt.Load("../../XML/DoPDF.xsl");
+            FileStream outputStream = new FileStream("PDF.pdf", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+*/
         public void DoTXT()
         {
 
