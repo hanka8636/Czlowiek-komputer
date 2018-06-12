@@ -18,5 +18,6 @@ namespace PKCK
         public string Opis { get; set; }
         public string SzybkoscMarszu { get; set; }
         public string SzybkoscZjadaniaTrawy { get; set; }
+        public string ID { get; set; }
     }
 }

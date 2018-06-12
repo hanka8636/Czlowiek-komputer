@@ -30,11 +30,12 @@ namespace PKCK
                         Imie = owca.Imię,
                         DataUrodzenia = owca.Data_urodzenia,
                         Plec = owca.Płeć.P,
-                        Waga = owca.Waga.Text,
-                        SzybkoscMarszu = owca.Szybkość_marszu.Text,
+                        Waga = owca.Waga.Text + owca.Waga.Jednostka,
+                        SzybkoscMarszu = owca.Szybkość_marszu.Text + owca.Szybkość_marszu.Jednostka,
                         Opis = owca.Opis,
-                        SzybkoscZjadaniaTrawy = owca.Szybkość_zjadania_trawy.Text,
-                        DlugpscRuna = owca.Długość_runa.Text
+                        SzybkoscZjadaniaTrawy = owca.Szybkość_zjadania_trawy.Text + owca.Szybkość_zjadania_trawy.Jednostka,
+                        DlugpscRuna = owca.Długość_runa.Text + owca.Długość_runa.Jednostka,
+                        ID = owca.Id
                     });
                 }
             }

@@ -68,7 +68,7 @@ namespace PKCK
             {
                 XMLCentrum.Zapisz(Spis_owiec);
                 Owieczki = new Owieczki(Spis_owiec);
-                //this.PracownicyListBox.DataContext = Pracownicy;
+                OwieczekLista.DataContext = Owieczki;
                 Imie.Text = Opis.Text = Data.Text = Waga.Text = DlugoscRuna.Text = SzybkoscMarszu.Text = SzybkoscTrawy.Text = String.Empty;
             }
             else
@@ -77,5 +77,29 @@ namespace PKCK
                 Spis_owiec = XMLCentrum.Zaladuj();
             }
         }
+
+        public void UsunOwce(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult komunikat = MessageBox.Show("Czy na pewno chcesz usunąć biedną owieczkę?", "Usuń", MessageBoxButton.YesNo);
+            if (komunikat == MessageBoxResult.Yes)
+            {
+                ListBox tmp = (ListBox)sender;
+                Owieczka o = (Owieczka)tmp.SelectedItem;
+                Spis_owiec.Lista_pastwisk.Pastwisko.Find(x => x.Nazwa.Equals(o.Pastwisko)).Stado.Owca.RemoveAll(x => x.Id.Equals(o.ID));
+
+                if (XMLCentrum.Waliduj(Spis_owiec))
+                {
+                    Owieczki.ListaOwieczek.Remove(o);
+                    XMLCentrum.Zapisz(Spis_owiec);
+                    OwieczekLista.DataContext = Owieczki;
+                }
+                else
+                {
+                    MessageBox.Show("Dane nie zgodne z xml schema", "Error!");
+                    Spis_owiec = XMLCentrum.Zaladuj();
+                }
+            }
+        }
+
     }
 }
