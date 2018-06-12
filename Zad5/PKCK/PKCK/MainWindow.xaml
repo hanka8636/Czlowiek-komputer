@@ -96,12 +96,6 @@
         <TextBlock HorizontalAlignment="Left" Margin="1111,188.6,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="1.83,0.551"><Run Text="Szybkkość "/><Run Text="zjadania trawy"/></TextBlock>
         <Button Content="Do SVG" HorizontalAlignment="Left" Margin="874,41.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Click="DoSVG"/>
         <TextBlock HorizontalAlignment="Left" Margin="851,9.6,0,0" TextWrapping="Wrap" Text="Konwersje:" VerticalAlignment="Top" Grid.Row="1"/>
-        
-        <Button Content="Do TXT" HorizontalAlignment="Left" Margin="874,93.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Click="DoTXT"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1065,40.6,0,0" TextWrapping="Wrap" Text="Autorzy:" VerticalAlignment="Top" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1065,68.6,0,0" TextWrapping="Wrap" Text="Aneta Wiśniewska 204029@edu.p.lodz.pl" VerticalAlignment="Top" Grid.Row="1" Height="23" Width="252"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1065,89.6,0,0" TextWrapping="Wrap" Text="Hanna Paluszkiewicz 203962@edu.p.lodz.pl" VerticalAlignment="Top" Grid.Row="1" Height="23" Width="252"/>
-
 
 
     </Grid>

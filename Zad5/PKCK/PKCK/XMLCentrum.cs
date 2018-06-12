@@ -131,6 +131,7 @@ namespace PKCK
             xslt.Transform(xmlDocument, null, outputStream);
             outputStream.Close();
         }
+<<<<<<< HEAD
 
         //public void DoPDF()
         //{
@@ -168,5 +169,7 @@ namespace PKCK
             outputStream.Close();
         }
         */
+=======
+>>>>>>> parent of 5541e10... Niepotrzebne rzeczy
     }
 }

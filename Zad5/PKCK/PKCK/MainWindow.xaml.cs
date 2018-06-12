@@ -106,6 +106,7 @@ namespace PKCK
             XMLCentrum.DoSVG();
             MessageBox.Show("Zapisano do SVG");
         }
+<<<<<<< HEAD
 
         //private void DoPDF(object sender, RoutedEventArgs e)
         //{
@@ -128,5 +129,7 @@ namespace PKCK
             MessageBox.Show("Zapisano do XHTML");
         }
         */
+=======
+>>>>>>> parent of 5541e10... Niepotrzebne rzeczy
     }
 }
