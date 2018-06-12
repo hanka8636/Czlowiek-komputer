@@ -131,19 +131,19 @@ namespace PKCK
             xslt.Transform(xmlDocument, null, outputStream);
             outputStream.Close();
         }
+/*
+        public void DoPDF()
+        {
 
-        //public void DoPDF()
-        //{
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
 
-        //    var xmlDocument = new XPathDocument("pomocniczy.xml");
-        //    var xslt = new XslCompiledTransform();
-
-        //    xslt.Load("../../XML/DoPDF.xsl");
-        //    FileStream outputStream = new FileStream("PDF.pdf", FileMode.Create);
-        //    xslt.Transform(xmlDocument, null, outputStream);
-        //    outputStream.Close();
-        //}
-
+            xslt.Load("../../XML/DoPDF.xsl");
+            FileStream outputStream = new FileStream("PDF.pdf", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+*/
         public void DoTXT()
         {
 
