@@ -110,16 +110,6 @@
           <szybkość_marszu jednostka="ms">12</szybkość_marszu>
           <szybkość_zjadania_trawy jednostka="talerzmin">12</szybkość_zjadania_trawy>
         </owca>
-        <owca id="ow62">
-          <imię>Jas</imię>
-          <data_urodzenia>2010-10-10</data_urodzenia>
-          <płeć p="k" />
-          <waga jednostka="kg">12</waga>
-          <długość_runa jednostka="mm">12</długość_runa>
-          <opis>aesrdgfhjm</opis>
-          <szybkość_marszu jednostka="ms">12</szybkość_marszu>
-          <szybkość_zjadania_trawy jednostka="talerzmin">12</szybkość_zjadania_trawy>
-        </owca>
         <owca id="ow63">
           <imię>Ewa</imię>
           <data_urodzenia>2010-10-10</data_urodzenia>
