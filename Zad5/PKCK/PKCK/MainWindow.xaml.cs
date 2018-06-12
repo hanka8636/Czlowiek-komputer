@@ -106,5 +106,27 @@ namespace PKCK
             XMLCentrum.DoSVG();
             MessageBox.Show("Zapisano do SVG");
         }
+
+      /*  private void DoPDF(object sender, RoutedEventArgs e)
+        {
+            XMLCentrum.Konwertuj(Spis_owiec);
+            XMLCentrum.DoPDF();
+            MessageBox.Show("Zapisano do PDF");
+        }
+*/
+        private void DoTXT(object sender, RoutedEventArgs e)
+        {
+            XMLCentrum.Konwertuj(Spis_owiec);
+            XMLCentrum.DoTXT();
+            MessageBox.Show("Zapisano do TXT");
+        }
+/*
+        private void DoXHTML(object sender, RoutedEventArgs e)
+        {
+            XMLCentrum.Konwertuj(Spis_owiec);
+            XMLCentrum.DoXHTML();
+            MessageBox.Show("Zapisano do XHTML");
+        }
+        */
     }
 }

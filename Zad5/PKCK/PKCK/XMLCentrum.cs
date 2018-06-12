@@ -131,5 +131,42 @@ namespace PKCK
             xslt.Transform(xmlDocument, null, outputStream);
             outputStream.Close();
         }
+/*
+        public void DoPDF()
+        {
+
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
+
+            xslt.Load("../../XML/DoPDF.xsl");
+            FileStream outputStream = new FileStream("PDF.pdf", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+*/
+        public void DoTXT()
+        {
+
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
+
+            xslt.Load("../../XML/ZPomocniczegoDoTxt.xsl");
+            FileStream outputStream = new FileStream("TXT.txt", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+
+     /*   public void DoXHTML()
+        {
+
+            var xmlDocument = new XPathDocument("pomocniczy.xml");
+            var xslt = new XslCompiledTransform();
+
+            xslt.Load("../../XML/ZpomocniczegoDoXhtml.xsl");
+            FileStream outputStream = new FileStream("XHTML.xhtml", FileMode.Create);
+            xslt.Transform(xmlDocument, null, outputStream);
+            outputStream.Close();
+        }
+        */
     }
 }
